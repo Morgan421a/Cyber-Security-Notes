@@ -1,0 +1,1 @@
+Controls what network traffic can go inside and what can leave the system or network

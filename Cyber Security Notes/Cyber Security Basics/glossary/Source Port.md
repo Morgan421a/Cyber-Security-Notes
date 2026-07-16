@@ -1,0 +1,1 @@
+TCP/IP & UDP/IP - Port opened by sender to send TCP/UDP packet from, chosen randomly from currently unused ports

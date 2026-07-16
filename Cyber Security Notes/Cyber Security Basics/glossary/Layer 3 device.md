@@ -1,0 +1,1 @@
+Devices capable of working at the 3rd layer of the OSI model

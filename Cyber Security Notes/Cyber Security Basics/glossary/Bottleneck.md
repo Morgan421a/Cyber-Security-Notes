@@ -1,0 +1,1 @@
+A point in a system that restricts the flow of traffic through it.

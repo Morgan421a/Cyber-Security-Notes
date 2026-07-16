@@ -1,0 +1,1 @@
+Traces, residues or remnants left behind by system processes, user activities or malicious actions on endpoints, networks, or cloud environments.

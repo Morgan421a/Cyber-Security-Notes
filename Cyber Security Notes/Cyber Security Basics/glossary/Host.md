@@ -1,0 +1,1 @@
+Network Host - A device connected to a network

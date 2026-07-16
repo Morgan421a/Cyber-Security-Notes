@@ -1,0 +1,22 @@
+{
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ],
+  "editor:toggle-numbered-list": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ]
+}

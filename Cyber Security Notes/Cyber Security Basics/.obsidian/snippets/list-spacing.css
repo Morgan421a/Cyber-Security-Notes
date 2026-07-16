@@ -1,0 +1,13 @@
+:root {
+    --list-item-spacing: 0.5em; /* Adjust this value to your preference */
+}
+
+/* Reading Mode */
+.markdown-rendered :is(ul, ol) > li + li {
+    margin-top: var(--list-item-spacing);
+}
+
+/* Edit Mode (Live Preview) */
+.markdown-source-view.mod-cm6 .cm-contentContainer > .cm-content > .cm-line.HyperMD-list-line {
+    padding-top: var(--list-item-spacing) !important;
+}   

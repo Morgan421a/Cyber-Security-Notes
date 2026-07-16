@@ -1,0 +1,1 @@
+TCP/IP  - After data has been given sequence number (i.e 0) the next piece of data will have sequence number + 1  (i.e 0 + 1)

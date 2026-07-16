@@ -1,0 +1,1 @@
+Holds records for where the authoritative server to answer a DNS request is

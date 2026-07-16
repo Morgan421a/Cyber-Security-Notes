@@ -1,0 +1,1 @@
+Analysing malware without executing it but in a controlled environment

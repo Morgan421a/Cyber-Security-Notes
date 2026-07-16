@@ -1,0 +1,1 @@
+An exact (low level) bit-by-bit copy of a digital storage device (such as a HDD, SSD or USB drive) that captures all data including active files, deleted files, slack space and hidden partitions.

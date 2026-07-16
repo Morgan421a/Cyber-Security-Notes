@@ -1,0 +1,1 @@
+Packets and Frames - Header where data is stored (i.e bytes of a file being transmitted)

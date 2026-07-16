@@ -1,0 +1,11 @@
+/* Force all Glossary Linker virtual links to look and act like standard links */
+.virtual-link.glossary-entry a {
+    text-decoration-style: dotted !important; /* Force dotted line */
+    text-decoration-thickness: 1px !important;
+    cursor: pointer;
+}
+
+/* Ensure hover works without Ctrl if Page Preview is set correctly */
+.virtual-link.glossary-entry a:hover {
+    color: var(--link-color);
+}

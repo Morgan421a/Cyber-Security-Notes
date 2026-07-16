@@ -1,0 +1,1 @@
+TCP/IP - Used by devices to ensure data is sent in correct order so it can be re-constructed correctly

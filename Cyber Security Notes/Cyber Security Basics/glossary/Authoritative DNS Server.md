@@ -1,0 +1,4 @@
+- AKA Nameserver for a domain
+- Responsible for storing DNS Records for a particular domain name
+- Also where updates to domain name DNS records are made
+- Can also be called the Domain

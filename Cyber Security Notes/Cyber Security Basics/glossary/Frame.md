@@ -1,0 +1,1 @@
+Used at layer 2 of the OSI model (Data link), encapsulates packets and adds information such as MAC addresses
