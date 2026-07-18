@@ -1,3 +1,8 @@
+---
+aliases:
+  - TWH
+  - twh
+---
 Used to establish connection between two devices using special messages to communicate:
 	- SYN
 	- SYN/ACK

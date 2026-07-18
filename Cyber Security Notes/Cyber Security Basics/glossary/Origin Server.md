@@ -1,0 +1,4 @@
+- Processes requests from clients to return requested resources, can be public or private depending on their intended use
+	- Typically used with and edge server or caching server to reduce traffic load and improve user experience
+		- In this scenario they only need to serve dynamic data which the edge/caching server does not cache but they only communicate with these servers and never directly with the client
+		- May also need to serve edge/caching server the static data if it is no longer cached e.g. in the event the TTL expired

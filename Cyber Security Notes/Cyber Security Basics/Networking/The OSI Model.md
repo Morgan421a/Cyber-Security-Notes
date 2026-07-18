@@ -83,3 +83,18 @@
 - Where rules and protocols regarding how users should interact with sent or received data exist
 - Typically have a GUI for ease of interaction with sent or received data
 - Another example of a protocol at this layer is DNS
+
+**Summary**
+- OSI model = provides a framework through which devices on a network can communicate with each other regardless of their design differences by setting out specific methods and processes across each of its 7 layers to normalise the way in which communications are transmitted
+- OSI model happens twice during communication once when a device sends the data (forwards, layers 7 - 1) and again when the target host receives the data (reverse 1 - 7)
+- Seven layers are:
+	1. Physical - e.g. Ethernet, uses electrical signals to represent raw bits for data transfer 
+	2. Data Link - e.g. Switch, Forwards frames based on the destination found in the switch's MAC addy table
+		- ARP happens between these two layers to resolve the IP address to the MAC address if the sending device doesn't already know the MAC addy of the target host
+	3. Network - e.g. Router/Layer 3 switch, uses routing to find most optimal path for packet travel through the use of RIP and OSPF
+	4. Transportation -TCP or UDP, done via Firewalls, Load Balancers, Layer 4 Switches
+		- TCP - More reliable but slower and more resource intensive, stateful- better for file transfer or email etc
+		- UDP - Faster but less reliable (won't stop sending if some packets are lost), stateless- better for video streaming or DHCP etc
+	5. Session - No dedicated hardware just a connection between the two host devices - will close session after enough time idle (no traffic), data cannot cross into other sessions
+	6. Presentation - Software based, standardises data structure to be readable by host device, also where security features occur like encryption
+	7. Application - Software, where rules and protocols are set out regarding how the user interacts with data - typically have a GUI 

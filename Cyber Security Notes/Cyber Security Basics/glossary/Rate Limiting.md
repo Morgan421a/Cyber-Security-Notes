@@ -1,0 +1,3 @@
+- Firewall - Limits the number of requests an IP address can send to the server over a time limit configured by the admin i.e. 100 per minute or 5 per second etc i
+	- If too many will drop the requests, some may even show a "too many requests" message on the page or application. Usually happens if the firewall responds with a HTTP 429 status code
+		- Stricter firewalls just drop the connection (silently) causing a timeout

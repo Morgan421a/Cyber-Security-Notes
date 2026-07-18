@@ -15,7 +15,7 @@
   "harvestSingleWordOnly": true,
   "harvestMinLength": 2,
   "excludeTerms": "",
-  "excludeWords": "and\nto\nof\nthe\nfrom\nattacks\nsystems\nnetwork",
+  "excludeWords": "and\nto\nof\nthe\nfrom\nattacks\nsystems\nnetwork\n",
   "linkFirstOnly": false,
   "linkSuggest": false,
   "suggestMinChars": 3,

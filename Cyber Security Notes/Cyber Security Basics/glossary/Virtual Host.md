@@ -1,0 +1,4 @@
+- Text-Based Config Files used by Web servers to host multiple websites under different domain names
+	- Can have root directory mapped to different locations on the hard drive e.g.
+		- [one.com(opens in new tab)](http://one.com/) being mapped to /var/www/website_one
+		- [two.com(opens in new tab)](http://two.com/) being mapped to /var/www/website_two

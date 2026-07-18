@@ -1,0 +1,1 @@
+Cookie - Data sent to server so it can remember client information

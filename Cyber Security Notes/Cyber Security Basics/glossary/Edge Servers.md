@@ -1,0 +1,12 @@
+- Servers that operate at the edge of a network to provide:
+	- Processing
+	- Storage
+	- Networking
+	- Security
+	- Among other computing resources
+- Operate in many "Points of Presence" (PoPs) where data is consumed and produced by users and devices.
+- Move processing and storage closer to locations where this may occur to reduce latency, bottlenecks, lower costs and improve user experience.
+- Different types:
+	- CDN - cache static content located on an origin server to serve content to locations closer to users when requested, improving response times and reducing traffic load for a website
+	- Network edge - Used in smaller data centres placing computing resources closer to users to minimise latency
+	- On-premises edge routers - Located at individual companies or enterprise data centres

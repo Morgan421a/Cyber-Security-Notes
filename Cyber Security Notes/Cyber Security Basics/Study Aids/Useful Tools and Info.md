@@ -5,6 +5,7 @@
 - Cisco Talos intelligence - IP address reputation and location check
 -  [Service Name and Transport Protocol Port Number Registry](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml) - common cyber security protocols
 - https://data.iana.org/TLD/tlds-alpha-by-domain.txt - Top Level Domain List
+- https://http.cat/ - List of some of the possible HTTP status codes
  
 ==Offence:==
 - Gobuster

@@ -1,0 +1,2 @@
+- A system, Protocol or Function that doesn't retain state (information) about previous interactions.
+	- Each request/operation is treated as an independent or isolated event that carries all necessary data within itself
