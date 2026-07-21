@@ -1,0 +1,2 @@
+- Software that creates and manages virtual labs (VMs)
+	- Acts as a ref between VMs during virtualisation, managing the resources for each one thus allowing all VMs on a server to act independently

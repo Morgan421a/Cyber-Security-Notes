@@ -1,0 +1,2 @@
+1. VMs = Moving a running VM to a different physical host without having to interrupt or stop the VM
+	- Allows for easy maintenance, load balancing and scaling operations without disrupting running services

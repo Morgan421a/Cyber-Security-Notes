@@ -1,0 +1,2 @@
+- Open-Source software platform
+	- Simplifies the building, deploying and running of applications process using containerisation 

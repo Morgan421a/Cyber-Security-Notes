@@ -1,0 +1,1 @@
+- Cloud Vendor - Focus on hybrid cloud and AI-driven solutions for businesses

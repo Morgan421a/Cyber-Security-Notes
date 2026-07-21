@@ -8,143 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "655dcad7a467ba31",
+            "id": "bc1e90f93f5843c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/Packets And Frames.md",
+                "file": "Pre-Security/How The Web Works/HTTP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Packets And Frames"
-            }
-          },
-          {
-            "id": "317f9b339072bf16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/Server Message Block.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Server Message Block"
-            }
-          },
-          {
-            "id": "c1c1d404b2920cd4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/VLAN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VLAN"
-            }
-          },
-          {
-            "id": "ef2c0e71d211ba28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/DoS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DoS"
-            }
-          },
-          {
-            "id": "0348ccafa4e8f8a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/Secure Shell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Secure Shell"
-            }
-          },
-          {
-            "id": "1684601ca12c25bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/Remote Desktop Protocol.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Remote Desktop Protocol"
-            }
-          },
-          {
-            "id": "4e988a8438e18857",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/Server Message Block.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Server Message Block"
-            }
-          },
-          {
-            "id": "160e10bbd554eee2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/The Three Way Handshake.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Three Way Handshake"
-            }
-          },
-          {
-            "id": "8c0d7f3801ec40ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/Initial Sequence Number.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Initial Sequence Number"
-            }
-          },
-          {
-            "id": "78e04dfea968b46f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "glossary/Content Delivery Network.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Content Delivery Network"
+              "title": "HTTP"
             }
           }
         ]
@@ -166,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -320,49 +194,49 @@
       "glossary-linker:Glossary overview": false
     }
   },
-  "active": "655dcad7a467ba31",
+  "active": "bc1e90f93f5843c9",
   "lastOpenFiles": [
-    "glossary/Server Message Block.md",
-    "glossary/VLAN.md",
-    "glossary/DoS.md",
-    "Networking/Packets And Frames.md",
-    "glossary/Secure Shell.md",
-    "glossary/Remote Desktop Protocol.md",
-    "glossary/The Three Way Handshake.md",
-    "glossary/File Transfer Protocol.md",
-    "glossary/Initial Sequence Number.md",
-    "Networking/Extending a Network.md",
-    "Networking/LAN (Local Area Network).md",
-    "Networking/What is Networking.md",
-    "Networking/The OSI Model.md",
-    "How The Web Works/DNS.md",
-    "How The Web Works/HTTP.md",
-    "How The Web Works/Summary of Webpage Request Process.md",
-    "glossary/Content Delivery Network.md",
-    "glossary/Origin Server.md",
-    "glossary/Edge Servers.md",
-    "glossary/Databases.md",
-    "glossary/Internet Information Services.md",
-    "glossary/Apache.md",
-    "glossary/Web Application Firewall.md",
-    "glossary/Virtual Host.md",
-    "glossary/Runtime.md",
-    "glossary/Program Lifecycle.md",
+    "Pre-Security/Computer Fundamentals/Client-Server Basics.md",
+    "Pre-Security/How The Web Works/HTTP.md",
+    "TO DO.md",
+    "Pre-Security/How The Web Works/DNS.md",
+    "glossary/Subdomain.md",
+    "glossary/Public Cloud.md",
+    "glossary/Virtual Machine.md",
+    "glossary/Virtual Computer.md",
+    "glossary/Second Level Domain.md",
+    "Pre-Security/Computer Fundamentals/Cloud Computing Basics.md",
+    "Pre-Security/Computer Fundamentals/Virtualisation Basics.md",
+    "Pre-Security/Computer Fundamentals/Inside a Computer System.md",
+    "glossary/Hybrid Cloud.md",
+    "glossary/Private Cloud.md",
+    "glossary/Platform as a Service.md",
+    "glossary/EC2.md",
+    "glossary/Oracle Cloud.md",
+    "glossary/Google Cloud Platform.md",
+    "glossary/IBM Cloud.md",
+    "glossary/Alibaba Cloud.md",
+    "glossary/Microsoft Azure.md",
+    "glossary/Software as a Service.md",
+    "glossary/Infrastructure as a Service.md",
+    "Pre-Security/Networking/Networking Summary.md",
+    "Pre-Security/Networking/Extending a Network.md",
+    "Pre-Security/Networking/Packets And Frames.md",
     "Untitled",
-    "How The Web Works",
+    "Misc",
+    "Pre-Security",
+    "Pre-Security/Computer Fundamentals",
+    "Pre-Security/How The Web Works",
     "Study Aids",
-    "Images/Pasted image 20260710111556.png",
-    "Images/Pasted image 20260710110701.png",
-    "Images/Pasted image 20260710104153.png",
+    "Misc/Images/Pasted image 20260710111556.png",
+    "Misc/Images/Pasted image 20260710110701.png",
+    "Misc/Images/Pasted image 20260710104153.png",
     "Pasted image 20260710104115.png",
     "Pasted image 20260710104119.png",
-    "Networking",
+    "Pre-Security/Networking",
     "Linux",
-    "Images/Gobuster example.png",
+    "Misc/Images/Gobuster example.png",
     "glossary",
-    "Vocabulary",
-    "Defensive",
-    "Images",
-    "Offensive"
+    "Vocabulary"
   ]
 }

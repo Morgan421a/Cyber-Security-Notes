@@ -1,0 +1,1 @@
+- Part of an OS which communicates with the hardware and manages resources such as memory and running programs

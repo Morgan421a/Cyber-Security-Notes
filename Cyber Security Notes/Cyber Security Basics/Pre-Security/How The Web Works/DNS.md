@@ -1,4 +1,3 @@
-**Car Park**
 
 **What is DNS?**
 - DNS is a way to communicate with devices on the internet without having to remember their IP address. i.e. instead of 104.26.10.229, can remember tryhackme.com instead
@@ -53,3 +52,47 @@
 			- Allows for absolute control, specific security configs or high query volumes
 			- Requires maintaining servers in multiple geographic locations and ensuring they're always online = expensive and complex
 
+
+## **Summary**
+
+- Domain Name System (DNS) = A way for developers to give websites a human-readable name such that users of websites don't need to memorise the IP address for every website they use
+- Domain Hierarchy = The way in which a domain name is formed/written from its parts
+	- Top level domain (TLD) - Sits furthest right on the name, historically used to inform visitors of the website's purpose, i.e. .com, .edu, .gov
+		- Two types of TLD include, Generic Top Level Domain (Gtld) and Country Code Top Level Domain (ccTLD)
+	- Second Level Domain (SLD) - Sits directly left of the TLD i.e. Google in Google.com. 
+		- Can be up to 63 characters long + TLD
+		- Hyphens (-) can be used but must not be at the start or end of the name and cannot be consecutive
+	- Subdomain - Sits directly left of the SLD and are separated by dots (.)
+		- Can have as many subdomains as will fit in the Domain Name character limit as long as they're separated by (.)
+- Domain name character limit = **253 Characters** <- max length of whole domain name (sum of all parts)
+
+- Record Types = The records used to store specific information for a Domain, some include:
+	- A Record - Resolves to the IPv4 address of the website
+	- AAAA Record - Resolves to the IPv6 address of the website
+	- CNAME - Canonical (real) Name, resolves to the name of the website upon which the named website is hosted on
+	- MX (Mail Exchanger) Record - Resolves to the addresses to and from which emails can be sent
+		- Uses a hierarchy in the event that one stops working and moves to the next based on a pre-set priority list whereby the lowest number = highest priority
+			- Helps prevent complete halt in communication
+	- TXT (Text) Record - Stores plain text for the website
+		- i.e. a list of servers with the authority to send emails on behalf of the domain,  User login credentials used for verification <- Had to check notes
+
+- DNS Request Process:
+	1. User requests a website
+	2. Computer checks local cache to see if it has the website's address saved 
+		- If yes request data and information straight from corresponding server
+	3. If no, forward request to user's recursive DNS server who will then check their own local cache for the address first
+	4. If still no forwards the request to the Root DNS Server who will then locate and forward a list of IP addresses (referral) to the recursive DNS server <- Had to check notes
+	5. Recursive DNS server uses iterates through received address list and sends the request to each TLD server until the one corresponding to the requested site's TLD is found. <- Had to check notes
+	6. TLD server uses its records to find the authoritative DNS server to respond to the DNS request <- Had to check notes
+	7. Depending on record type for the Domain Name, authoritative DNS server sends response back to the recursive DNS server whom will store the response on their local cache for the sake of faster server location in the future <- Had to check notes
+	8. Recursive server sends response back to the user's computer and the page is loaded
+		- DNS records have a Time to live (TTL) value represented in seconds dictating when they will expire from the cache
+
+- Different types of authoritative DNS servers exist and can be used depending on a client's needs: <- Had to check notes
+	- Shared authoritative DNS - The most common, provided by domain registrars, web hosting providers or managed DNS services <- Had to check notes
+		- Typically used for small to medium websites <- Had to check notes
+	- Custom/Private authoritative DNS - Quite rare, Organisation's own authoritative servers <- Had to check notes
+		- Usually only used by big organisations or specialised technical entities <- Had to check notes
+		- Uses own physical authoritative DNS servers <- Had to check notes
+		- Grants absolute control, specific security configs or high query volumes <- Had to check notes
+		- Expensive and complex due to need to maintain many servers in different geographic locations and ensuring they're always online <- Had to check notes

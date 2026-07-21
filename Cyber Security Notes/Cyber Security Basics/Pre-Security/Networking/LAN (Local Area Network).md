@@ -92,7 +92,7 @@ example address -> 192.168.1.254 <- gateway portion = 0.0.0.254
 - Requesting device sends DHCP Request reply to say it wants the offered IP addy
 - DHCP sends DHCP ACK reply to acknowledge assigning completion and device can start using given IP addy
 
-**Summary**
+## **Summary**
 - **LAN** = Local Area Network = A network of devices connected together in a single physical location that is owned and managed by a single person or organisation
 - **Topologies** = How devices on a network are connected, types are:
 1. Star - Devices all connect to single networking device

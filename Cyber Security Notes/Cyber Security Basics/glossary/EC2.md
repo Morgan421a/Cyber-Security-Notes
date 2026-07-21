@@ -1,0 +1,1 @@
+- AWS Cloud - A virtual Computer/Server in the cloud, like a real computer, has its own CPU and RAM and can run apps

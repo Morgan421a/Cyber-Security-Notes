@@ -1,0 +1,2 @@
+- Small isolated instance of an application
+	- Shares the same system as its host

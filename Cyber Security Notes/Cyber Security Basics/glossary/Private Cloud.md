@@ -1,0 +1,2 @@
+- Cloud deployment type - Offers more control, customisation and compliance for sensitive data than other deployment types
+	- Used by banks, healthcare and government orgs

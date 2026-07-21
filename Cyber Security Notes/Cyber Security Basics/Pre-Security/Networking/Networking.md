@@ -1,66 +1,46 @@
 
-
 **What is a Network?**
-
-A series of devices that are all connected to each other
-
-There are two types:
-
-- Private network (like a home network)
-- Public network (like the internet)
+- A series of devices that are all connected to each other
+	- There are two types:
+		- Private network (like a home network)
+		- Public network (like the internet)
 
 **What is the internet?**
-
-A series of small private networks connected together via a public network
+- A series of small private networks connected together via a public network
 
 **IP Address**
-
-Used to identify devices on a network
-
-Can be public or private
-
-Will change if device is connected to a different network, i.e someone else's house
-
-Only 1 instance of an IP addy can be active on the same network at a time
-
-Public addy identifies a device on the internet e.g a router, house looks like one single device to the internet
-
-Public IP addies are given by ISP for monthly fee
-
-Private addy identifies a device amongst other devices on a network and is never seen by the internet
-
-Private IP addies are assigned by the network they connect to
-
-IPv4 scheme's (old and limited as only goes up to 4.29 billion unique) addies are made up of 4 octets (8 bits) as such 192.168.1.1 ; each octet value adds up to be the IP addy of the device on the network via IP addressing and [[LAN (Local Area Network)#** Subnetting** | Subnetting ]] 
+- Used to identify devices on a network
+- Will change if device is connected to a different network, i.e someone else's house
+- Only 1 instance of an IP addy can be active on the same network at a time
+- Can be public or private
+	- Public addy identifies a device on the internet e.g a router, house looks like one single device to the internet
+		- Public IP addies are given by ISP for monthly fee
+	- Private addy identifies a device amongst other devices on a network and is never seen by the internet
+		- Private IP addies are assigned by the network they connect to
+- IPv4 scheme's (old and limited as only goes up to 4.29 billion unique) addies are made up of 4 octets (8 bits) as such 192.168.1.1 ; each octet value adds up to be the IP addy of the device on the network via IP addressing and [[LAN (Local Area Network)#** Subnetting** | Subnetting ]] 
 
 ![[Pasted image 20260710104153.png]]
 
-IPv6 is the new iteration of the addressing scheme. Supports 340 undecillion IP addies. More efficient cause of new mechanisms. e.g. 2a00:22c4:a531:c500:425f:cce6:c36b:f64d ; uses 8 hextets (16 bits) instead of 4 octets (8 bits)
+- IPv6 is the new iteration of the addressing scheme. Supports 340 undecillion IP addies. More efficient cause of new mechanisms. e.g. 2a00:22c4:a531:c500:425f:cce6:c36b:f64d ; uses 8 hextets (16 bits) instead of 4 octets (8 bits)
 
 
 **Mac Address**
-
-All devices on a network have a physical network interface, being a microchip board on the device's mobo. Assigned unique addy at production factory called MAC address
-
-MAC addy - 12 character hexadecimal num (base 16, 0 - 9 & A - F) split into pairs and separated by colons
-
-first 6 characters = network interface producer | last 6 = unique number
+- All devices on a network have a physical network interface = a microchip board on the device's mobo. Assigned unique addy at production factory called MAC address
+- MAC addy - 12 character hexadecimal num (base 16, 0 - 9 & A - F) split into pairs and separated by colons
+	- first 6 characters = network interface producer | last 6 = unique number
 
 ![[Pasted image 20260710110701.png]]
 
 
-Can be spoofed (faked), pretending to be another devices using it's MAC addy. Can break poorly implemented security designs that assume all devices talking on a network are trustworthy. 
-
-e.g. Someone can spoof admin device MAC addy and trick firewall into thinking its receiving comms from the admin when it isn't
+- Can be spoofed (faked), pretending to be another devices using it's MAC addy. Can break poorly implemented security designs that assume all devices talking on a network are trustworthy. 
+	- e.g. Someone can spoof admin device MAC addy and trick firewall into thinking its receiving comms from the admin when it isn't
 
 
 **Ping**
+- Uses ICMP packets to check performance of connection between devices, i.e. if the connection exists or is reliable
+	- Time taken is measured by ping
 
-Uses ICMP packets to check performance of connection between devices, i.e. if the connection exists or is reliable
-
-Time taken is measured by ping
-
-**Summary**
+## **Summary**
 - Network = A group of devices connected to one another on a LAN or VLAN
 	- Can be connected to each other directly via Ethernet or backbone cables (Ring/Token and Bus topologies) 
 	- Can also be connected to each other through the use of a switch (start topology)

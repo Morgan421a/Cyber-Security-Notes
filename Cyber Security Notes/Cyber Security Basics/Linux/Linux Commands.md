@@ -25,32 +25,24 @@ e.g. `ssh -p 2220 morganknight@bandit.labs.overthewire.org`
 
 ==`cat <filename>`== - concatenate; 
 
-display text of file in terminal
-
-combine multiple files into one output or a new file
-
-create files
-
-append data to existing file
-
-e.g. `cat <readme.txt>` - prints readme.txt's content in the terminal. text files are printed as readable text, binary files (like .exe, .jpg, .zip, .pdf) will print raw data bytes instead
-
-`cat file1.txt file2.txt > combined.txt` - 
-combines the text from file 1 and 2 into the new combined.txt file, creates the file if one doesn't already exist
-
-`cat > newfile.txt` - 
-**Overwrites existing content without asking if file already exists**
-creates a new file if no file with same name exists
-
-allows input to be added to file via terminal such as "Hello World"
-
-Ctrl + D stops cat from reading input and closes the file.
-
-`>` tells shell to send what `cat` would normally display to a file instead
-
-`cat >> existingfile.txt` - Add stuff to end of existing file without overwriting
-
-same input method and exit as new file command
+- Reads data from a source (user input in shell or data from a file) and writes it to a destination (the shell or a chosen file)
+	- e.g. display text data of file in terminal
+	- With no file or if filename is - , reads [[Linux Rules|stdin]]
+- combine multiple files into one output or a new file
+- create files
+- append data to existing file
+- e.g. `cat <readme.txt>` - prints readme.txt's content in the terminal. text files are printed as readable text, binary files (like .exe, .jpg, .zip, .pdf) will print raw data bytes instead
+- `cat file1.txt file2.txt > combined.txt` - combines the text from file 1 and 2 into the new combined.txt file, creates the file if one doesn't already exist
+- `cat > newfile.txt` - **Overwrites existing content without asking if file already exists**
+	- creates a new file if no file with same name exists
+	- allows input to be added to file via terminal such as "Hello World"
+	- Ctrl + D stops cat from reading input and closes the file.
+	- `>` tells shell to send what `cat` would normally display to a file instead
+- `cat >> existingfile.txt` - Add stuff to end of existing file without overwriting
+	-  Same input method and exit as new file command
+- `cat < filename` - Shell opens file = uses current user's permissions, then redirects it to cat's standard input, cat command receives no args, just reads from its input stream
+	- Allows files starting with - to be read strictly as an input instead of an option (including files named only -)
+- `cat filename` - the cat command itself opens specified file in the command-line argument
 
 
 
@@ -81,71 +73,61 @@ e.g `file -b -i -z documents.zip` prints:
 
 ==`du <filename/filepath>`== - shows disk usage information of specified file
 
-numbers on left indicate usage in bytes
+- numbers on left indicate usage in bytes
+- `-h` / `--human-readable` - human readable results
+- `-s` / `summarize` - summarise directory's usage for argument 
+	- provided in human readable format (when written as `-sh` )
+- `-a` / `--all` - list sizes of all files and directories in file path 
+	- `-ah` for readability
+	- Also lists hidden files - good for finding them when directory disk usage ≠ total usage of visible files
+- `--max-depth=X` / `-d X` - show size of sub-directories and files where X is how many folders deep to look
+	- X can be 0 (top level) to infinity (only looks as far as there are layers)
+- `--time` - shows when last mod to file was made
+- `-c` / `--total` - adds total usage at bottom of list
+	- `-ch` for readability
+- `-X` / `--exclude=Pattern` - excludes file with specified extension, where `Pattern` is the extension such as .dll
 
-`-h` / `--human-readable` - human readable results
+- e.g
 
-`-s` / `summarize` - summarise directory's usage for argument provided in human readable format (when written as `-sh` )
+- `du documents` => `8    documents`
 
-`-a` / `--all` - list sizes of all files and directories in file path (`-ah` for readability)
+- `du -h documents` => `8.0K   documents`
+- `-sh` would print the same here as there are no sub directories within documents
 
-`--max-depth=X` / `-d X` - show size of sub-directories and files where X is how many folders deep to look, X can be 0 (top level) to infinity (only looks as far as there are layers)
+- `du -ah documents` => 
+- `4.0K	documents/document 
+- `8.0K	 documents
 
-`--time` - shows when last mod to file was made
+- `du -h --time documents` =>  `8.0K	   2026-07-09 20:53	  documents`
+- `-ah --time` => display last modified time of all files and sub-folders too
 
-`-c` / `--total` - adds total usage at bottom of list
-( `-ch` for readability)
+- `du -ch` =>  
+- `8.0K 	  newcatfile folder
+- `8.0K  	total`
 
-`-X` / `--exclude=Pattern` - excludes file with specified extension, where `Pattern` is the extension such as .dll
-
-e.g
-
-`du documents` => `8    documents`
-
-`du -h documents` => `8.0K   documents`
-`-sh` would print the same here as there are no sub directories within documents
-
-`du -ah documents` => 
-`4.0K	documents/document 
-`8.0K	 documents
-
-`du -h --time documents` =>  `8.0K	   2026-07-09 20:53	  documents`
-`-ah --time` => display last modified time of all files and sub-folders too
-
-`du -ch` =>  
-`8.0K 	  newcatfile folder
-`8.0K  	total`
-
-`du -ah --exclude="*.txt" documents` => `4.0K	  documents
-excludes the .txt files from the results therefore only showing the folder alone
+- `du -ah --exclude="*.txt" documents` => `4.0K	  documents
+- excludes the .txt files from the results therefore only showing the folder alone
 
 
 
 
 ==`find <filepath> -name/-iname "document.txt"`== - finds specified file if it exists within given file path or current directory (.) and its sub-directories if no path given, / can be used to search entire file system from root
-
-`-name` - case sensitive name of file to find
-`-iname` - case insensitive name of file to find
-
-`"*filename*"` - searches for all files with the specified name or ending if using something like `"*.txt*"` will find all files ending with `.txt`
-
-`-type d` - find directories
-`-type f` - find files
-
-`-executable` - find executable files
-
-`-mtime -X` - files changed less than X days ago
-`-mtime +X` - files changed more than X days ago
-`-mtime X` - files changed exactly X days ago
-
-can use logical operators - `-and`, `-or`, `-not` to combine options  
-
-`()` to create precedence, **must use \ to escape  as such `\(options\)' 
-
-`-maxdepth X` - sets how far to look within a directory where X is the number of layers; **Check du command notes**
-
-e.g. `find /home/User1/Documents -iname "document.txt"` =>
-`/home/User1/Documents/Documents/document.txt`
+- using `find . -name ".*"` - finds all files starting with . (can find hidden files whose names all start with . )
+- `-name` - case sensitive name of file to find
+- `-iname` - case insensitive name of file to find
+- `"*filename*"` - searches for all files with the specified name or ending if using something like `"*.txt*"` will find all files ending with `.txt`
+- `-type d` - find directories
+- `-type f` - find files
+- `-executable` - find executable files
+- `-mtime -X` - files changed less than X days ago
+- `-mtime +X` - files changed more than X days ago
+- `-mtime X` - files changed exactly X days ago
+- can use logical operators - `-and`, `-or`, `-not` to combine options  
+- `()` to create precedence, **must use \ to escape as such `\(options\)' 
+- `-maxdepth X` - sets how far to look within a directory where X is the number of layers; **Check du command notes**
+- `-size [filesize][units (c,k,M,G,T,P)]` - looks for files of the specified size in the specified unit
+- e.g. `find /home/User1/Documents -iname "document.txt"` =>
+- `/home/User1/Documents/Documents/document.txt`
 
 
 

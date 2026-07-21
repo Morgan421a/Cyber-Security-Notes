@@ -1,0 +1,2 @@
+- Cloud Deployment Type - Allows for keeping sensitive data private while still allowing for public scaling during high demand
+	- Used by companies such as e-commerce platforms

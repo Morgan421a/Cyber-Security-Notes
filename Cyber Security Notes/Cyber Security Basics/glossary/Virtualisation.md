@@ -1,0 +1,1 @@
+- Allows a single, physical computer to act like multiple separate computers

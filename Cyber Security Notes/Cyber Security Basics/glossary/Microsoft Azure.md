@@ -1,0 +1,1 @@
+- Cloud vendor - notable for their competition with AWS especially in enterprise and hybrid cloud environments

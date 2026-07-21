@@ -10,6 +10,8 @@
 	- Secure version of HTTP
 	- Encrypts data to prevent others from seeing said data during transmission (sent or received)
 	- Also gives the user assurance that they're communicating with the correct web server and not an impersonator
+	- HTTP + SSL/TLS (Transport Layer Security) -> HTTPS
+		- Without ^ these the connection can never be HTTPS
 
 **Requests and Responses**
 - URL = Usually a set of instructions on how to access a resource on the internet
@@ -51,6 +53,7 @@
 	- POST - Submit data to web server and potentially creating new records
 	- PUT - Submit data to a web server to update existing information
 	- DELETE - Deleting info/records from web server
+	- ^ Basic 4 methods, click link for[[Client-Server Basics#^a65b59 | the core 9]]
 
 **HTTP Status codes**
 - Always used in first line of HTTP response to tell client of request outcome and potentially how to handle it. 

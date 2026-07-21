@@ -1,0 +1,1 @@
+1. VMs = Cloning and deploying multiple VMs to distribute workloads across a cluster, allowing for elasticity such as adding instances during peak traffic and removing them when demand drops

@@ -1,0 +1,4 @@
+- Specialised ports that apps use to talk over the network such as:
+	- Port 80 <- HTTP 
+	- Port 443 <- HTTPS 
+	- Port 8080 <- common alternative for web servers or when port 80 is in use

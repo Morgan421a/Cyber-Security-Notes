@@ -1,0 +1,3 @@
+- Cloud Deployment Type - Most Common, Affordable, Easy To Scale, No Infrastructure Management Required
+	- Preferable for most use cases
+	- Used by startups, website and global apps

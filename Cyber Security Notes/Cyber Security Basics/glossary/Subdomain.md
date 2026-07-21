@@ -1,0 +1,2 @@
+- Sits directly left of the SLD and are separated by dots (.)
+	- Can have as many subdomains as will fit in the URL character limit (253 characters) as long as they're separated by (.)

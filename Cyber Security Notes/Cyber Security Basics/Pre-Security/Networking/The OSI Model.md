@@ -84,7 +84,7 @@
 - Typically have a GUI for ease of interaction with sent or received data
 - Another example of a protocol at this layer is DNS
 
-**Summary**
+## **Summary**
 - OSI model = provides a framework through which devices on a network can communicate with each other regardless of their design differences by setting out specific methods and processes across each of its 7 layers to normalise the way in which communications are transmitted
 - OSI model happens twice during communication once when a device sends the data (forwards, layers 7 - 1) and again when the target host receives the data (reverse 1 - 7)
 - Seven layers are:

@@ -1,0 +1,1 @@
+1. VMs = Reallocating resources (CPU, RAM, Storage) to an existing VM on the spot by assigning more virtual resources from the host's pool <- removes the need for replacing hardware

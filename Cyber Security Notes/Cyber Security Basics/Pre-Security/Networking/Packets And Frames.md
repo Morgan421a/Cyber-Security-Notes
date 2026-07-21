@@ -132,7 +132,7 @@
 - Common ports = 0 - 1024
 - Software, apps and services follow set of rules for sake of order such as web browser data being sent through port 80 or 443, allows web browsers to interpret data the same way as each other
 - Apps always assume standard ports are being used unless told otherwise
-- Possible to make apps that interact through different port than the standard, expect ports like running a web server on port :8080 instead of :80
+- Possible to make apps that interact through different port than the standard, expected ports like running a web server on port :8080 instead of :80
 - When changing from standard port new port must be preceded by a colon (:) i.e 192.168.1.5:8080
 - Most common ports are:
 	- 80 (HTTP) & 443 (HTTPS) - Interaction with web servers

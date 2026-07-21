@@ -1,0 +1,1 @@
+- Cloud Vendor - Popular in Asia, offering competitive cloud services globally
