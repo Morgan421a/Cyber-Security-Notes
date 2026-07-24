@@ -35,3 +35,40 @@
 - When viewing HTTP requests and responses through the network tab of the terminal - Filename: "/" means index.html
 - Details of a HTTP request can be viewed by clicking on a request entry
 - List of the HTTP response(s) can be viewed by clicking on a specific request and then clicking the response tab
+
+
+## **Summary**
+- Client-Server Process:
+	1. Client sends a request to the server using the same protocol that the server does, request is sent via the port corresponding to the app/site/service on the server i.e. port 80
+	2. Server receives the request on the corresponding port (i.e. 80) and sends a response using the same protocol as the request
+	3. Client receives the request through the same port the server sent it from (i.e. 80) and the data is received
+
+- Client = The user/device that sends a request to a server
+- Server = The device that receives client requests and returns a response
+- Protocol = The rules used for data transfer/transportation, they define many standards, including:
+	- The commands that both devices understand 
+	- The syntax that both devices must use
+	- The structure of requests 
+	- The response to give to each request 
+	- The response to give to faulty requests 
+
+- Port = The point at which data is received or sent on a device, can be 0 - 65535 and must be defined by the server if the standard port is not being used i.e. port 80 for web servers. 
+	- The port the server is "listening" on for a particular app/site/service
+	- Allows one server to host multiple services at the same time without crossing over/mixing up requests and responses
+- DNS = Domain Name System. Resolves the domain name of a service/app/website to the IP address of its hosting server
+
+- HTTP(S) = The protocol used to define the methods through which requests and responses should be sent to and from a client and a web server
+	- Stateless -> treats each request as its own individual one rather than remembering previous requests. 
+		- Can become pseudo-stateful through the use of session identifiers (unique token/string) which is stored on both ends, the client's browser stores it as a cookie whereas the server stores the actual data linked to the session ID which it then responds with once it receives the corresponding ID from the client
+
+	- Uses many methods (commands) to do this, 9 most common ones are:
+		- GET - Requests data from a record stored on the web server
+		- PUT - Adds data to an existing record (overwrites entire record) or creates one if it doesn't exist on the web server
+		- POST - Creates a new record on the web server and submits data to it 
+		- PATCH - Updates existing data in a record on a web server but only alters the specified fields (partially modifies) instead of overwriting the old record entirely
+		- DELETE - Removes records from a web server
+		- CONNECT - Creates a tunnel between the web server and a client (not similar to a VPN tunnel), however does not provide encryption by default (TLS/SSL required) 
+		- HEAD - Similar to GET but only retrieves the headers without the body
+		- OPTIONS - List the request methods available for the particular app/service/site
+		- TRACE - Echoes received requests back at the client, used for diagnostic purposes
+

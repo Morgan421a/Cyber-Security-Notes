@@ -5,7 +5,7 @@
 - **HTTP**
 	- Set of rules used for communicating with web servers and for web page data transmission
 	- Developed by Tim-Berners Lee and his team between 1989 and 1991
-	- [[Stateless]] - Doesn't keep track of previous client requests
+	- Stateless - Doesn't keep track of previous client requests
 - **HTTPS**
 	- Secure version of HTTP
 	- Encrypts data to prevent others from seeing said data during transmission (sent or received)
@@ -47,7 +47,7 @@
 	- Blank line to confirm end of HTTP response
 	- Anything after is the requested information
 
-**HTTPS Methods**
+**HTTP(S) Methods**
 - HTTP Methods = ways for client to show what actions they want to do when making  HTTP request. Most common ones are:
 	- GET - Get info from web server
 	- POST - Submit data to web server and potentially creating new records
@@ -85,3 +85,71 @@
 - Due to HTTP being stateless, cookies can be used to remind a web server who the client is i.e personal settings or if the client has visited the site previously.
 - Most commonly used for website authentication, in this case the cookie value is usually a token (unique code that isn't easily human guessable) as opposed to a plain-text string in order to protect passwords. 
 	- i.e. remember me check boxes - when a user logs in with the box ticked the web server send a `Set-Cookie` HTTP response with the user's login details to the client and tells it to remember them for next time.
+
+
+## **Summary**
+- HyperText Transfer Protocol (HTTP) = The rules that define how requests and responses are sent between a client and a server for a website
+	- Stateless - Acts as if every request is its own individual instance as opposed to being connected to a previous one, doesn't retain state
+	- Typically communicates via port 80 unless stated otherwise
+- HyperText Transfer Protocol Secure (HTTPS) = The same as HTTP but provides encryption through the use of TLS/SSL (Transport Layer Security)
+	- Typically communicates via port 443 unless stated otherwise
+
+- Uniform Resource Locator (URL) = Instructions given to a browser that it then uses to request specific pieces of data for a web page from a web server. Made up of multiple parts though most are optional/extra bits of information to increase specificity:
+	- Scheme = The protocol being used, i.e. HTTP/HTTPS
+	- User = Where a user can login with their credentials should the page allow it
+	- Host = The domain name of the web page
+	- Port = The port on the web server to which the client is connected to
+	- Path = The specific file path the browser has been provided to reach the specified web page
+	- Query String = Extra information that can be sent to the requested path such as the specific page number of a blog
+	- Fragment = A specific point on a page if the dev has setup those "checkpoints", the browser will load and jump the client straight to the requested point
+
+- HTTP(S) Methods = The syntax used to make requests to a web server that uses HTTP(S), some examples of the most common methods are:
+	- GET - Requests data from the web server
+	- PUT - Sends data to the web server and can create new records
+	- POST - Used to update (Partially modify) existing information on a web server 
+	- DELETE - Removes data from a web server
+
+- When Making a requests the client must use headers to inform the web server of the type of information they're using as well as other info such as the browser they're using, some headers include:
+	- Host - Domain name or IP address of requested page, if left blank server will send its default web page
+	- User-Agent - The browser and version the client is requesting from
+	- Content-Length - How long the expected content should be, allows the server and client to ensure none is lost/missing after the response
+	- Accept-Encoding - The selected browser's compression method, allows web server to use appropriate compression method for transmission
+	- Cookies - Sends cookie data for the site from local cache to help the web server "remember" the user
+	- Referer - The web page that sent the client to this one
+	- Requests always end with a blank line to inform web server that the request is finished
+
+- HTTP(S) Responses = The way that an HTTP(S) server responds to requests, responses also include their own headers, some being:
+	- Content-Type - The type of content being sent to the client
+	- Content-Length - Used by the client to ensure no data is missing
+	- Server - The web server and software version
+	- Date - The date, time and timezone of the web server
+	- set-cookie - tells the client what fields to save as cookies (assuming client gave permission to do so)
+	- Cache-Control - How long contents of response are to be stored on client's cache before they expire
+	- Content-Encoding - Method used to compress the data for transmission
+	- Responses end with blank line to tell client that response is finished
+	- Anything after the blank line is the requested data
+
+- HTTP Status Codes = The responses given prior to the headers to inform the client on the result of their request, there are different types and they fall into different groups:
+	- 1xx = Information response = Tells client that the first part of their request was successful and they should send the next part <- *Rare nowadays*
+	- 2xx = Successful request = The client's request was successful
+	- 3xx = Redirect = The page has been moved and the client will be redirected to its new address
+	- 4xx = Client error = There is an issue with the client's request
+	- 5xx = Server error = There is an issue with the server
+
+- Some common, specific status codes include:
+	- 200 = OK = Client's request was successful, most common when viewing HTTP responses, means that the web server understood the request and is able to send the desired data back to the client
+	- 201 = Created = New resource has been created successfully
+	- 301 = Moved Permanently = Web Page has moved permanently to a new address, redirects browser to said new address or tells search engines to look there
+	- 302 = Found = Web page has moved temporarily and will likely move again in the future, redirects browser to current address or tells search engine to look there
+	- 400 = Bad Request = Client or browser request missing expected data/info
+	- 401 = Not Authorised = Client currently lacks the permission to access the web page i.e they aren't logged in to the corresponding account
+	- 403 = Forbidden = Client cannot access web page even if logged in
+	- 404 = Page Not Found = Requested Web page/resource doesn't exist
+	- 405 = Method Not Allowed = Client request is not valid for the resource, i.e. using GET on a login page
+	- 500 = Internal Server Error = Server encountered an error with client's request that it doesn't know how to handle properly
+	- 503 = Service Unavailable = Server unable to handle client request as it's either overloaded or down for maintenance
+- Apps can define their own HTTP Status codes as well
+
+- Cookies = Small pieces of data that browsers can store in their cache to be sent to a web server of a previously visited site. Allows for the web server to effectively "remember" a user by receiving information such as user settings or login credentials alongside a HTTP request
+	- Web servers tell the browser what to save using the set-cookie header when responding to a request. Browsers will send cached data under the cookie header with each request to the web server so it can use the information appropriately
+		- Commonly used for authentication, User passwords are stored as a token which is a string not easily readable to humans so as to protect the password.

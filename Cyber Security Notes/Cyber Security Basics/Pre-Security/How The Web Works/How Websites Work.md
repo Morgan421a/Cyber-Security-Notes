@@ -34,3 +34,38 @@
 - Allows users to inject HTML or JS code into website giving them control over page's functionality and appearance
 - General rule to Never Trust User Input
 - All user input should be sanitised before it's used in JS functions or displayed on the page i.e. removing HTML tags before passing it to either.
+
+
+## **Summary**
+- Websites are built using HTML, JavaScript (JS) and CSS
+- They have a frontend and a backend
+	- frontend = client side, what the user sees
+	- backend = server side, what communicates with the server
+- HTML - Defines the language and structure of the website, it's responsible for putting content on the page itself using elements wrapped in `<>` to open an element and `</>` to close the element i.e. `<p>` Defines a paragraph on the page `</p>`
+	- All HTML pages should start by telling the browser what HTML version the page uses so it can interpret the content correctly. This is done by using `<!DOCTYPE HTML>` which in this case tells the browser the page uses HTML5 and should be interpreted as such
+	- `<html> </html>` = the root element of the page, all other data should be come after this element
+	- `<head> </head>` = Sits directly under the `<html>` element, Contains data that is not displayed on the page itself such as the `<title>` which displays the name of the web page in the browser tab `</title>`
+	- `<body> </body>` = Where the main content of the page sits wrapped in their own elements.
+	- Some other HTML elements include:
+		- `<div> </div>` = Used to identify a section/chunk of a web page's data, helps keep code clean as well as grouping elements for the same purpose together
+		- `<h1> </h1>` = Used for headers
+		- `<p> </p>` = Used for paragraphs
+		- `<img>` = Used for images, no closing tag
+		- `<ul> </ul>` = Creates an unordered list that uses bullet points for each entry
+		- `<ol> </ol>` =  Creates an ordered list that uses numbers or letters for each entry
+		- `<li> </li>` = Creates a list item in either an ordered or unordered list
+
+	- Elements can contain tags within their opening <> to alter their look such as font, colour, weight and size (using CSS) as well as giving them a class or id to provide metadata for JS or CSS to affect specific elements of a web page. An example of a tag within a element would be: `<p id="1" style="color: blue";>some text</p>`
+	- tags are also used in other ways, such as identifying the source for an image
+		- i.e. `<img src="img/cat.jpg"`
+
+- CSS = Used to style a web page's elements and make them look nice
+
+- JavaScript (JS) = Used to alter a page's elements and add interactivity for the user
+	- Can be defined directly within the HTML file using the `<script> </script>` element or can be imported from another file using `<script src="/location/of/JS/file.js"> </script>`
+		- Can be programmed to alter the HTML or CSS of elements on the page upon certain actions being taken by the user such as onclick or onhover
+
+- Sensitive Data such as admin login credentials, test login credentials or links to private/hidden pages must not be left in the frontend code as a user can open the dev tools to inspect the code and may find them, giving them unauthorised access to parts of the website or data they shouldn't be able to get to.
+
+- HTML injection is the act of inputting HTML/JS anywhere on a web page such as a login box, URL, Search Bars, etc. To alter it or even seek out private sections or data. 
+	- All User input should be deemed untrustworthy by default, it should all be sanitised first before passing it to the backend or frontend to be used on the web page. An example of sanitising input would be to remove any HTML tags before displaying the input on the page.

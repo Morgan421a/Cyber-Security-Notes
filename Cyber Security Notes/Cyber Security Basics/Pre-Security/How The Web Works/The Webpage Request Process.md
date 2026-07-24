@@ -54,7 +54,7 @@
 	- Nginx
 	- IIS
 	- NodeJS (*Technically a JS Runtime that **can** act as a web server but is typically considered an application server in enterprise architectures*)
-- Deliver contents from its root directory, defined in the software settings
+- Deliver contents from its [[Root Directory]], defined in the software settings
 	- e.g. Nginx & Apache both have the default location of /var/www/html on linux OS's
 	- IIS uses C:\inetpub\wwwroot for windows OS's
 
@@ -100,3 +100,80 @@
 9. Web server receives HTTP GET request
 10. Web application talks to database to retrieve website data and sends said data back to user device
 11. Browser renders data into a viewable (and interact-able if possible) website
+
+## **Summary**
+- Web page request process:
+	1. User/Client makes a request for a web page
+	2. their local cache is checked for the page
+	3. if not there, request is forwarded to recursive DNS server who checks its own local cache
+	4. if still no, recursive server sends the request to the root DNS server who sends a referral list (list of IPs)  of the TLD servers to query for the request to the recursive server
+	5. Recursive server iterates through each TLD server on the referral list until one responds
+	6. TLD server forwards the request to the authoritative DNS server
+	7. Authoritative server sends the address for the web server back to the recursive server that then caches the response data and forwards the request back to the client
+	8. The Three-Way handshake (TWH) occurs (including Load balancers and WAF)
+		- **TLS handshake** occurs after the TWH only if the site uses HTTPS
+	9. Client's HTTP request is sent to the web server via the browser (can be an API or microservice in the event of a non-user/automated client)
+	 10. Web Application Firewall (WAF) checks the request against its own rules by checking the contents of the request for common attack methods as well as if the client is not a bot. If the request is flagged as malicious it is dropped (silently) before it ever makes it to the web server
+		- Also checks for excessive number of requests within a configured space of time
+	11. Load balancer uses its algorithms to see which server is best suited to handle the request:
+		- Round-Robin = requests sent to each server in turn, like an infinitely looping queue
+		- Weighted = Checks which server is the least busy and forwards the request there
+	12. Web Server receives the request and, if valid, sends a response back to the client with the requested data
+	13. Client's browser processes data to produce the web page as intended by the developer
+
+- Load Balancers = Software that uses algorithms to help spread incoming traffic (requests) across multiple servers. Done through the use of algorithms, a couple of which being:
+	- Round-Robin = Passes requests to each server in turn, similar to how a queue works but this one loops infinitely (unless something goes wrong)
+	- Weighted = Checks which server is currently the least busy and sends the request there
+
+- Web Application Firewall (WAF) = Software that exists before the load balancer and the web server (most commonly before but can come after load balancer). 
+	- Analyses client requests for common attack methods as well as if the request came from a bot
+	- Also checks for an excessive number of requests over a configured period of time (protects from things like DDoS)
+	- If any of the aforementioned scenarios are flagged the WAF drops (silently) the request such that the web server never sees it
+
+- Web Servers = Dedicated hardware upon which web sites are hosted.
+	- Use software to control and handle the infrastructure of the web applications on them, some of the most popular are:
+		- Apache
+		- Nginx
+		- IIS
+		- Node JS <- *Not really used for that in the real world despite being possible, more so used for application servers*
+	- Files are stored on the root directory of the web server, which is where the files/data are sent from to fulfil client requests.
+		- Different web server software use different default locations i.e.
+			- Apache and Nginx both default to: `/var/www/html` on linux Operating Systems <- Had to check notes
+			- IIS defaults to `c:/inetpub/wwwroot` on Windows Operating Systems <- Had to check notes
+		- Root file location is configured in the system settings
+
+- Virtual Hosts = Allow multiple web servers to be run on the same physical server without conflicting with each other or mixing up requests. 
+	- Done by using text-based config files to list the addresses of each web server stored on the same server (listed as the website domain names) <- had to check notes
+	- Server software checks Host header in user request and matches it to the correct virtual host: <- had to check notes
+		- If match found sends the correct website
+		- If no match found sends the user the server's default website instead (must be programmed in else error 404) <- had to check notes
+	- No limit to the number of websites a server can host <- had to check notes
+	- Root directory can be mapped to different locations on the hard drive <- had to check notes
+
+- Content Delivery Networks (CDN) = The use of edge servers and origin servers to send static and dynamic content, respectively, to users.
+	- Edge servers = Many smaller servers in a lot of different geographic locations, keeps static site content on its cache for quick retrieval and delivery.
+	- Origin Server = Larger servers in fewer numbers, stores all of the content for a website (static and dynamic), never communicates with client directly unlike edge servers. 
+	- When cached content is needed the edge server forwards a client's request to the origin server then forwards the response back to the client
+- When client requests content the CDN checks which edge server is closest to them and forwards the request there. 
+	- Allows for faster response times and thus a better user experience
+
+- Databases = Software designed to store data for a server or application.
+	- There are different types each with their own main focus, some include:
+		- MySQL
+		- MongoDB
+		- Postgres
+		- MSSQL
+	- Upon request a web server retrieves necessary data from the DBs to send back to the user as well as forwarding requests to update, add or delete data
+
+- Static vs Dynamic content:
+	- Static = Content that is unchanging such as images or CSS
+	- Dynamic = Content that changes based on the client or when the data is requested such as a search bar or a user's stored data
+
+- Scripting and Backend Languages  = Languages used to make a website interactive as well communicate with web servers, databases or call external services  <- Had to check notes, defined them as general not specifically to websites
+	- Some examples include:
+	- Python
+	- Java <- *Added from later notes*
+	- Perl
+	- Ruby
+	- PHP <- had to check notes
+	- NodeJS <- had to check notes
