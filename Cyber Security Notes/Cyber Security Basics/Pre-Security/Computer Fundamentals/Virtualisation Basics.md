@@ -52,7 +52,7 @@
 	- Borrows core of existing system by running on Kernel
 	- Start quickly
 	- Use less resources than full VMs -> They're lightweight
-	- They have to match the host's system type i.e windows container can't be run on linux machine
+	- They have to match the host's system type i.e windows container can't be run on linux machine due to borrowing host's kernel
 
 - Act like small-self contained spaces because they:
 	- Package app and its dependencies
@@ -63,3 +63,40 @@
 - Easy to deploy in a VM using Docker
 	- Uses container images to simplify the setup of containers
 	- Network Ports **must** be mapped during configuration to allow network traffic to reach applications i.e. 80 <- HTTP, 443 <- HTTPS, 8080 <- common alternative for web servers or when port 80 is in use
+
+
+## **Summary**
+- Virtualisation - Allows multiple lab machines to be run on a single physical machine as their own computers/servers without the need for new hardware by divvying up the hardware resources of the host machine into virtual resources for the lab machines
+	- Used within organisations to help reduce hardware costs by reducing the number of devices/servers needed to run a multitude of services/databases. 
+	- Prevents under-utilisation of device resources (i.e. running 1 service on a device only using 5% of its CPU -> 95% is effectively wasted)
+	- Easier to scale by allowing for:
+		- Vertical Scaling - Reallocating virtual resources to existing VM on the spot
+		- Horizontal Scaling - Cloning and deploying multiple VMs to spread workloads across a cluster <- allows for more elasticity
+		- Live Migration - Moving a running VM to different host machine without interrupting or stopping it
+
+- Hypervisors - Creates and manages the resources for lab machines, there are 2 types, though both can be used for any task they both excel compared to the other for different ones:
+	- Type 1 - Runs directly on hardware (Bare metal). Best for: production servers, data centres
+		- Exists between Host machine kernel and the VM
+		- More performant and faster
+	- Type 2 - Runs on top of existing OS. Best for: testing, learning, malware analysis (different OS from host reduces VM escape risk)
+		- Exists between Host machine OS and the VM
+		- More flexible and easier to setup/install
+		- 2 example software for this: Oracle VirtualBox and VMware Workstation
+	- Hypervisors four main purposes are:
+		- To create lab machines
+		- To Manage the virtual resources between the different lab machines
+		- Keeping VMs Isolated/safe from each other
+		- Managing the VM lifecycle (start, stop, pause, clone, delete)
+
+- VMs can be used for malware testing though users must still take measures to ensure that the host machine doesn't become infected (VM escape). Two ways of doing so are:
+	- Isolating the VM completely from the host machine such that they cannot communicate
+	- Using a different OS on the VM and host machine such that the architecture is different and the VM is only borrowing the virtual resources from the host machine
+
+- If one VM breaks the others are unaffected due to being isolated from each other, helps to protect other lab machines
+
+- Containers - Allow a single app to be run on a machine in an isolated environment with the necessary dependencies already installed by borrowing the kernel of the host machine.
+	- Allows for fast, efficient, single purpose running of applications isolated from the host device. However, the container OS and host machine's OS must be the same due to the shared kernel otherwise the container will not work.
+	- Network ports - Must be mapped during config to create route through which external data can reach the app
+
+- Docker - Software used to create containers through the use of container images.
+	- Container images - Pre-configured containers with dependencies for certain apps already installed -> helps to streamline process of containerisation

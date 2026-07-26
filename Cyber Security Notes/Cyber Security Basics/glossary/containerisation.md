@@ -1,0 +1,1 @@
+- Process of setting up an application within a container
