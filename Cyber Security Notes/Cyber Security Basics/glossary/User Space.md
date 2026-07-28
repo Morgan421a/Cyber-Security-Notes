@@ -1,0 +1,2 @@
+- User Space
+	- Where apps run with limited permissions for safety and system stability

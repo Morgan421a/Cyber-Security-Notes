@@ -1,0 +1,18 @@
+- Metadata
+- Defines and describes the characteristics of other data. 
+	- i.e. from a file standpoint, the data is what's inside the file, the metadata is the info about the file itself stored by the file system which commands like `ls -l` display (permissions, owner/group, size, timestamps, inode/link count)
+	- Some **file** metadata includes:
+		- File Type
+		- Owner **UID**
+		- Group **UID**
+		- **Link Count (Hard links)**
+		- File Size
+		- **Block** allocation
+		- I/O **Block** Size
+		- Data Block **Pointers**
+		- Device ID
+		- Device ID (Special Files) (i.e. /dev/sda)
+		- Access Time (atime)
+		- Modify Time (mtime)
+		- Change Time (ctime)
+		- Birth Time (crtime) <- file creation time (only supported on modern systems)

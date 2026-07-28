@@ -1,0 +1,2 @@
+- Kernel Space
+	- Where kernel exists, which directly manages hardware and system resources

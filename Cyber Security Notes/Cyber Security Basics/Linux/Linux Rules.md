@@ -1,3 +1,6 @@
 - stdin (Standard Input) = data stream that a command reads from
 - \ (most common escape character) = removes special meaning from the single character after it 
 	- i.e `\(spacebar)` = spacebar read as string, allows for file naming with spaces <- possible but bad practice
+
+- Config and informational files stored in /etc directory
+- Administrator account name is called "root"
