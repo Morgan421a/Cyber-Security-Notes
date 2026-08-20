@@ -1,0 +1,5 @@
+-  [Advent of Cyber 2](https://tryhackme.com/room/adventofcyber2) <- Hands on interaction with ADS
+- [Task Manager In depth](https://www.howtogeek.com/405806/windows-task-manager-the-complete-guide/) <- In depth blog regarding Windows Task manager
+- Windows Event Log [room](https://tryhackme.com/room/windowseventlogs)
+-  [Command Prompt Commands](https://ss64.com/nt/).
+- [Advent of Cyber 2](https://tryhackme.com/room/adventofcyber2). <- Hands on interaction with Windows VSS

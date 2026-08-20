@@ -1,0 +1,11 @@
+- `cmd` in run
+	- Also available through **system configuration** panel
+- CLI used to interact with a Windows System
+- Each command has a manual explaining its syntax and additional parameters the command can take
+	- accessed via `<command> /?`
+- `cls` <- clears command prompt screen
+- `netstat` <- Displays protocol stats and current TCP/IP connections
+- `net` <- Used to manage network resources
+	- supports sub commands, without one output shows the syntax for the root command showing some of the possible sub commands
+	- Uses `help` instead of `/?` to show the manual
+		- i.e. `net help user` <- shows info for the `net user` command

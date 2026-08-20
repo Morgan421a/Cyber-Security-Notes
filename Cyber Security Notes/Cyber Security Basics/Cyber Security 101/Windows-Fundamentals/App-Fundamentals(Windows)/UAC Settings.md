@@ -1,0 +1,10 @@
+- `useraccountcontrolsetings` in run
+	- Also available through the **System configuration** panel
+- Can be changed or even turned off entirely (**NOT RECOMMENDED**)
+- Slider can be moved to preview how the setting will change the UAC settings and Microsoft's stance on each.
+	- 4 Security Levels, each controlling how Windows alerts admins when apps or users try to make changes at the system level. 
+	- The 4 categories are:
+		- **Always Notify**: Highest security, notifies when any apps or users (admins included) try to make changes, and the desktop dims (Secure desktop)
+		- **Notify for Apps**: Only notifies when apps try to make changes, enabled by default
+		- **Notify without dimming**: Only notifies for apps but doesn't dim screen
+		- **Never notify**: Notifs turned off, no warning regarding changes made by apps or users

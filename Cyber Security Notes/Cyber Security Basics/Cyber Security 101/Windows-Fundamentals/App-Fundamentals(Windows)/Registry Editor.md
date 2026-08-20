@@ -1,0 +1,11 @@
+- `regedit` in run
+	- Also available through **system configuration** panel
+- Used to view/edit the registry
+- **ONLY FOR ADVANCED USERS, CHANGES TO THE REGISTRY CAN AFFECT NORMAL COMPUTER OPERATIONS**
+- **Windows Registry** - Central hierarchical database used to store info necessary to configure the system for one or more users, apps and hardware devices
+- Registry contains info that Windows references constantly during operation, such as:
+	- Profiles for each user
+	- Apps installed on the computer and the types of documents that each can create
+	- Property sheet settings for folders and app icons
+	- What hardware exists on the system
+	- The ports being used

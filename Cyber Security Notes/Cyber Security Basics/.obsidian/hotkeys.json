@@ -18,5 +18,13 @@
       "modifiers": [],
       "key": "F11"
     }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Key223"
+    }
   ]
 }

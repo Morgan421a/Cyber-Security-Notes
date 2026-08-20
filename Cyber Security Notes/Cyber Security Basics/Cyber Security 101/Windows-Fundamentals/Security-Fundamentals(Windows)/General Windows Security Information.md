@@ -1,0 +1,1 @@
+- Attackers use built-in Windows tools and utilities in an attempt to go undetected within the victim environment. <- Tactic known as "**Living Off The Land**"

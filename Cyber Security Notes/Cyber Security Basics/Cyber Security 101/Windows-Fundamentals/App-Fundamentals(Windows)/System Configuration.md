@@ -1,0 +1,11 @@
+ - `MSConfig` in run
+- Used for advanced troubleshooting, particularly to diagnose startup issues
+- 5 Tabs with different config options, namely:
+	- **General** - Allows for selection of devices and services for windows to load upon boot. Options being **Normal, Diagnostic, or Selective**
+	- **Boot** - Defines boot options for the OS
+	- **Services** - Lists all services configured for the system regardless of their state (running or stopped)
+	- **Startup** - Microsoft advise and link to the task manager through this tab in order to manage startup items. `MSConfig` is **NOT** a startup management program
+		- Windows Servers' startup items will not show up in task manager, they can only be reliably viewed in the startup folder itself:
+			- `Win + R` -> `shell:startup` -> Displays list of startups programs as shortcuts or exe's that are configured to auto run next time a user logs in
+				- Can be used to verify apps that are configured to launch at startup
+	- **Tools** - Shows utilities that can be run to configure the OS further. Clicking a tool gives brief description and the command used to launch it via command prompt

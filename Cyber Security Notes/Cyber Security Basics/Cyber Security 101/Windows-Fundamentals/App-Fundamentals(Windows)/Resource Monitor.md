@@ -1,0 +1,11 @@
+- `resmon` in run
+	- Also available through **system configuration** panel tools
+- Provides per-process, and overall, resource usage information, as well as giving details about which processes are using individual file handles and modules
+	- Allows users to isolate data related to one or more processes (either apps or services), start, stop, pause, and resume services, and close unresponsive apps from the user interface
+	- Includes process analysis feature that can help identify deadlocked processes and file locking conflicts <- allowing user to attempt to resolve the conflict instead of closing an app and potentially losing data
+- Overview tab has 4 sections, showing the resource usage of each:
+	- CPU
+	- Disk
+	- Network
+	- Memory
+- Each also have their own tab containing more detailed information

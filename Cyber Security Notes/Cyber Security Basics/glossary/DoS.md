@@ -1,3 +1,4 @@
-Like DDoS but comes from a single source
+- DoS
 
-- Easier to block than DDoS as you can just block the single IP.
+- Like DDoS but comes from a single source
+	- Easier to block than DDoS as you can just block the single IP.

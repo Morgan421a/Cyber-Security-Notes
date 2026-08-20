@@ -3,7 +3,7 @@ aliases:
   - SMB
   - smb
 ---
-- System Message Block
+- Server Message Block
 
 - Protocol that allows devices on the same local network (or connected via VPN) to access files, folders and printers on each other directly without the need to download a separate copy, unlike FTP or cloud services do
 	- File behaves as if local even if physically stored elsewhere on the network

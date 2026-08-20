@@ -1,0 +1,22 @@
+- Searching `View Advnaced System Settings` gives access to the **System Properties** panel
+- **System Properties** - Gives additional config settings, granting the option to control the performance behaviour and system recovery
+- **As learned previously in the OS module:**
+	- Windows uses a page file as an extra virtual memory space when the physical RAM becomes full.
+	- Helps prevent shutdowns or application crashes when the system runs out of memory
+	- Page file can be viewed and modified within the **system properties advanced tab**, within the settings of the performance section
+		- **Advanced** tab within settings shows the page file size configured for the drives, i.e. 1048 MB
+		- Other settings in this window can give more info, such as:
+			- The drive where page file is stored
+			- The initial size (MB)
+			- The max size
+			- Whether Windows manages the size automatically
+
+- Windows can create a **crash dump file** when it encounters a critical error, which helps admins or analysts understand what went wrong during the crash.
+	- Can be viewed and modified within the **Advanced tab** under the startup and recovery settings
+		- **Write debugging information** states the type of crash dump configured for the system. Windows supports different types, such as:
+			- Automatic memory dump
+			- Kernel memory dump
+			- Small memory dump (256 KB)
+			- Complete memory dump
+			- None
+				- Above options show how much info Windows will save in the crash dump when a system crash occurs 

@@ -1,0 +1,5 @@
+---
+aliases:
+  - AD
+---
+- Active Directory

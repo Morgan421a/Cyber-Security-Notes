@@ -1,0 +1,9 @@
+ - `msinfo32` in run
+ - A tool that provides info about the computer including its hardware, system components and software environment
+	- Can be used to diagnose computer issues
+- **System Summary** displays general tech specs for the computer but is also split into 3 sections:
+	- ==**Hardware Resources** - come back later ==
+	- **Components** - Displays specific info about the hardware devices installed on the computer.
+	- **Software Environment** - Displays info about software built into the OS and user installed software
+		- Also shows other details such as **Environment Variables** and **Network Connections** 
+- Bottom search bar can be used to find specific information within the system information utility

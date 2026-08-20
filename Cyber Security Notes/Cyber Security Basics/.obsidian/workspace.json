@@ -4,95 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "000ab0d27d4e685b",
+        "id": "a3d53c598cf0d219",
         "type": "tabs",
         "children": [
           {
-            "id": "9b8c331e96ab20de",
+            "id": "d9fbeb03a5f6c1c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO DO.md",
+                "file": "A+ Study/Core-1-(220-1201)/23%-Networking/Common Ports.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TO DO"
+              "title": "Common Ports"
             }
           },
           {
-            "id": "f17439085db817b1",
+            "id": "3e91965aa80d25e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Basics/Data Representation.md",
+                "file": "A+ Study/Core-1-(220-1201)/23%-Networking/Wireless Network Technologies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Representation"
-            }
-          },
-          {
-            "id": "2e5a61af60acc0a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Basics/Data Encoding.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Encoding"
-            }
-          },
-          {
-            "id": "09a138d855383601",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Basics/Simple Python Demo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Simple Python Demo"
-            }
-          },
-          {
-            "id": "65745916008c475d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Basics/Simple JavaScript Demo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Simple JavaScript Demo"
-            }
-          },
-          {
-            "id": "e2eae3273d0e8785",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TO DO.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TO DO"
+              "title": "Wireless Network Technologies"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -149,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 200
   },
   "right": {
     "id": "f002ffb923f16c54",
@@ -251,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,49 +212,49 @@
       "glossary-linker:Glossary overview": false
     }
   },
-  "active": "e2eae3273d0e8785",
+  "active": "eb57913fd5325dbc",
   "lastOpenFiles": [
-    "OS basics/Operating System Security.md",
-    "Software Basics/Data Representation.md",
-    "Software Basics/Data Encoding.md",
-    "Software Basics/Database SQL Basics.md",
-    "Software Basics/Simple JavaScript Demo.md",
-    "Software Basics/Simple Python Demo.md",
-    "TO DO.md",
-    "Software Basics",
-    "OS basics/Linux CLI Basics.md",
-    "Linux/Linux Rules.md",
-    "Linux/Overthewire level passwords.md",
-    "OS basics/Windows Basics.md",
-    "OS basics/Windows CLI Basics.md",
-    "glossary/Block.md",
-    "glossary/inode.md",
-    "glossary/Metadata.md",
-    "OS basics/Operating Systems Introduction.md",
-    "glossary/Operating System.md",
-    "glossary/Kernel Space.md",
-    "glossary/User Space.md",
-    "glossary/Graphical User Interface.md",
-    "glossary/Command-Line Interface.md",
-    "glossary/UI.md",
-    "glossary/QoL.md",
-    "Study Aids/HTML Elements.md",
-    "glossary/Root Directory.md",
-    "glossary/Internet Information Services.md",
-    "OS basics",
-    "Misc",
-    "Pre-Security",
-    "Pre-Security/Computer Fundamentals",
-    "Pre-Security/How The Web Works",
-    "Study Aids",
+    "A+ Study/Core-1-(220-1201)/23%-Networking/Common Ports.md",
+    "A+ Study/Core-1-(220-1201)/23%-Networking/Wireless Network Technologies.md",
+    "Lightweight Directory Access Protocol Secure.md",
+    "glossary/Lightweight Directory Access Protocol Secure.md",
+    "A+ Study/Core-1-(220-1201)/23%-Networking/Intro to IP.md",
+    "glossary/Lightweight Directory Access Protocol.md",
+    "glossary/Trivial File Transfer Protocol.md",
+    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Mobile Device Networks.md",
+    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Mobile Device Management.md",
+    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Mobile Device Accessories.md",
+    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Laptop Hardware.md",
+    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Connecting Mobile Devices.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting",
+    "A+ Study/Core-1-(220-1201)/25% Hardware",
+    "A+ Study/Core-1-(220-1201)/23%-Networking",
+    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices",
+    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing",
+    "A+ Study/Core-1-(220-1201)",
+    "A+ Study/Core-2-(220-1202)/28%-Security",
+    "A+ Study/Core-2-(220-1202)/28%-Operating-Systems",
+    "A+ Study/Core-2-(220-1202)/23%-Software-Troubleshooting",
+    "A+ Study/Core-2-(220-1202)/21%-Operational-Procedures",
+    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Mobile Device Management.md",
+    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Mobile Device Networks.md",
+    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Mobile Device Accessories.md",
+    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Connecting Mobile Devices.md",
+    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Laptop Hardware.md",
+    "Cyber Security 101/Windows-Fundamentals/Domain-Fundamentals/Active-Directory-Fundamentals/Attacking Active Directory.md",
+    "glossary/Request For Comments.md",
+    "glossary/Internet Assigned Numbers Authority.md",
+    "Cyber Security 101/Linux-Fundamentals/Linux Fundamentals.md",
+    "Cyber Security 101/Windows-Fundamentals/Windows-CLI's/Windows PowerShell.md",
+    "Study Aids/Useful Info.md",
+    "Cyber Security 101/Linux-Fundamentals/Linux-CLI/Linux Shells.md",
+    "Study Aids/Useful Tools.md",
+    "Cyber Security 101/Windows-Fundamentals/General-Fundamentals(Windows)/Windows File System.md",
     "Misc/Images/Pasted image 20260710111556.png",
     "Misc/Images/Pasted image 20260710110701.png",
     "Misc/Images/Pasted image 20260710104153.png",
     "Pasted image 20260710104115.png",
     "Pasted image 20260710104119.png",
-    "Pre-Security/Networking",
-    "Linux",
-    "Misc/Images/Gobuster example.png",
-    "glossary"
+    "Misc/Images/Gobuster example.png"
   ]
 }
