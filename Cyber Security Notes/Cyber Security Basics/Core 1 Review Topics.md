@@ -1,0 +1,16 @@
+- [[Common Ports]]:
+	- Telnet
+	- SMTP
+	- POP3 & IMAP
+	- NetBIOS
+- [[Wireless Network Technologies]]
+- [[Network Services]]:
+	- AAA:
+		- LDAP
+		- TACACS+
+	- IoT
+- [[DNS Configuration]]:
+	- SPF
+	- DKIM
+	- DNS TXT Records
+- Jason Dion Study guide pg 417 - pg 439

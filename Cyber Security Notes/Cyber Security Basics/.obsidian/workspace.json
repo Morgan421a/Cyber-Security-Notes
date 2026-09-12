@@ -8,35 +8,147 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d9fbeb03a5f6c1c2",
+            "id": "964f3c610a56be92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A+ Study/Core-1-(220-1201)/23%-Networking/Common Ports.md",
+                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.7-multifunction-devices-and-printers/Multifunction Devices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Common Ports"
+              "title": "Multifunction Devices"
             }
           },
           {
-            "id": "3e91965aa80d25e8",
+            "id": "a92866ae7ada2cdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A+ Study/Core-1-(220-1201)/23%-Networking/Wireless Network Technologies.md",
+                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Laser Printer Maintenance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireless Network Technologies"
+              "title": "Laser Printer Maintenance"
+            }
+          },
+          {
+            "id": "69d772db7e2e49de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Inkjet Printers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inkjet Printers"
+            }
+          },
+          {
+            "id": "819daa9cb7c21617",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Inkjet Printers/Inkjet Printer Maintenance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inkjet Printer Maintenance"
+            }
+          },
+          {
+            "id": "1156e149c4041fe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Thermal Printers/Thermal Printers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thermal Printers"
+            }
+          },
+          {
+            "id": "47fbe2da16e6cba3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Thermal Printers/Thermal Printer Maintenance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thermal Printer Maintenance"
+            }
+          },
+          {
+            "id": "0faf8a45d5066996",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Impact Printers/Impact Printers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Impact Printers"
+            }
+          },
+          {
+            "id": "db4cf20d7fa690e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Impact Printers/Impact Printer Maintenance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Impact Printer Maintenance"
+            }
+          },
+          {
+            "id": "85326392c7928b9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/Virtualisation Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Virtualisation Concepts"
+            }
+          },
+          {
+            "id": "f6fc7579b6af354f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/virtualisation/Virtualisation Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Virtualisation Services"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -95,7 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 370.5
   },
   "right": {
     "id": "f002ffb923f16c54",
@@ -212,49 +324,53 @@
       "glossary-linker:Glossary overview": false
     }
   },
-  "active": "eb57913fd5325dbc",
+  "active": "f6fc7579b6af354f",
   "lastOpenFiles": [
-    "A+ Study/Core-1-(220-1201)/23%-Networking/Common Ports.md",
-    "A+ Study/Core-1-(220-1201)/23%-Networking/Wireless Network Technologies.md",
-    "Lightweight Directory Access Protocol Secure.md",
-    "glossary/Lightweight Directory Access Protocol Secure.md",
-    "A+ Study/Core-1-(220-1201)/23%-Networking/Intro to IP.md",
-    "glossary/Lightweight Directory Access Protocol.md",
-    "glossary/Trivial File Transfer Protocol.md",
-    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Mobile Device Networks.md",
-    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Mobile Device Management.md",
-    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Mobile Device Accessories.md",
-    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Laptop Hardware.md",
-    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices/Connecting Mobile Devices.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting",
-    "A+ Study/Core-1-(220-1201)/25% Hardware",
-    "A+ Study/Core-1-(220-1201)/23%-Networking",
-    "A+ Study/Core-1-(220-1201)/13%-Mobile-Devices",
-    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing",
-    "A+ Study/Core-1-(220-1201)",
-    "A+ Study/Core-2-(220-1202)/28%-Security",
-    "A+ Study/Core-2-(220-1202)/28%-Operating-Systems",
-    "A+ Study/Core-2-(220-1202)/23%-Software-Troubleshooting",
-    "A+ Study/Core-2-(220-1202)/21%-Operational-Procedures",
-    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Mobile Device Management.md",
-    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Mobile Device Networks.md",
-    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Mobile Device Accessories.md",
-    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Connecting Mobile Devices.md",
-    "A+ Study/Core-1(220-1201)/13%-Mobile-Devices/Laptop Hardware.md",
-    "Cyber Security 101/Windows-Fundamentals/Domain-Fundamentals/Active-Directory-Fundamentals/Attacking Active Directory.md",
-    "glossary/Request For Comments.md",
-    "glossary/Internet Assigned Numbers Authority.md",
-    "Cyber Security 101/Linux-Fundamentals/Linux Fundamentals.md",
-    "Cyber Security 101/Windows-Fundamentals/Windows-CLI's/Windows PowerShell.md",
-    "Study Aids/Useful Info.md",
-    "Cyber Security 101/Linux-Fundamentals/Linux-CLI/Linux Shells.md",
-    "Study Aids/Useful Tools.md",
-    "Cyber Security 101/Windows-Fundamentals/General-Fundamentals(Windows)/Windows File System.md",
-    "Misc/Images/Pasted image 20260710111556.png",
-    "Misc/Images/Pasted image 20260710110701.png",
-    "Misc/Images/Pasted image 20260710104153.png",
-    "Pasted image 20260710104115.png",
-    "Pasted image 20260710104119.png",
-    "Misc/Images/Gobuster example.png"
+    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/virtualisation/Virtualisation Concepts.md",
+    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/virtualisation/Virtualisation Services.md",
+    "Core 1 Review Topics.md",
+    "Packet Tracer Notes.md",
+    "Bonus content.md",
+    "TO DO.md",
+    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/cloud",
+    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/virtualisation",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/network-troubleshooting",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Impact Printers/Impact Printer Maintenance.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Impact Printers/Impact Printers.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Thermal Printers/Thermal Printer Maintenance.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Thermal Printers/Thermal Printers.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Impact Printers",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Thermal Printers",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Inkjet Printers",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Laser Printers",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Inkjet Printers/Inkjet Printer Maintenance.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Inkjet Printers/Inkjet Printers.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Laser Printers/Laser Printer Maintenance.md",
+    "Misc/Images/Pasted image 20260910104847.png",
+    "Misc/Images/Pasted image 20260910101115.png",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.7-multifunction-devices-and-printers/Multifunction Devices.md",
+    "A+ Study/Core-1-(220-1201)/23%-Networking/2.5-networking-hardware-devices/Network Devices.md",
+    "A+ Study/Core-1-(220-1201)/23%-Networking/2.6-ip-addressing/IPv4 and IPv6.md",
+    "A+ Study/Core-1-(220-1201)/23%-Networking/2.6-ip-addressing/Assigning IP Addresses.md",
+    "A+ Study/Core-1-(220-1201)/23%-Networking/2.7-internet-and-network-connection-types/Internet Connection Types.md",
+    "A+ Study/Core-1-(220-1201)/23%-Networking/2.8-network-tools/Network Tools.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.1-displays/Display Types.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/Network Cables.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/568A and 568B Colours.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/Optical Fibre.md",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/Peripheral Cables.md",
+    "Misc/Images/Pasted image 20260831102206.png",
+    "Misc/Images/Pasted image 20260831102443.png",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/Video Cables.md",
+    "Misc/Images/Pasted image 20260831113258.png",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Connectors/Copper Connectors.md",
+    "Misc/Images/Pasted image 20260904084147.png",
+    "Misc/Images/Pasted image 20260904090300.png",
+    "Misc/Images/Pasted image 20260908154126.png",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.5-computer-hardware/cooling",
+    "A+ Study/Core-1-(220-1201)/25% Hardware/3.5-computer-hardware/expansion-cards",
+    "Misc/Images/Pasted image 20260906095015.png",
+    "Misc/Images/Pasted image 20260906072542.png"
   ]
 }
