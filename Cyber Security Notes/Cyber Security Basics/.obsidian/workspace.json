@@ -8,147 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "964f3c610a56be92",
+            "id": "12f8fe58e133cb0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.7-multifunction-devices-and-printers/Multifunction Devices.md",
+                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting/Troubleshooting Storage Devices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multifunction Devices"
-            }
-          },
-          {
-            "id": "a92866ae7ada2cdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Laser Printer Maintenance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Laser Printer Maintenance"
-            }
-          },
-          {
-            "id": "69d772db7e2e49de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Inkjet Printers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Inkjet Printers"
-            }
-          },
-          {
-            "id": "819daa9cb7c21617",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Inkjet Printers/Inkjet Printer Maintenance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Inkjet Printer Maintenance"
-            }
-          },
-          {
-            "id": "1156e149c4041fe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Thermal Printers/Thermal Printers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Thermal Printers"
-            }
-          },
-          {
-            "id": "47fbe2da16e6cba3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Thermal Printers/Thermal Printer Maintenance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Thermal Printer Maintenance"
-            }
-          },
-          {
-            "id": "0faf8a45d5066996",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Impact Printers/Impact Printers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Impact Printers"
-            }
-          },
-          {
-            "id": "db4cf20d7fa690e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/25% Hardware/3.8-printer-maintenance/Impact Printers/Impact Printer Maintenance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Impact Printer Maintenance"
-            }
-          },
-          {
-            "id": "85326392c7928b9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/Virtualisation Concepts.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Virtualisation Concepts"
-            }
-          },
-          {
-            "id": "f6fc7579b6af354f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/virtualisation/Virtualisation Services.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Virtualisation Services"
+              "title": "Troubleshooting Storage Devices"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -324,10 +197,19 @@
       "glossary-linker:Glossary overview": false
     }
   },
-  "active": "f6fc7579b6af354f",
+  "active": "12f8fe58e133cb0e",
   "lastOpenFiles": [
-    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/virtualisation/Virtualisation Concepts.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting/Troubleshooting Hardware.md",
+    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/cloud/Cloud Characteristics.md",
+    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/cloud/Cloud Models.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting/Troubleshooting Printers.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/network-troubleshooting/Troubleshooting Networks.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting/Troubleshooting Mobile Devices.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting/Troubleshooting Display Issues.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting/Troubleshooting Storage Devices.md",
+    "Misc/Images/Pasted image 20260914113331.png",
     "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/virtualisation/Virtualisation Services.md",
+    "A+ Study/Core-1-(220-1201)/11%-Virtualisation-and-Cloud-Computing/virtualisation/Virtualisation Concepts.md",
     "Core 1 Review Topics.md",
     "Packet Tracer Notes.md",
     "Bonus content.md",
@@ -354,23 +236,14 @@
     "A+ Study/Core-1-(220-1201)/23%-Networking/2.6-ip-addressing/IPv4 and IPv6.md",
     "A+ Study/Core-1-(220-1201)/23%-Networking/2.6-ip-addressing/Assigning IP Addresses.md",
     "A+ Study/Core-1-(220-1201)/23%-Networking/2.7-internet-and-network-connection-types/Internet Connection Types.md",
-    "A+ Study/Core-1-(220-1201)/23%-Networking/2.8-network-tools/Network Tools.md",
-    "A+ Study/Core-1-(220-1201)/25% Hardware/3.1-displays/Display Types.md",
-    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/Network Cables.md",
-    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/568A and 568B Colours.md",
-    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/Optical Fibre.md",
-    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/Peripheral Cables.md",
     "Misc/Images/Pasted image 20260831102206.png",
     "Misc/Images/Pasted image 20260831102443.png",
-    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Cables/Video Cables.md",
     "Misc/Images/Pasted image 20260831113258.png",
-    "A+ Study/Core-1-(220-1201)/25% Hardware/3.2-cables-and-connectors/Connectors/Copper Connectors.md",
     "Misc/Images/Pasted image 20260904084147.png",
     "Misc/Images/Pasted image 20260904090300.png",
     "Misc/Images/Pasted image 20260908154126.png",
     "A+ Study/Core-1-(220-1201)/25% Hardware/3.5-computer-hardware/cooling",
     "A+ Study/Core-1-(220-1201)/25% Hardware/3.5-computer-hardware/expansion-cards",
-    "Misc/Images/Pasted image 20260906095015.png",
-    "Misc/Images/Pasted image 20260906072542.png"
+    "Misc/Images/Pasted image 20260906095015.png"
   ]
 }
