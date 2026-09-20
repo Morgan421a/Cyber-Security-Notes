@@ -1,0 +1,15 @@
+- Projectors use very bright metal-halide bulbs
+	- Operate around 1,000 degrees Celsius inside the bulb
+		- Due to heat generated projectors have fans that are constantly running to cool the bulb <- Projector shuts down if temps too high
+		- Fan cools bulb slowly after light is off to prevent bulb becoming damaged
+- Bulbs will eventually burn out and need to be replaced
+	- Bulbs designed to be modular and easily changed
+	- Recommended to clean dust from air filters and external air I/O when replacing bulb
+- **Symptoms** of bulb degradation:
+	- No or dim image
+	- Washed out or faint display
+- **Solution**:
+	- Check bulb usage hours via projector's counter <- Replace bulb when near rated hours (Usually 500 to 2000)
+	- Keep spare bulb ready to avoid lengthy downtime
+	- **Handle bulb with gloves** to avoid skin oil damage
+	- **Allow projector to cool down** (15 - 30 mins) before replacing bulb

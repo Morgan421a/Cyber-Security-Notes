@@ -1,0 +1,12 @@
+- Image appearing and disappearing intermittently
+- Check **video cable connections** first
+	- Loose cables will cause a loss of signal
+	- Replace video cable with known good cable to verify if it's a cable issue
+	- Replace video cable if needed
+- Problem could be the **monitor**
+	- Try swapping with known good monitor to see if issue persists
+- Check **OS display settings**
+	- Ensure they match the make and model of the monitor being used
+	- Check OS display settings are compatible with monitor specifications
+- Possibly caused by **electrical interference**
+	- Use higher quality cables that support the required bandwidth

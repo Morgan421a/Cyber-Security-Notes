@@ -1,0 +1,14 @@
+- An issue across all monitor types
+	- Images become burnt in to the monitor and can still be seen even when that content is no longer on the screen
+		- Burnt in images often faint and look similar to ghosting
+	- More **common** issue **on** older Cathode Ray Tube (**CRT**) displays, **OLED** displays, and **Plasma** **Displays**
+- Some displays will pixel-shift when the same content is detected on the screen for an extended period of time
+	- Pixel-shift = Display slightly shifts image on screen in different directions in hopes of preventing burn in <- Pixel-Shift typically unnoticeable to users
+		- Pixel-Shift typically found in monitor config and should be turned on
+- LCD displays still have the issue <- May be referred to as "Image Sticking"
+	- May be possible to remove burnt in image by displaying an image such as a white screen for an extended period of time (e.g. overnight)
+- **Solution**:
+	- Use screensavers or automatic screen shut-off features
+	- Rotate displayed content occasionally to avoid static images
+	- Enable pixel-shift if available
+	- Replace display if burn-in is too severe

@@ -1,0 +1,16 @@
+- LCD display may have flickering, flashing colours, blocks, lines running across length of screen
+	- Sometimes makes it difficult to see or use display
+- Check video and power cables
+	- Ensure no loose connections on both computer and display
+	- Try using a known good cable to see if issue persists, replace cables if needed
+- Check video adaptor if using one
+	- Ensure properly connected on both sides
+	- Try using known good adaptor, replace adaptor if needed
+- Possible issue with software config
+	- Try adjusting video driver settings or using a different video driver
+- Extensive issues may indicate a hardware failure of the display
+	- LCD panels are easy to break <- Avoid touching or putting things near LCD screens
+	- Likely require a complete replacement of display
+- Test Patterns can be used to identify where issues on a display might be located
+	- Allows for an evaluation of a display's sharpness, colour representation, etc.
+	- Evaluation can be used to decide if issue can be fixed or if display may need to be replaced

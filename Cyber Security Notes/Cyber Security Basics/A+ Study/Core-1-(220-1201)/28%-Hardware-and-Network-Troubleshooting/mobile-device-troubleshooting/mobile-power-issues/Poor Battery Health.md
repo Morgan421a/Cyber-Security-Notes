@@ -1,0 +1,24 @@
+### Poor Battery Health
+- Batteries deteriorate overtime, reducing their battery life
+	- Eventually begin to wear out and stop working
+- Caused by: 
+	- Natural wear and tear 
+	- Poor charging habits
+	- Frequent charging cycles
+	- Phone using more battery than usual for reasons such as:
+		- Constantly searching for signal in an area with poor reception <- Use airplane mode when in areas with poor reception (even on the ground)
+			- Disable unnecessary features such as:
+				- 802.11 Wireless, Bluetooth, GPS
+- Symptoms:
+	- Reduced battery life compared to initial use
+	- Random device shut downs
+	- Battery not holding charge
+- Many mobile OS's allow for battery diagnostics such as application battery usage
+	- iOS and iPadOS - Settings -> Battery
+	- Android - Settings -> Battery
+- Charge battery from 20-30% to 100% to extend lifespan
+- Avoid frequent partial charging cycles such as 80% to 100%
+- Use Slow trickle charging when possible to reduce stress on battery cells 
+	- Trickle charging = Using low current to offset natural self-discharge, steady and gentle flow that's better for battery maintenance
+- Replace battery with know good replacement if battery life becomes insufficient
+	- May need to be done professionally if battery cannot be removed

@@ -1,0 +1,10 @@
+- Caused by:
+	- Overheating
+	- Lack of input signal
+- Symptoms:
+	- Projector turns of unexpectedly after a few minutes
+- Solution:
+	- Check and clean air vents <- Remove dust and debris
+	- Ensure cooling fan is working properly
+	- Check input source connection <- Improper connection can lead to auto shut off due to inactivity
+	- If overheating continues, try repositioning the projector for better airflow

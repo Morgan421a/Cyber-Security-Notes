@@ -1,0 +1,21 @@
+### Physically Damaged Ports
+- Damage to ports such as charging, audio, or data ports due to physical stress or mishandling
+	- External interfaces when damaged can cause a loss of functionality for the device
+		- e.g. Damaged USB interface may prevent charging or data transfer
+- Causes:
+	- Repeated insertion and removal of cables
+	- Inserting connectors at incorrect angles
+	- Dropping device or rough handling
+	- Foreign objects or debris in port
+- Signs of issues:
+	- Intermittent functioning/connectivity e.g. charging intermittently or not at all
+	- Device failing to detect peripherals e.g. headphones
+	- Loose or wobbly connection when plugging in cables
+- Inspect port for visible damage or debris <- Clean with compressed air
+- Replace damaged cables or adaptors first before suspecting port failure
+- Ports often not modular <- Damaged interface may require complete, professional system board replacement or de-soldering for replacing damaged interface
+- Prevent issues by:
+	- Not applying excessive force when inserting and removing connectors
+	- Don't pull cables by the wire <- Pull them by the connector
+	- Use dust covers for unused ports
+	- Avoid carrying devices with connected cables

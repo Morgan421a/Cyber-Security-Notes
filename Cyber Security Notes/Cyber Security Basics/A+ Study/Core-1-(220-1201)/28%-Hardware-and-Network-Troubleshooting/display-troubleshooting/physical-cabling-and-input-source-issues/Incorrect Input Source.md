@@ -1,0 +1,8 @@
+- Display black despite being powered on or "no signal" message displayed
+	- Likely an issue with video cable or input source
+- Check power and signal cable, ensure both connected properly
+- Check monitor input source selection is set correctly (e.g. HDMI 1 or 2, VGA, etc.)
+	- Some monitors can detect and switch automatically based on which port is receiving a signal
+- Swap monitor for known good monitor to verify if issue is with the monitor itself
+- No video once Windows loads <- Use VGA mode (`F8` while system is booting) a generic mode that works with a majority of monitors
+	- BIOS config may be incorrect for monitor type being used

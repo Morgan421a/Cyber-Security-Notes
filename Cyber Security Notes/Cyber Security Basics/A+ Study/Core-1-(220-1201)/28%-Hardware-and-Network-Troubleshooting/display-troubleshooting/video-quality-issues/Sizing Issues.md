@@ -1,0 +1,8 @@
+- OS and display may scale to fit an image on the screen
+	- Check display for the scaling option
+	- Auto-Scaling Settings may be disabled if images aren't automatically scaled
+- Very high res monitors may have issues when running an OS at the monitor's native res
+	- Commonly appears as icons being tiny and text being very small making it difficult to read
+	- Modify OS resolution settings 
+	- Change the scaling option in the OS display settings
+		- Maintains resolution, scales up size of icons, text, etc. on the OS

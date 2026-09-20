@@ -1,0 +1,12 @@
+- Many monitors have built-in speakers
+	- Allow for audio output alongside their video output
+- Check monitor settings for audio controls
+	- Raise volume levels if needed
+	- Ensure mute status is false
+- Audio input can be received over many sources <- HDMI, DisplayPort, Thunderbolt
+	- Ensure audio input setting on monitor is set to correct source
+	- Ensure OS is configured to send audio output through the correct port
+- Monitor may support other audio input interfaces
+	- Some may have audio jacks for analog audio input
+	- Video may be received via HDMI and audio may be received via the analog input
+		- Ensure monitor and OS settings are configured correctly

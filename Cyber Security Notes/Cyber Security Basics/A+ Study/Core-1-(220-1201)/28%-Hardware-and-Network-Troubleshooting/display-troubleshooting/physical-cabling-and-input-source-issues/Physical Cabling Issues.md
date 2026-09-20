@@ -1,0 +1,19 @@
+- **Cables wear over time**
+	- Made worse by frequent insertion and removal
+	- Digital cables (HDMI, DisplayPort, Thunderbolt, DVI-D) lose signal completely when damaged
+	- Analog Cables (VGA, DVI-A) cause degraded image quality, loss of colour, or instability when damaged
+- **Physically damaged cables**
+	- **Caused by**:
+		- Rolling chairs over cables
+		- Bending cables too sharply
+		- Frequent insertion and removal
+	- **Solution**:
+		- Check cable for visible damage, replace cable if needed
+- **Improper cable connection**
+	- Poorly connected cables can cause signal loss
+	- **Solution**:
+		- Ensure cable properly connected to both the computer and the display
+- **Low Quality Cables**
+	- Cheap cables may not support higher resolutions or refresh rates e.g. basic HDMI cable may only support 1080p, not 4K
+	- **Solution**:
+		- Upgrade to a high speed HDMI or DisplayPort cable for higher bandwidth and resolution

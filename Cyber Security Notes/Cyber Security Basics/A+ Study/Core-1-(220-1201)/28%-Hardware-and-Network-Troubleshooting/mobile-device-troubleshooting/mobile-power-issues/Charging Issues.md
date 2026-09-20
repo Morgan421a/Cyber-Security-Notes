@@ -1,0 +1,18 @@
+### Improper Charging
+- Caused by:
+	- Improper charging routine
+	- Faulty outlet, adaptor, or cable
+	- Loose or damaged charging ports
+	- Overuse of fast charging
+- Check all components used in the charging process
+	- Plug socket, Power bank (if used), cable, connector, device interface
+		- Check connections secure at all points
+		- Use a known good adaptor
+		- Check interface for damage or debris, ensure port isn't loose or unresponsive
+- Remove debris or obstructions from inside device interface
+- Don't use frayed or damaged cables
+	- Try a known good cable if no visible issues found
+- Verify power adaptor works with a multimeter
+	- Check wall outlet and power adaptor <- Make sure both are supplying correct/expected voltage
+- Check battery health using built-in diagnostics or third party apps to analyse condition
+- Avoid fast charging if not necessary e.g. overnight <- Generates heat and degrades battery over time

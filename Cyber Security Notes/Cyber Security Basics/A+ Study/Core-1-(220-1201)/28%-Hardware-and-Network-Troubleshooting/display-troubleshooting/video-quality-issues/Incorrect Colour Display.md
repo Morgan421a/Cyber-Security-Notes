@@ -1,0 +1,15 @@
+- Colours may not be properly represented
+	- e.g. too much blue, red, green, yellow, etc.
+- Check **monitor settings**:
+	- Tint
+	- Custom Colour Presets
+	- Factory reset monitor settings if needed
+- **OS display settings** can adjust colour representation
+	- Check settings for *Colour Tint*, ensure settings isn't weighted too far in any direction
+- Some OS's have a **blue light filter/ Night light setting**
+	- Heavily changes display colours to very blue or very orange
+- Verify **colour depth settings** (8-bit, 16-bit, 32-bit)
+- **Use appropriate colour profiles**, such as:
+	- Adobe RGB <- For high end professional work
+	- sRGB IEC <- For standard web and general use
+	- Display P3 <- For modern digital media

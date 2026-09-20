@@ -1,0 +1,14 @@
+- Display flashing or flickering, bars extending across screen, colour patterns incorrect, etc.
+	- Possible to work with in most cases but provides poor display quality
+- If analog connection, Check cables pins on connector
+	- Ensure everything is properly plugged into the interface
+	- High likelihood of being the cause if missing one or more colours
+- If image and geometry are distorted
+	- Check OS refresh rate and resolution settings <- Need to match display specifications
+	- Issue may be cable related
+		- Check cable, try known good cable, replace if necessary
+- Some video drivers allow for hardware acceleration to be enabled or disabled within video card
+	- Hardware acceleration designed to provide fastest possible updates on display <- Increases overall display output quality
+		- Can cause problems in certain configs
+	- Try disabling to see if issue persists or improves
+	- Troubleshoot with the software drivers

@@ -1,0 +1,2 @@
+- Check distance to closest cell tower <- Further away means less signal strength, strength too low = poor/no connection
+	- Outdoor connectivity may be better <- Buildings can weaken/block signals reducing their strength

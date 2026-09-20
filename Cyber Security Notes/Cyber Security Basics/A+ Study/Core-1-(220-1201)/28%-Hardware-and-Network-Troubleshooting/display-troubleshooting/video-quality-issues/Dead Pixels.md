@@ -1,0 +1,11 @@
+- LCD display pixels can go bad or "die"
+	- Dead pixels will permanently be black
+- Likely a manufacturing defect or could be general wear and tear
+	- Not a cable or power issue
+- Use white mouse to confirm any dead pixels
+- Clean monitor first to ensure supposed dead pixel isn't just dirt
+	- Usually ok to use a damp cloth, check manufacturer guidelines before cleaning though
+- Dead pixels cannot be fixed
+	- Display must be replaced
+- Some dead pixels may be in areas that make them ignorable or effectively unnoticeable
+	- User preference, if they can work with it then monitor can continue to be used

@@ -1,0 +1,6 @@
+- LCD displays are fixed, number of pixels (native resolution) doesn't change
+- Display looks best when OS video settings match a display's native resolution
+	- Mismatch between OS video settings and native res can cause distortion
+- If changing display res, try using a multiple of the native res
+	- e.g. 2560 x 1600 is the same ratio as 1920 x 1200
+- Use scaling settings to avoid stretching lower res images across higher density screens

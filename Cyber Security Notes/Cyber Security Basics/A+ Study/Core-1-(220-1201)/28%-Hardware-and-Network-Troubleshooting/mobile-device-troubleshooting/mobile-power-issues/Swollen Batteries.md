@@ -1,0 +1,19 @@
+### Swollen Battery
+- Caused by a buildup of gas within the battery
+	- Battery containers designed to self contain the gas but not self sustain once swelling occurs
+		- Significant risk of chemical leak, fire, and explosions <- Battery must be replaced ASAP
+- Can be due to:
+	- Overcharging due to malfunctioning protective circuits
+	- Exposure to high temps
+	- Manufacturing defects
+- Symptoms:
+	- Device casing bulging or deformed
+	- Difficulty fitting battery into its compartment
+	- Devices wobbling when placed on flat surface
+- Battery may still work while swollen but should not be
+	- Switch off device immediately and replace ASAP, ensuring proper disposal of swollen battery
+		- Contact manufacturer if battery is not removable
+	- Ensure PPE such as mask, gloves, and goggles are worn when handling the device and changing the battery
+- Battery bulge can damage mobile device <- Not as bad as the fire risk
+- **DO NOT OPEN BATTERY PACKET/CONTAINER DUE TO FIRE RISK AND VOLATILITY**
+- **AVOID PUNCTURING OR PRESSING ON THE BATTERY AT ANY POINT**

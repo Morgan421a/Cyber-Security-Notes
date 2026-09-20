@@ -1,0 +1,11 @@
+- Check monitor brightness and contrast settings
+	- Try adjusting both
+- Check OS display settings
+	- Some may have their own brightness setting
+	- Many modern OS's have an Auto-Dimming function <- Adjusts display brightness according to the time of day or how much light is being received by the monitor
+	- Mobile devices may be set to Dim when running on battery power or low battery
+	- Check display driver settings <- Some may have brightness settings
+- If all prior checks and changes done, issue may be with the display backlight
+	- Can appear across entire display or only in a section
+	- Sometimes possible to buy parts to replace faulty ones that enable backlight to function properly again
+	- May have to replace entire display
