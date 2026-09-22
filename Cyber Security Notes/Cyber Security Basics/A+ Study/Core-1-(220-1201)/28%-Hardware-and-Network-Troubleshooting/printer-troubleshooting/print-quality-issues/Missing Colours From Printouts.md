@@ -1,0 +1,5 @@
+- Commonly caused by:
+	- Empty or clogged ink/toner cartridges
+- Solutions:
+	- Replace empty cartridges
+	- Clean cartridge contacts according to manufacturer's documentation (Usually using IPA)

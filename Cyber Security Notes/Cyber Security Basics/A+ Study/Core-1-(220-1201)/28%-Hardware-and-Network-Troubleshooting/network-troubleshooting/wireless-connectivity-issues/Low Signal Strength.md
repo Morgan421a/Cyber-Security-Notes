@@ -1,0 +1,13 @@
+- Use a Received Signal Strength Indicator (RSSI) to measure signal strength
+	- Good strength = between -30 dB and -50 dB
+	- Weak strength = between -90 dB and -100 dB
+- Weak strength causes slow connection speeds, frequent disconnections, and high latency during data transfers
+- **Caused by**: 
+	- Being far from the AP 
+	- Signals being blocked by obstacles such as walls and furniture 
+	- Antenna misalignment or low transmission power
+- **Solution**:
+	- Move close to AP
+	- Increase antenna size or upgrade to higher-gain antennas
+	- Add more APs to increase coverage
+	- Adjust power settings (If configurable within FCC limits)

@@ -1,0 +1,9 @@
+- Possible issue with **paper tray or pickup rollers**
+	- Pickup rollers need to be clean and wear over time
+	- Printer Rollers typically included in Laser Printer Maintenance Kits
+- **Incorrect paper type** used (e.g. damp, lightweight, or creased)
+	- Use clean, dry, and flat paper
+	- Use paper that falls within the manufacturer's recommended weight
+	- Ensure proper alignment in paper tray
+- **Static build-up** may be **causing** **pages** to be **stuck** **together**
+	- Fan paper stack to reduce static and prevent sticking

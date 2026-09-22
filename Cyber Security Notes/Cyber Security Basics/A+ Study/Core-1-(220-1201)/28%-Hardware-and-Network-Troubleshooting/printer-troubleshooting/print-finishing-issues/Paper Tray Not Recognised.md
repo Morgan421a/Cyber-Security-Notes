@@ -1,0 +1,16 @@
+- Office printers tend to have multiple paper trays
+- **Size of printed page must match size of paper in the tray**
+	- e.g. can't print 14" legal page to an 11" letter page
+	- Attempting to print on wrong sized page can lead to error messages on the printer
+- List of paper trays typically apart of driver config when printing
+	- Ensure correct tray is selected prior to sending print job
+	- Admins should ensure listed trays in print driver config match the trays physically installed on the printer
+- **Tray** may be **seated improperly**
+- **Dust or debris** may be **blocking sensors**
+- Possible **faulty or broken tray components**
+- **Troubleshooting**:
+	- Ensure tray inserted and aligned properly
+	- Clean tray sensors
+	- Ensure tray guides function properly
+	- Reset printer's tray setting in config menu
+	- Replace paper tray if needed

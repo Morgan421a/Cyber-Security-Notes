@@ -1,0 +1,13 @@
+- Difficult to troubleshoot due to only happening sometimes instead of for a long period
+	- Address issue when it's happening
+- Determine the scope of the outage through methods such as:
+	- Ongoing pings <- Constantly ping a device every second to constantly check connectivity
+	- Traceroute to a known location
+	- Run speed tests <- Check performance on the network
+- External issues require external support
+	- If issue is going to a third party, such as an ISP, collaborative efforts may be needed to identify when and where the problem is occurring
+	- More complex to troubleshoot <- Have as much information available as possible
+		- Have contact and account information available if working with an ISP
+- If working with a third party, check contract for the Service Level Agreement (SLA)
+	- Contains information regarding expected uptime and availability for a third party
+	- Usually contains the response time for support as well

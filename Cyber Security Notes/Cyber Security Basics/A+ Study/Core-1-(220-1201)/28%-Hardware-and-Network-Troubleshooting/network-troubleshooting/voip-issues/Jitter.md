@@ -1,0 +1,22 @@
+- Most real-time media is sensitive to delay
+	- Data should arrive at regular intervals
+	- Common for voice communication and live video (UDP)
+- If a packet is missed, it's not re-transmitted, simply lost
+- **Jitter** = Time between frames
+	- **Excessive jitter** can **cause** information to be missed <- Leads to issues such as "choppy" voice calls
+- Low Jitter example:
+	- - - - - - - - - -  <- Data sent with consistently low jitter, relatively uniform transmission
+- High jitter example: 
+	- ---    ---   ---  --  <- Data sent with high jitter, somewhat chaotic transmission
+- **VoIP performance Jitter Thresholds**:
+	- Below 30 ms <- Acceptable jitter
+	- 30 - 50 ms <- Noticeable jitter
+	- Above 50 ms <- Poor quality
+- **High jitter can cause**:
+	- Robotic or distorted voices
+	- Choppy audio with missing or rearranged sounds
+	- Reduced call clarity and quality
+- **Caused by**:
+	- Network congestion and fluctuating bandwidth
+	- Packets taking different paths across the network
+	- Insufficient buffering on VoIP devices

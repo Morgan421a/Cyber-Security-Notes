@@ -1,0 +1,12 @@
+- **Caused by**:
+	- **Bad Printer Driver / Incorrect Printer model specified in OS Config**
+		- May be sending **wrong Page Description Language** (PDL) to printer (Printer expects PCL but gets PostScript)
+	- **Corrupted Print Job Data**
+- **Solutions**:
+	- **Verify Printer Functionality** <- Print a test page, is output still garbled?
+	- If Printer and Driver test works properly, Likely an **application issue**
+		- App may be sending bad information to printer
+		- Try printing with a different app
+		- Upgrade application if possible to see if output improves
+	- Reinstall or update printer driver
+	- Clear print queue and restart spooler service

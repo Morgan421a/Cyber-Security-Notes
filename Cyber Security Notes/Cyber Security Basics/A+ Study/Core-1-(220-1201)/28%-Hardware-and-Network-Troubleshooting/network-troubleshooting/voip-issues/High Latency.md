@@ -1,0 +1,23 @@
+- **Latency** = Delay between the request and the response
+- **Some latency expected and normal** <- Laws of physics
+	- Can be measured in Microseconds, Seconds, or sometimes minutes
+- Examine response times at each hop during communication
+	- May require multiple measurement tools or have multiple devices measuring simultaneously
+- Packet captures can provide detailed analysis
+	- Allows for response time across the network to be calculated
+	- Microsecond granularity
+	- Gets captures from both sides
+	- Allows latency included by apps to be accounted for
+- **Latency Thresholds for VoIP Performance**:
+	- Below 50 ms <- Optimal latency
+	- 50-100 ms <- Acceptable latency
+	- 100 - 250 ms <- Noticeable latency
+	- Above 250 ms <- Poor latency, unusable VoIP Experience
+- **High latency can cause**:
+	- Noticeable delays in conversation
+	- Echoing effects in calls
+	- Communication lag requiring users to use signalling words such as "over"
+- **Caused by**:
+	- Satellite internet connections with long transmission paths
+	- Network congestion and bandwidth limitations
+	- Poor routing configs

@@ -1,0 +1,47 @@
+- Windows Alert in system tray or elsewhere on other Operating Systems
+	- "Limited or No connectivity"
+	- "No Internet Access"
+- IP address within the range 169.254.x.x <- APIPA address
+- Unable to access internet or network services
+- Connection to local network resources may still be possible
+- Can be **caused by**:
+	- DHCP Server issues <- Server offline/unreachable, Exhausted DHCP scope, Misconfigured DHCP settings
+	- Physical Connection Issues <- Loose or disconnected network cables, Faulty patch cords or ports
+	- Incorrect wireless network connection <- Wrong SSID or password
+	- VLAN config errors <- Improper VLAN tagging preventing DHCP traffic from reaching client
+	- Router or switch issues <- Misconfigs blocking DHCP requests, Device malfunction
+	- OS issues <- Disabled or misconfigured network adaptor, firewall or security software blocking DHCP traffic
+- **Check local IP address**
+	- **APIPA addresses** (169.254.x.x) **only have local connectivity**
+		- If APIPA address used, likely an issue communicating with DHCP server or DHCP server down
+- **If DHCP address is being used, carry out ping tests**
+	- Ping device outside of local subnet such as default gateway followed by a remote IP address outside of local gateway
+		- Eventually should reach a point that can no longer be pinged <- Troubleshooting efforts should be focused here
+- **Troubleshooting steps**:
+	1. **Identify scope of issue**
+		- Single client = Likely local misconfig or connectivity problem
+		- Multi-client = Likely DHCP server or wider network issues
+	2. **Troubleshoot single client issues**
+		- Verify physical connections or SSID and password for wireless
+		- Check IP address <- Run `ipconfig` (Windows) or `ifconfig` (Linux/macOS) to check assigned IP, If APIPA (169.254.x.x) move to DHCP troubleshooting
+		- Release and renew IP address:
+			- Windows -> `ipconfig /release` -> `ipconfig /renew`
+			- Linux/macOS -> `sudo dhclient -r` -> `sudo dhclient`
+		- Check VLAN assignment <- Ensure correct VLAN config on switch for DHCP traffic
+		- Ping DHCP server <- If no response, investigate DHCP server availability
+	3. **Troubleshoot multi-client issues**
+		- Check DHCP server status <- Ensure server online and running, restart DHCP services if needed
+		- Examine DHCP scope <- Check available IPs in DHCP scope, extend range if IP pool exhausted, Release inactive leases to free up addresses
+		- Inspect network infrastructure <- Check switch and router connections to DHCP server, Review firewall settings that may block DHCP traffic
+		- Static IP assignment (Temp fix) <- Assign a static IP to the client:
+			- IP address <- within same network range
+			- Subnet mask <- e.g. 255.255.255.0
+			- Default gateway <- IP of router
+			- DNS Server <- ISP's or public DNS (e.g. 8.8.8.8)
+- **Common Solutions**:
+	- Restart network devices (modem, router, switch)
+	- Ensure correct network settings on client devices
+	- Configure VLAN settings correctly to allow for DHCP traffic
+	- Update firmware on networking equipment
+	- Ensure firewall and security settings aren't blocking DHCP
+

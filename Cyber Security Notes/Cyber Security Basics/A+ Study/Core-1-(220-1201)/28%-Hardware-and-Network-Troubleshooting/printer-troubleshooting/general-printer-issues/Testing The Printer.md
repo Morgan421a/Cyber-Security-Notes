@@ -1,0 +1,15 @@
+- **Print or Scan** a **test page**
+	- Assists in identifying the problem with a problem
+- **Windows** has a **built** in **"Print Test Page" function**
+- Can be done using **diagnostic tools** such as:
+	- Web based utilities **built into the printer**
+	- Vendor specific utilities
+	- Generic Utilities e.g. testprint.net
+- If test page has **bad output** such as:
+	- One or more **line printed down** the **page**
+		- **Inkjet Printer** <- Clean Printheads
+		- **Laser Printer** <- Check Photosensitive Drum for Scratches
+	- **Faded Prints** or **Blank Pages**
+		- Likely low toner or ink
+	- **Double/Echo images** or **Speckling**
+		- Laser Printer <- Optical drum likely not cleaning properly, causing ghost or "shadow" from previous drum rotations

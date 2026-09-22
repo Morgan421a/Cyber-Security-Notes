@@ -4,473 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a3d53c598cf0d219",
+        "id": "3b97e22de660e51e",
         "type": "tabs",
         "children": [
           {
-            "id": "12f8fe58e133cb0e",
+            "id": "37528d6bef312f92",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting/Troubleshooting Display Issues.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Troubleshooting Display Issues"
-            }
-          },
-          {
-            "id": "fcbb2bdac3add6f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-power-issues/Poor Battery Health.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Poor Battery Health"
-            }
-          },
-          {
-            "id": "29f518556a5724e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-power-issues/Charging Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Charging Issues"
-            }
-          },
-          {
-            "id": "5eec2d88c8ad6aee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-power-issues/Swollen Batteries.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Swollen Batteries"
-            }
-          },
-          {
-            "id": "38f23938f0dfe8c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-hardware-issues/Overheating.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Overheating"
-            }
-          },
-          {
-            "id": "cefea78a44781253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-hardware-issues/Liquid Damage.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Liquid Damage"
-            }
-          },
-          {
-            "id": "1ea71af1087a5820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-hardware-issues/Physically Damaged Ports.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Physically Damaged Ports"
-            }
-          },
-          {
-            "id": "e0e8cea11ea5fe72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-performance-issues/Degraded Performance.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Degraded Performance"
-            }
-          },
-          {
-            "id": "310a76a8cae78369",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-performance-issues/Unable To Install New Applications.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Unable To Install New Applications"
-            }
-          },
-          {
-            "id": "e45d2312e802c1ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Broken Screen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Broken Screen"
-            }
-          },
-          {
-            "id": "256867c12584329b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Dim Images.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dim Images"
-            }
-          },
-          {
-            "id": "0670f0729d2f208c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Digitiser Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Digitiser Issues"
-            }
-          },
-          {
-            "id": "36d197fdebd2f394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Cursor Drift and Touch Calibration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cursor Drift and Touch Calibration"
-            }
-          },
-          {
-            "id": "487a41580802fc7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Stylus Does Not Work.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stylus Does Not Work"
-            }
-          },
-          {
-            "id": "e2ea5420c9f9ca25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues/Wi-Fi Connectivity Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wi-Fi Connectivity Issues"
-            }
-          },
-          {
-            "id": "5cc1c42897e0e387",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues/Bluetooth Connectivity.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bluetooth Connectivity"
-            }
-          },
-          {
-            "id": "5e81df90a730d1d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues/Wi-Fi Connectivity Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wi-Fi Connectivity Issues"
-            }
-          },
-          {
-            "id": "d15c9933343453dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues/Wi-Fi Connectivity Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wi-Fi Connectivity Issues"
-            }
-          },
-          {
-            "id": "8499d1c3833c51e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-malware-issues/Malware.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Malware"
-            }
-          },
-          {
-            "id": "c4d8bc57249abcda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/physical-cabling-and-input-source-issues/Incorrect Input Source.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Incorrect Input Source"
-            }
-          },
-          {
-            "id": "a785000b6809758f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/physical-cabling-and-input-source-issues/Physical Cabling Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Physical Cabling Issues"
-            }
-          },
-          {
-            "id": "e6e5d272bd89a4f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/projector-issues/Burnt Out Bulb.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Burnt Out Bulb"
-            }
-          },
-          {
-            "id": "4d430ae5ac291f14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Fuzzy Image.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fuzzy Image"
-            }
-          },
-          {
-            "id": "05319faf9c134353",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Display burn-in.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Display burn-in"
-            }
-          },
-          {
-            "id": "2053440ff0448db3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Dead Pixels.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dead Pixels"
-            }
-          },
-          {
-            "id": "f512c8c77fa88633",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Flashing Screen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Flashing Screen"
-            }
-          },
-          {
-            "id": "25cbbdd3540661fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Incorrect Colour Display.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Incorrect Colour Display"
-            }
-          },
-          {
-            "id": "1f6c972f4aacfa28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/physical-cabling-and-input-source-issues/Audio Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Audio Issues"
-            }
-          },
-          {
-            "id": "5becaaf902ab82b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Dim Image.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dim Image"
-            }
-          },
-          {
-            "id": "bbe31c0425ba5f77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/projector-issues/Intermittent Projector Shutdown.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Intermittent Projector Shutdown"
-            }
-          },
-          {
-            "id": "bd63123d5d53ec5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Sizing Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sizing Issues"
-            }
-          },
-          {
-            "id": "052ae07157f9717d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Dim Image.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dim Image"
-            }
-          },
-          {
-            "id": "37d9464412983f66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Sizing Issues.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sizing Issues"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 32
+        ]
       }
     ],
     "direction": "vertical"
@@ -646,44 +193,44 @@
       "glossary-linker:Glossary overview": false
     }
   },
-  "active": "37d9464412983f66",
+  "active": "37528d6bef312f92",
   "lastOpenFiles": [
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Incorrect Colour Display.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Display burn-in.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Dead Pixels.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Flashing Screen.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Fuzzy Image.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Dim Image.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Image Quality Problems.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Distorted Image.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues/Sizing Issues.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/projector-issues/Intermittent Projector Shutdown.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/projector-issues/Burnt Out Bulb.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/physical-cabling-and-input-source-issues/Audio Issues.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/physical-cabling-and-input-source-issues/Physical Cabling Issues.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/physical-cabling-and-input-source-issues/Incorrect Input Source.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-malware-issues/Malware.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/video-quality-issues",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/projector-issues",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting/physical-cabling-and-input-source-issues",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/display-troubleshooting",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/hardware-troubleshooting/Troubleshooting Mobile Devices.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-malware-issues",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues/Wi-Fi Connectivity Issues.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues/Bluetooth Connectivity.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues/Hardware and Software Related Issues.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues/Cellular Connectivity.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-connectivity-issues",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Stylus Does Not Work.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Cursor Drift and Touch Calibration.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Digitiser Issues.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Dim Images.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues/Broken Screen.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-performance-issues/Unable To Install New Applications.md",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-display-issues",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-performance-issues",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-hardware-issues/Liquid Damage",
-    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/mobile-device-troubleshooting/mobile-hardware-issues",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-feed-issues/Multipage Misfeed.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-job-issues/Garbled Prints.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-finishing-issues/Paper Tray Not Recognised.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-finishing-issues/Hole Punching Issues.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-finishing-issues/Stapling Issues.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-finishing-issues/Incorrect Page Orientation.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/printer-connectivity-issues/Frozen Print Queue.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/printer-connectivity-issues/Connectivity Issues.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Missing Dots (Dot Matrix Printers).md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Lines Down Or Across Printed Pages.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Toner Not Fusing Properly (Laser Printers).md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Double or Echo Images (Ghosting).md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Incorrect Chroma Display.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Missing Colours From Printouts.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Faded Prints.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Speckling on Printed Pages.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/stripes-or-lines-on-pages/Black Stripes or Entirely Black Pages.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/stripes-or-lines-on-pages/White Stripes.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-feed-issues/Paper Jams.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-feed-issues/Paper Not Feeding.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-feed-issues/Grinding Noises.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-feed-issues/Creased Paper.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-feed-issues/Tray Not Recognised.md",
+    "Untitled.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/stripes-or-lines-on-pages",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/faded-or-blank-pages",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues/Blank Pages.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-finishing-issues/Incorrect Page Sizes.md",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/general-printer-issues",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-job-issues",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-finishing-issues",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-quality-issues",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/print-feed-issues",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting/printer-connectivity-issues",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/printer-troubleshooting",
+    "A+ Study/Core-1-(220-1201)/28%-Hardware-and-Network-Troubleshooting/network-troubleshooting/general-issues",
     "Misc/Images/Pasted image 20260914113331.png",
     "Misc/Images/Pasted image 20260910104847.png",
     "Misc/Images/Pasted image 20260910101115.png",

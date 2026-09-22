@@ -1,0 +1,7 @@
+- Check settings when printing
+- Orientation typically controlled by print driver of the OS
+	- Ensure print driver up to date
+- If print driver is causing incorrect orientation, **may be possible to control page orientation at the printer**
+	- Some printers have a default setting
+		- Check settings on printer console
+- Use Print Preview to check orientation before sending print job

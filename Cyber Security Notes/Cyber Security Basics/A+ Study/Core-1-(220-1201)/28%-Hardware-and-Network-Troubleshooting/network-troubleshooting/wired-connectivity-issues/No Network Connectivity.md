@@ -1,0 +1,25 @@
+- **Check** for a **link light on the switch, router, or NIC where** the **Ethernet** connection is **plugged in**
+	- **No light** = Possible bad connection or cable
+	- **Link Light** = Indicates connection to the switch
+	- **Activity Light** = Shows data transfer
+	- **Speed Light** = Displays network speed (10/100/1000 Mbps)
+- **Check** **Network Interface Card** (NIC) (If applicable)
+- **Ensure** functional **cable length isn't exceeded** (100 M for UTP)
+	- Exceeding cable length **can lead to** **decreased signal strength** and **data transmission errors**
+	- Can lead to **loss of connectivity** over extended distances
+	- **Use repeaters, switches, or fibre optic cables for longer distances**
+- **Pink loopback address of device** being used
+	- Ping loopback address = 127.0.0.1
+	- Checks if IP stack within system is operating normally
+	- No ping back means potential issue with OS network config
+- **Ping local IP address**
+	- Local IP address usually the one given to device by a DHCP server or configured manually
+	- Verifies if device is connected to the rest of a network
+	- Checks local config, adaptor, and link signal
+- **Ping Default Gateway**
+	- Confirms if device can communicate with another device on the local network
+- **Ping Device outside of local network**
+	- Any external IP address or common IP addresses such as:
+		- 8.8.8.8
+		- 9.9.9.9
+		- 1.1.1.1

@@ -1,0 +1,11 @@
+- Wireless clients and APs using incompatible or different Wi-Fi standards
+- **Wi-Fi Standards and frequencies**:
+	- **2.4 GHz**:
+		- 802.11b/g/n <- Up to 600 Mbps with 802.11n
+	- **5** **GHz**:
+		- 802.11a/n/ac/ax <- Up to several Gbps with 802.11ax
+- **Older devices connecting to an AP can force entire network to downgrade speed to the lowest supported standard**
+- **Solution**:
+	- Configure APs to only allow modern standards (e.g. AC or AX)
+	- Use separate SSIDs for older and newer devices to prevent performance degradation
+	- Upgrade legacy devices where possible to maintain high network speeds

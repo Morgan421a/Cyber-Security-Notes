@@ -1,0 +1,8 @@
+- Caused by:
+	- Protective tape left on new ink/toner cartridges
+	- Poor cartridge installation
+	- Software issues sending blank pages
+- Solutions:
+	- Remove protective tape from cartridges
+	- Re-install cartridge properly
+	- Check print settings and document content

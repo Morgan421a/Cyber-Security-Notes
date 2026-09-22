@@ -1,0 +1,18 @@
+- Can **indicate** an **issue** **such as**:
+	- Paper Jam
+	- Ink Cartridge has come loose or needs to be re-seated
+	- Carriage is stalled or jammed
+	- Misaligned or worn gears
+	- Damaged toner cartridge, toner, or fuser mechanism
+- **Each printer** has **different troubleshooting processes**
+	- Check documentation for each printer before attempting to troubleshoot
+	- Some Inkjet Printers have a particular process
+- May require additional, specialist maintenance
+	- Typically needed for replacing bad parts
+- **Printer may need to be replaced**
+- **Troubleshooting**:
+	- Inspect accessible internal components, such as fuser units and rollers, for wear
+	- Check toner cartridge alignment (Laser printers)
+	- Look for debris or foreign objects obstructing moving parts
+	- Lube or replace gears and rollers as needed
+	- Carry out diagnostic tests using printer's control panel (if applicable)

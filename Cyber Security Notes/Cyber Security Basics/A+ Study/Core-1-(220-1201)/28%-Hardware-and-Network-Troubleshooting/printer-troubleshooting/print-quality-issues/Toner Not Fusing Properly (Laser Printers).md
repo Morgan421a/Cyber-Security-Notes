@@ -1,0 +1,6 @@
+- Print smudges or smears when touched
+- **Commonly caused by**:
+	- Malfunctioning fuser unit not heating properly
+- **Solutions**:
+	- Inspect fuser for proper voltage and heat output
+	- Replace fuser if needed

@@ -1,0 +1,7 @@
+- External sources can cause signal degradation
+	- e.g. Power lines, fluorescent lights, motors and generators, etc.
+- Commonly causes **poor network performance** as well as **loss of data or data corruption**
+- **Solution**:
+	- Re-route cables away from sources of interference
+	- Use STP cables to reduce interference
+	- Use fibre optic cables <- Immune to Electromagnetic Interference (EMI)

@@ -1,0 +1,32 @@
+- **Surrounding** **devices** may **cause interference**, some include:
+	- Fluorescent lights
+	- Microwave ovens
+	- Cordless telephones
+	- IoT Devices
+	- Security Systems
+	- Other high-power sources
+- **Some devices** may be **unpredictable** **or uncontrollable**, such as:
+	- Multi-tenant building <- No control over their devices
+	- Overlapping channels in dense environments
+- **Physical**, non-electrical **objects** can also cause **interference** by blocking signals, such as:
+	- Walls
+	- Steel Structures
+	- Concrete Buildings
+- **Interference** can be **measured** **using** a **Signal to Noise Ratio (SNR)**
+	- Many OS's can provide an SNR overview and graph overtime to provide information on how much surrounding interference there is <- May be located in **Performance Monitor**
+- **Signal to noise ratio should be very large**
+	- 1:1 ratio is awful
+	- Much more signal and very little noise is most desirable
+- **Different frequency bands** are impacted more by interference:
+	- **2.4 GHz Spectrum**:
+		- Prone to **interference due to** **fewer channels and overlapping frequencies**
+		- Commonly interfered with by microwaves, bluetooth devices, and baby monitors
+		- **Use channels 1, 6, 11 to minimise overlap**
+	- **5 GHz Spectrum**:
+		- **More channels** available with **reduced interference risk**
+		- **Less prone to congestion from neighbouring networks**
+- **Signal Interference Solutions**:
+	- Use 5 GHz frequency when possible for reduced interference
+	- Configure APs to use non overlapping channels (1, 6 ,11 in 2.4 GHz)
+	- Remove or relocate interfering devices
+	- Use shielded antennas in interference-prone environments

@@ -1,0 +1,9 @@
+- Possible issue with **paper tray or pickup rollers**
+	- Pickup rollers need to be clean and wear over time
+	- Ensure paper tray properly inserted
+	- Printer Rollers typically included in Laser Printer Maintenance Kits
+- **Paper tray** may be **overloaded or paper misaligned**
+	- Check paper alignment, adjust paper guides align with stack
+	- Ensure paper not packed too tightly
+- **Paper type or size** may be **incompatible**
+	- Try different paper type or size

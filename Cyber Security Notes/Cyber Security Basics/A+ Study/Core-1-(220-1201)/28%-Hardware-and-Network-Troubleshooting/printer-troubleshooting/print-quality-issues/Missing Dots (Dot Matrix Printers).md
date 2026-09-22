@@ -1,0 +1,4 @@
+- **Caused by**:
+	- Worn or damaged printhead pins
+- **Solutions**:
+	- Replace printhead to restore proper dot formation

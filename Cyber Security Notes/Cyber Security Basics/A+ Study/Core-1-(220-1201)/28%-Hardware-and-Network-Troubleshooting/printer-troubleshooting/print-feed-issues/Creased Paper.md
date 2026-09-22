@@ -1,0 +1,4 @@
+- Possible issue in paper path
+	- Ensure path is clear and unobstructed
+- Weight of paper may not meet manufacturer recommendations
+	- Check printer documentation for recommended paper weight

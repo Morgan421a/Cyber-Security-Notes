@@ -1,0 +1,10 @@
+- VoIP apps expect high speed and low latency as data is sent through the network
+	- Real-time apps are demanding
+- Check internet connection <- If communicating across the internet
+	- Run a speed test <- Informs on how much data can be transferred over a period time, allowing slow links to be identified
+- Verify local networking equipment
+	- Old networking equipment can struggle to handle the demands of modern real-time apps, causing significant issues
+	- Old equipment may need to be upgraded
+- View network performance
+	- Use a packet capture for detailed analysis of what's happening on the network
+		- Can determine if issue is related to the amount of traffic, how quickly traffic is being received, or something else

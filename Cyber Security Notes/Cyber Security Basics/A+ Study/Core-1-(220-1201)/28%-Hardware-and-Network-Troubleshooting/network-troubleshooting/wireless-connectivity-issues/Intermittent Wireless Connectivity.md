@@ -1,0 +1,22 @@
+- Potential issue caused by **interference from other devices**
+	- Try configuring a different channel or frequency on the access point
+- Can be due to **weak signal strength** (**Low** Received signal strength indicator (**RSSI**))
+- **Standards mismatches** may be **causing compatibility issues**
+- Possible **multipath interference**
+	- Signals **bounce** off of surrounding surfaces (especially flat ones)
+	- Can cause latency to increase especially in areas of high interference
+- Poor **access point placement**
+- **Solutions**:
+	- **Try improving signal strength**
+		- Move closer to access point
+		- Try using a different antenna on access point, may allow for communication over a wider distance
+		- Use an external antenna (If supported by device)
+	- **Incorrect channel may be used**
+		- Access points usually select the most optimal channel automatically
+			- Possible to set channel manually on access point <- Allows different frequencies to be tested for which is best
+	- **Ensure all devices use compatible standards**
+	- Try **placing Access point in a more centralised area** 
+		- Better signal for all using the AP rather than just one person or group of people
+	- **Identify and remove/mitigate sources of interference**
+
+

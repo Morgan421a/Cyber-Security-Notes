@@ -1,0 +1,5 @@
+- **Don't just pull paper jam out**
+	- Paper might rip and become stuck inside printer mechanism
+	- Can cause damage to internal components
+	- Pull paper out gently and evenly
+- Check Printer Documentation/Manuals for removing paper jams

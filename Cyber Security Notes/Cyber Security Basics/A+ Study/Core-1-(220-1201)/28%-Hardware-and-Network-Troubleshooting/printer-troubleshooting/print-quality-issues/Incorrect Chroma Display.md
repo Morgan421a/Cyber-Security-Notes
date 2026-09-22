@@ -1,0 +1,7 @@
+- Printed Colours not matching expected output
+- **Commonly caused by**:
+	- Poor cartridge placement
+	- Software or driver config errors
+- **Solutions**:
+	- Ensure cartridges installed properly and in the correct slots
+	- Reinstall or update printer drivers and confirm they're configured correctly

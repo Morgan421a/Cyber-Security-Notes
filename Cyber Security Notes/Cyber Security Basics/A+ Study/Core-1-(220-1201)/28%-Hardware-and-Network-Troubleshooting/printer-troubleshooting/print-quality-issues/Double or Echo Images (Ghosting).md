@@ -1,0 +1,4 @@
+- **Commonly caused by**:
+	- Photosensitive Drum not clearing excess toner properly (Laser Printers)
+- **Solutions**:
+	- Replace drum unit <- Might be part of toner cartridge

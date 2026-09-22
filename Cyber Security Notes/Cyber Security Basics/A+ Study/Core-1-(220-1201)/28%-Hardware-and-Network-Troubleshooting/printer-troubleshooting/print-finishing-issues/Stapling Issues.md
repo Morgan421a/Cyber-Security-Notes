@@ -1,0 +1,15 @@
+- Larger printers can collate and staple groups of papers
+- **Common Issues**:
+	- **Staples may become jammed**
+		- Need to be removed before process can continue
+		- Each printer manufacturer has a different removal process <- Check documentation
+	- **Printer fails to staple pages together**
+- **Commonly caused by**:
+	- Exceeding stapler's page limit
+	- Misconfigured stapling position settings
+	- Empty staple cartridge
+- **Solutions**:
+	- Remove jammed staples and re-insert staple cartridge <- According to printer documentation
+	- Check and adjust stapling settings in printer's menu or print driver
+	- Verify staple cartridge isn't empty or incorrectly installed
+	- Print large documents in smaller batches to avoid jams

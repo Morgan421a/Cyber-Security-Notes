@@ -1,0 +1,15 @@
+- Issue may not be the network but rather an issue with something else, such as: 
+	- Low RAM or CPU resources on the User device
+	- Issue with the application or database server
+- Confirm end-to-end connectivity
+	- Ping from one end of the network to the other <- Evaluate response times
+	- Run a speed test to validate
+- Analyse each hop along the way and evaluate the connectivity of each
+	- What type of performance is seen?
+	- Check:
+		- Network Utilisation at each network link
+		- Number of errors
+		- Total throughput through each connection
+		- Any filtering/Firewalls/ACLs that may be in place
+- May require a **packet capture from multiple points** on the network
+	- Verifies if slow-down is due to the network or with the application

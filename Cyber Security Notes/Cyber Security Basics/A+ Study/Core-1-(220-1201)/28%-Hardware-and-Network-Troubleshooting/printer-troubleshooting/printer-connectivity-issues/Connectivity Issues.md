@@ -1,0 +1,15 @@
+- Ensure printer is powered on and set to "online" mode via the control panel
+- Follow any error messages displayed
+- **Confirm network connection type** (Wired or Wireless)
+	- Look for link lights to assist in troubleshooting
+	- Ensure **Wired** connections are **connected** **properly** on both ends
+		- Try different USB cable, port, or computer (if applicable)
+			- Possible USB port malfunction <- Try alternative connection methods
+	- For **Wireless** Connections **Verify IP address configs**
+		- Ensure IP address, Subnet Mask, Default Gateway, DNS, etc. are all configured correctly
+		- Confirm connected to correct Wi-Fi network (SSID and Password)
+		- Check printer has received a DHCP address <- Manually assign address if failed
+		- Move printer closer to wireless AP or use a repeater to improve signal strength
+		- Restart Printer and router to refresh connections
+- **Check print server** is **working properly**
+	- Print server may be part of the printer <- Typically have a management front end for analysing and controlling the print server (Stop, Restart, Managing Pending Print Jobs, etc.)

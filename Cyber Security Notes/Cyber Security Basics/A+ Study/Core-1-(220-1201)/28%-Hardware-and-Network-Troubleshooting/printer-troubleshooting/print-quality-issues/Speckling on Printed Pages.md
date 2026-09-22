@@ -1,0 +1,6 @@
+- Random dots or toner spots on printed pages
+- **Commonly caused by**:
+	- Loose toner inside the printer (Laser printer)
+- **Solutions**:
+	- Clean inside printer with a toner-safe vacuum
+	- Ensure toner cartridge is installed properly

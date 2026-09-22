@@ -1,0 +1,8 @@
+- Caused by:
+	- Draft mode enabled in printer settings
+	- Low ink, toner or a worn ribbon (dot matrix printers)
+	- Improper printhead-to-paper gap (dot matrix printers)
+- Solutions:
+	- Disable draft mode in printer settings
+	- Replace low/empty ink/toner cartridges or ribbon
+	- Adjust platen to correct printhead gap (dot matrix printers)

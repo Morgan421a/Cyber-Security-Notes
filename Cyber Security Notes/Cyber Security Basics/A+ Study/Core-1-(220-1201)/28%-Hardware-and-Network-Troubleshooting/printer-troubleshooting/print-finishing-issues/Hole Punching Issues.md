@@ -1,0 +1,15 @@
+- Some Printers can hole punch papers at the end of the print job
+- Hole punch determined by app and printer driver
+- Hole punch may punch incorrectly or become jammed
+- If **hole punch** is **located incorrectly**
+	- Check app config prior to printing
+	- Ensure printer driver is up to date
+- **Commonly Caused by**:
+	- Exceeding hole punch capacity limit
+	- Misaligned paper guides causing incorrect hole placement
+	- Dust or debris blocking hole-punching mechanism
+- **Solutions**:
+	- Clear jammed paper and debris from hole punch mechanism
+	- Verify paper guides aligned properly before printing
+	- Reduce number of pages per punch cycle to avoid overloading
+	- Clean punch mechanism regularly to prevent buildup
