@@ -16,7 +16,7 @@
 	- **2.4 GHz**
 	- **5 GHz**
 	- **6 GHz**
-	- Some access point and devices can communicate across multiple ranges at the same time
+	- Some access points and devices can communicate across multiple ranges at the same time (Multi-Band (Dual-Band, Tri-Band, Quad-Band))
 - 802.11 committee have grouped frequencies together into channels
 	- **Channels** = Groups of frequencies that are numbered by the IEEE (e.g. channel 44 used for 5 GHz range <- specific range = 5.220 GHz)
 	- Frequencies managed by governing entities
@@ -65,3 +65,4 @@
 	- Identity tokens for ID or unlocking doors
 - Bootstrap for other wireless
 	- NFC helps with Bluetooth pairing by working with the connection target (e.g. phone) to provide the pairing device (e.g. airpods) with the necessary configuration parameters needed to connect to the network
+

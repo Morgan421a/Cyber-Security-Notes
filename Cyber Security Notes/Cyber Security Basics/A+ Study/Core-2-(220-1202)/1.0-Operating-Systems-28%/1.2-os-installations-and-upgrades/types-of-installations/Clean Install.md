@@ -1,0 +1,4 @@
+- Wipe everything from a partition and completely reinstall the OS
+	- Nothing from the previous system will remain <- Replaces entire OS
+	- Deletes all data, user settings, and apps
+- Formats and partitions the target disk before installing a new OS

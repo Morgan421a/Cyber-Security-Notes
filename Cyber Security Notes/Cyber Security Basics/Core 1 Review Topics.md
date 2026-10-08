@@ -14,3 +14,8 @@
 	- DKIM
 	- DNS TXT Records
 - Jason Dion Study guide pg 417 - pg 439
+
+- DMARC
+- DKIM
+- SFP
+- Power Over Ethernet

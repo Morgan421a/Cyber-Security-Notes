@@ -1,0 +1,4 @@
+- Operating systems need to be kept up to date
+	- Ensures peak efficiency capabilities and that security patches are up to date
+- iOS, Windows, and Android need to be checked regularly and prompted for updates
+- Chrome OS updates automatically

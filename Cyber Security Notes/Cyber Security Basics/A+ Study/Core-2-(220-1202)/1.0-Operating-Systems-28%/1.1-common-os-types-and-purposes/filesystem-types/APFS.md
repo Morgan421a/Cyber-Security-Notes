@@ -1,0 +1,11 @@
+- Apple File System
+- Added to macOS Sierra (10.12.4) <- Fully added to High Sierra (10.13)
+- Also available in iOS and iPadOS
+- Optimised for use with SSDs
+- **Max storage volume size** = **8 exabytes**
+- Has built-in **encryption**
+- Built-in **snapshots** (for quick data saving and restoration)
+- Offers increased data integrity options within APFS file system
+- **Space sharing** for more efficient disk management
+- Not natively compatible with non-Apple OS's
+- macOS can read and write to exFAT and FAT32

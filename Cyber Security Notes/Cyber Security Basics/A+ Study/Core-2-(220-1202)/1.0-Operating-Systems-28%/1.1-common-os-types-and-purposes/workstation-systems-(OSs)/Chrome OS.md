@@ -1,0 +1,10 @@
+- Google's Operating System
+	- Based on the Linux Kernel
+- Designed around the Chrome web browser
+	- Most apps are web-based
+- Designed to be a simple OS with minimum overhead
+- Many manufacturers designing hardware for Chrome OS
+	- Commonly laptop-based systems
+- Relies on the cloud <- Internet connectivity required
+	- Most apps are cloud based, no connection to cloud = apps unavailable
+- Can install Android Apps (APKs) for offline use 

@@ -1,0 +1,12 @@
+- GPT Partition Style
+	- GPT = GUID Partition Table
+- Latest partition format standard
+- **UEFI BIOS Required**
+	- UEFI required for booting (instead of BIOS)
+- **Up to 128 partitions** using GPT partition style
+	- Each partition is effectively the same type
+- GPT partition style **Max partition size = Over 9 Billion TB**
+	- Can handle disks larger than 2 TB
+- No need for extended partitions or logical drives
+	- GPT partition style = simpler form of partitioning
+- Common in modern 64-bit systems

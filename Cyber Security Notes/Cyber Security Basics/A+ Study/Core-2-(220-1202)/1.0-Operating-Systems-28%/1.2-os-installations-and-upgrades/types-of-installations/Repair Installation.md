@@ -1,0 +1,17 @@
+- Available in **Windows Recovery Environment** (WinRE)
+	- Allows issues with the Windows OS to be fixed without modifying any user files
+	- Commonly used to fix issues with the OS that can't be fixed through other means
+		- Mainly: boot issues, missing files, and system errors
+- **Two Options**:
+	- **Reset This PC** (Keep My Files):
+		- Re-installs Windows but keeps user files
+		- Removes third-party apps and settings
+		-  **Overwrites all OS files** but **leaves user files as they are**
+	- **Reset This PC** (Remove Everything):
+		- Deletes everything (OS, apps, settings, data)
+		- Prepares system for resale or clean install
+- **Full Reset Option**:
+	- Wipes entire storage device and re-installs a clean version of Windows
+	- **Used when**: 
+		- Malware or corruption makes recovery/repair ineffective 
+		- Selling or giving away the system

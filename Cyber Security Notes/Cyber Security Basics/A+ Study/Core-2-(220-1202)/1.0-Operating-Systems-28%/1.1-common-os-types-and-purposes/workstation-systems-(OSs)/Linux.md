@@ -1,0 +1,12 @@
+- Free, open-source, Unix-compatible software
+	- Is Unix-like, but isn't Unix
+- Many different distributions available <- Different Distributions suit different needs better
+	- e.g. Ubuntu, Debian, Red Hat / Fedora
+- **Advantages**:
+	- No cost, completely free
+	- Works on a wide variety of hardware
+	- Large and active user community that can provide support for the software
+- **Disadvantages**:
+	- Limited driver support, especially with laptops <- Due to the maintaining of the OS being down to individuals as opposed to a focused group, unlike Windows
+		- Hardware drivers may not be available as quickly as for Windows
+	- Support options are limited <- No single company to rely on for support, instead must rely on linux distribution's user community

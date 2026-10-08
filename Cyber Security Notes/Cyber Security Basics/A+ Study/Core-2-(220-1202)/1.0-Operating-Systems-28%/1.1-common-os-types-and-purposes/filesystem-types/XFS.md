@@ -1,0 +1,13 @@
+- Extended File System
+- High performance file system for Linux
+	- Supported in most Linux Distributions
+- Designed for **Scalability**
+	- Useful for large-scale computing and high speed processing
+		- Useful for media production, scientific computing, enterprise storage
+- Supports a large file system size
+	- **Max file and storage volume size** = **8 exabytes**
+- Has built-in **journaling** <- Helps to minimise corruption if data reading or writing is interrupted and allows for fast recovery from system crashes
+- Minimal Fragmentation <- Allows hard drives to perform efficiently when interacting with data
+- Dynamic Inode Allocation
+- Real-time sub-volumes for efficient file management
+- No native support for encryption and on-disk compression

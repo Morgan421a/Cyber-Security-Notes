@@ -1,0 +1,16 @@
+- Every OS has a defined life cycle <- Typically lasts 2 - 5 years
+- **Mainstream Support** for **each Windows version** = **Minimum 5 years**
+	- **Extended support** for certain versions = **Extra 3 to 5 years**
+- **End of Life** (EoL) = Product no longer receives software patches or security updates
+- Legacy OS's:
+	- No longer support by manufacturer
+	- No security updates <- Leaves systems vulnerable
+		- If needing to continue use legacy systems, should be isolated from the internet to reduce risk of security breaches
+- **Windows 10 and 11 Life cycle**:
+	- **Windows 10 Home and Pro** (Released in 2015)
+		- EoL in 2025 (10 years of support)
+	- **Windows 11 21H2** (Released in 2021)
+		- EoL in October 2023
+	- Windows 11 continues in newer versions such as 22H2, each with its own support period
+	- **Some Windows versions get longer support** because **Microsoft priorities large corporate customers** who adopt certain versions for enterprise use
+		- Extended support covers enterprise and home users receiving the same patches

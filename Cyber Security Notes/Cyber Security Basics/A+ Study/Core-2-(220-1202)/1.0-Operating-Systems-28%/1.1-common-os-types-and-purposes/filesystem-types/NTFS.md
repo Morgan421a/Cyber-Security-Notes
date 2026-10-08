@@ -1,0 +1,20 @@
+- NT File System (New Technology File System)
+- **Proprietary** file system designed by **Microsoft**
+- **64-bit File system**
+- Many improvements over FAT32 File System
+- Supports large file sizes and storage volumes:
+	- **8 petabyte theoretical limit**
+	- **256 TB practical limit**
+- Includes **Journaling** <- Verifies and logs data as it's written to ensure integrity
+- Includes Snapshots (Volume Shadow Copy) <- Enables file versioning and rollback
+- Added:
+	- Quotas, File compression, encryption, symbolic links, large file support, security, recoverability
+- **Security features**:
+	- File permissions
+	- Ownership Settings
+	- Encrypting File System (EFS)
+	- Audit trails
+	- Quota Management
+- Not overly compatible across OS's <- Intended use is for Windows OS
+	- Many OS's will read NTFS but not write it
+	- Third party tools are needed for use with Linux and macOS

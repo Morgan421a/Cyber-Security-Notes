@@ -1,0 +1,18 @@
+- Most hardware manufacturers include a recovery partition on the primary storage device
+- Commonly installed by modern OS's
+- Typically a hidden partition that contains all installation files for the OS
+	- Used to restore OS to its factory default state
+- Accessed during boot-up by pressing a specific key
+	- e.g. `F11` or `CTRL` + `F11`
+- **Recovery options** include:
+	- **Full recovery** <- Formats drive and re-installs OS (Deletes all data)
+	- **Repair Mode** <- Overwrites corrupt OS files but keeps user settings and files
+- **Limitations**:
+	- Only works with the original OS drive
+	- If drive upgraded, recovery partition is lost
+	- Requires separate installation media for recovery
+	- Resets OS to original version
+	- If system was upgraded (e.g. Windows 8.1 to Windows 10), recovery partition will revert back to old version (e.g. Windows 8.1)
+		- User must upgrade manually again after recovery
+	- Erases all user data if full recovery performed
+	- User data must be restored from backup after recovery

@@ -1,0 +1,9 @@
+- Install an OS on a computer, then add necessary apps and config 
+	- Once set up as desired, create an image of the system
+	- Install the image on all other computers
+- **Essentially cloning** a **system** to multiple computers
+- Relatively **quick once prior set up** is **complete**
+- Re-imaging process can be automated
+- Image stored on a DVD, USB, or network share
+- Ensures consistency across multiple installations
+- Example of an **unattended installation**

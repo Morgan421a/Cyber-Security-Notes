@@ -1,0 +1,8 @@
+- OS designed for Apple's iPad tablets
+	- A variant of Apple's iPhone iOS
+- Includes many features, such as:
+	- Desktop Browser (Safari)
+	- Second Monitor Support (Sidecar)
+	- Keyboard Support
+	- Multitasking
+	- Apple Pencil Support

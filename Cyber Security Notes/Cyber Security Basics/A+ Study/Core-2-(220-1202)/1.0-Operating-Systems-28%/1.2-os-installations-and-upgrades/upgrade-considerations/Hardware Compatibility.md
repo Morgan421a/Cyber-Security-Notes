@@ -1,0 +1,5 @@
+- Processor, Chipset, and Memory need to support the new OS
+	- Newer OS's typically need more processing power, memory, and storage
+- Check if OS needs a 32-bit (x86) or 64-bit (x64) processor
+	- Windows 11 only supports x64 processors
+	- Older x86 processors can only upgrade to latest version of Windows 10 or switch to Linux

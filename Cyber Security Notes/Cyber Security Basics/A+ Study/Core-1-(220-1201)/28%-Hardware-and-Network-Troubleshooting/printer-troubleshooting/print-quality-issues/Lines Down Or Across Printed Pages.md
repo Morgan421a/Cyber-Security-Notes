@@ -4,10 +4,12 @@
 	- Dirty or faulty Photosensitive drum (Laser printers)
 	- Uneven toner distribution
 	- Clogged printhead jets (inkjet printers)
+	- Corona wire may be dirty preventing proper drum charging
 - **Solutions**:
 	- Clean or replace photosensitive drum (Laser printers)
 	- Gently rock toner cartridge to evenly distribute toner
 	- Carry out printhead cleaning cycle (Inkjet Printers)
+	- Clean corona wire
 
 ### Black Stripes or Entirely Black Pages
 - **Commonly Caused by**:

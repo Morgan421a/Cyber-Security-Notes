@@ -1,0 +1,8 @@
+-  Commonly referred to as **PXE** ("Pixie") <- **P**reboot e**X**ecution **E**nvironment
+- Uses **PXE** within BIOS/UEFI
+- Allows for **remote booting across a network** from a **network server** instead of local storage device
+	- When computer is started, **PXE boot function searches** across **local network to find** a **PXE boot server**
+		- Once found, allows OS installation program to boot as if it's on a drive connected to the computer
+- Computer BIOS Must support booting with PXE
+- **Requires DHCP to assign an IP address** for network booting
+- Commonly used for Windows unattended installations and image deployments

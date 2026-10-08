@@ -1,0 +1,6 @@
+- Store installation files on a separate network drive
+- **Boot system over the network using a pre-boot environment**
+- **Install across the internet from a local server or shared drive**
+- Deploys an OS image remotely
+- Commonly used in large IT environments
+- Example of an **unattended installation**

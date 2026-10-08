@@ -1,0 +1,7 @@
+- Ensure critical apps and peripheral devices have compatible drivers for the new OS
+- Updated drivers for newer OS version may not be available for legacy hardware
+	- e.g. ID badge printer that only supports Windows 10 can't function on Windows 11 due to driver incompatibility
+- Run the PC Health Check app prior to upgrading to confirm compatibility
+- If drivers aren't supported:
+	- Remain on old OS
+	- or replace the unsupported peripherals with newer, compatible models

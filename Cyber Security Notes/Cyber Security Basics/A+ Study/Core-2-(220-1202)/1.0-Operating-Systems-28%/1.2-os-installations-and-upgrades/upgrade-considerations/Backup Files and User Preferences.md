@@ -1,0 +1,2 @@
+- **ALWAYS PERFORM A BACKUP BEFORE UPGRADING, ESPECIALLY FOR CLEAN INSTALLATIONS**
+	- **In-place upgrades can fail to retain data**, so a backup is recommended

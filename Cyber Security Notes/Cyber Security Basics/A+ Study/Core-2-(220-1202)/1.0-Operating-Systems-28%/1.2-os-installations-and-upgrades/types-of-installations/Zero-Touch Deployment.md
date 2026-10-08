@@ -1,0 +1,10 @@
+- Automated installation process
+	- Streamlined implementation
+- Little to no prompts for user to answer during installation
+	- Installation process can be customised
+		- Allows for company-specific configs, such as email server settings, to be set up and included during the OS installation 
+- Seamless user experience
+	- User simply turns on the system
+		- Automated script configures system, sets up domain connections, configures email settings, and sets up any other configs necessary for an org
+- Once zero touch deployment is set up, allows for a laptop to be re-imaged and shipped to a user anywhere in the world
+	- Installation takes care of itself

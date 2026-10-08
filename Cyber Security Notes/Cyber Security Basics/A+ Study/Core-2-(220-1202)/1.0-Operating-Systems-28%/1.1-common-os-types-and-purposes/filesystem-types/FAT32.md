@@ -1,0 +1,6 @@
+- File Allocation Table 32
+- Widely supported across Windows, macOS, and Linux
+- **Max Volume Size** = **2 TB**
+- **Max file size** = **4 GB**
+- **Commonly** used for **external drives** and **USB Flash Drives**
+- **Rarely used for primary OS due to modern storage limitations**

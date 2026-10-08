@@ -1,0 +1,15 @@
+- One of the most popular OS's across the globe
+	- Major market presence
+- Many different versions
+	- Windows 10, Windows 11, Windows Server, etc.
+- **Advantages**:
+	- Supported across the industry
+		- Easy to find supported hardware, software, system support, etc,
+	- Wide selection of OS options
+		- e.g. **Windows server** for servers, **Windows Home** for everyday use, **Windows Enterprise** for corporate use, etc.
+	- Wide variety of software support due to its popularity
+- **Disadvantages**:
+	- High popularity makes it a bigger target for security exploitation
+	- Large hardware support can cause challenges for integration
+		- Manufacturers must write drivers for their hardware to work with the Windows OS, some drivers are better than others 
+			- Poorly written drivers can cause hardware integration issues or long-term support issues

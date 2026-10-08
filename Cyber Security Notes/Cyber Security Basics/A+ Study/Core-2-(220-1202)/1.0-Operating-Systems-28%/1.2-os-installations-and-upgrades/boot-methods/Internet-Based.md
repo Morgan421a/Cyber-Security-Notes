@@ -1,0 +1,4 @@
+- Some systems can boot and install OS's over the internet
+	- Some Linux distributions are designed with minimal initial download and then downloads the rest of the necessary code from the internet
+	- macOS recovery installation will download versions of macOS to install from Apple's servers
+	- Windows updates also provide a way to install OS's directly from an internet source

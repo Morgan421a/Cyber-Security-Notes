@@ -1,0 +1,10 @@
+- **Includes**:
+	- Flash Drives
+	- External SSDs
+	- External HDDs
+	- USB Optical Drives
+- **USB device needs to be bootable**
+	- Done through the use of a **media creation tool**
+	- Can be **created through** the use of an **ISO or** an **Image File**
+- Computer must support booting from USB
+- Widely used due to portability and compatibility with modern hardware

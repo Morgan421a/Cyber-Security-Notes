@@ -1,0 +1,18 @@
+- Resilient File System
+- Developed by Microsoft for enterprise and server environments
+	- Future of Windows File Systems
+	- Effectively an update to NTFS
+	- Found in Windows Server 2012 and later
+	- Limited support in Windows 8.1 and later (Desktop OS)
+- More resilient against data corruption
+- Enhanced scalability
+- Useful for tasks with huge storage requirements
+	- Supports very large drives and storage arrays <- Supports **storage volumes up to 35 Petabytes** 
+- Capable of advanced storage management by working with Microsoft Storage Spaces
+- Attempts to maintain constant data availability
+	- Repairs itself, carries out its own integrity checks (Remove need to run `chkdsk`)
+	- RAID type functionality built into ReFS <- Allows redundant file systems with redundant storage to be created
+- **Not yet widely integrated** <- Microsoft keep updating and improving ReFS as time goes on
+- Uses **checksums** for **automatic data corruption detection and repair**
+- Optimised for large-scale file storage, backup, and virtualisation
+- **Doesn't Support File compression or Disk Quotas**

@@ -30,6 +30,7 @@
 - Running a different OS entirely on a system
 	- i.e. running a Linux or macOS VM on a Windows System
 	- Each OS has their own strengths and weaknesses
+- Can also be running an app designed for a different OS using tools such as **Wine**
 - VMs run on demand, can be opened and closed whenever a User desires
 	- Seamless transitions between different operating systems without the need to reboot the computer
 		- Saves time and resources <- No need to reboot to switch OS, all VMs running on same physical computer and sharing its resources

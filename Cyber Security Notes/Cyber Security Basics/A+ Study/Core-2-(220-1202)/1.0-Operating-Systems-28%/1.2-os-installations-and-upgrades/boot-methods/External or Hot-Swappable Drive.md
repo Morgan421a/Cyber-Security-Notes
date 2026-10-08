@@ -1,0 +1,2 @@
+- Some external drives can mount an **ISO image** (optical drive image)
+	- ISO's can be used to boot from USB

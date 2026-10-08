@@ -1,0 +1,4 @@
+- Occur every 6 - 12 months
+- Improve desktop environment, bundled apps, and system features
+- don't significantly change system requirements but may increase storage needs
+- Use PC Health Check tool to verify compatibility with latest updates

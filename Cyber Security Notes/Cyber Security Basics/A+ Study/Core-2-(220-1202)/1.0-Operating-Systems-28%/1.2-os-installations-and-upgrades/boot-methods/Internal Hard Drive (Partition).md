@@ -1,0 +1,5 @@
+- OS files available on a hidden recovery partition in the computer
+	- Boot from the partition and install OS on a separate partition on the system
+- Stores a disk image or setup files for reinstalling the OS
+- Common in pre-installed laptops and desktops
+- Used for system recovery or clean installations

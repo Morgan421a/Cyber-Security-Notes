@@ -1,0 +1,8 @@
+- Extended File System 4
+- Commonly seen in Linux and Android OS
+	- Default file system for most Linux distributions
+- 64-bit architecture
+- **Max Volume Size** = **1 exabyte**
+- **Max File Size** = **16 TB**
+- Has journaling to improve data integrity
+- Needs third party tools for use on Windows and macOS <- Not supported natively

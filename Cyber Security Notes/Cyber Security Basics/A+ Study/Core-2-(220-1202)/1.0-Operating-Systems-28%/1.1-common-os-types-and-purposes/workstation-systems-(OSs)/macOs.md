@@ -1,0 +1,9 @@
+- Apple's proprietary Desktop OS made to run on their hardware
+- **Advantages**:
+	- Easy to use
+	- Extremely compatible with its intended hardware
+	- Designed with security in mind, reducing security concerns
+- **Disadvantages**:
+	- Requires Apple hardware <- not supported on non-apple devices
+	- Less industry support than Windows leading to more widely available support for Windows OS
+	- Due to exclusivity to Apple hardware, has a higher initial hardware cost to run

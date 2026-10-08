@@ -1,0 +1,9 @@
+- Extended File Allocation Table
+- 64-bit upgrade of FAT32
+- **Max File Size** = **16 exabytes**
+- **Max Volume Size** = **128 petabytes**
+- Created by Microsoft specifically for Flash Drive Storage
+	- **Commonly** used for **flash drives, SD cards, external hard drives**
+- Compatible across many OS's
+	- i.e. Windows, Linux, macOS
+- Lacks advanced security and journaling features of other file systems such as NTFS

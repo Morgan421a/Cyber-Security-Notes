@@ -1,0 +1,5 @@
+- Having multiple OS's on the same physical device simultaneously
+	- Choose desired OS from a boot menu when starting device
+		- e.g. Windows and Linux both on the same device
+- **Different OS's must be kept on separate partitions if on the same drive**
+	- e.g NTFS partition for Windows, ext4 partition for Linux
