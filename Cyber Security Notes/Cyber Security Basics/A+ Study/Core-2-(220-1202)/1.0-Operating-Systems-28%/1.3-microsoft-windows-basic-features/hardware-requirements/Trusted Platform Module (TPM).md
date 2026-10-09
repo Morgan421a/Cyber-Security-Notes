@@ -1,0 +1,5 @@
+- **TPM** = **Security hardware on the motherboard**
+- **Windows 11 requires TPM 2.0 to be supported and enabled on the computer**
+	- Used for BitLocker, Windows Hello, and other Windows features
+- Run `tpm.msc` to open Windows' TPM management console
+	- TPM Management Console provides information about the TPM on a device

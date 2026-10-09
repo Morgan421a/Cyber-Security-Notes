@@ -1,0 +1,43 @@
+- Designed for very large scale orgs and businesses
+	- Includes **volume licensing**
+	- Includes **server features**
+- Offers **additional management functions,** **such as Device Management** through the use of:
+	- Mobile Device Management (MDM)
+	- Mobile Application Management (MAM)
+- **Supports ReFS** (Resilient File System)
+- Includes **AppLocker**
+	- Admin Feature
+		- Grants control over what apps can be run
+- Offer **BranchCache** Feature
+	- Allows data to be cached at a remote site instead of using a WAN connection
+- **Granular User Experience (UX) Control**
+	- Allows admins to define what users see on the desktop
+		- Gives control over what Windows 10 features are visible to the end user and which aren't
+	- Useful for Kiosk and Workstation Customisation
+- Offers **Application Virtualisation** (App - V)
+	- Allows for the running of apps in isolated environments (sandbox)
+	- Protects system from malware and enhances management efficiency
+- **User Environment Virtualisation** (UE - V)
+	- Captures and manages Windows and app settings for individual users
+		- Allows multiple users on the same machine while keeping their settings separate
+- **Direct Access**
+	- Automatic remote access to corporate networks without needing a VPN
+		- Ensures easy connectivity for remote users
+- **Credential Guard**
+	- Uses virtualisation based security to protect credentials from unauthorised access
+		- Assists in securing privileged account info
+- **Windows To Go**
+	- Allows users to run a corporate version of Windows from a USB flash drive
+		- Improves security for remote workers using PCs
+
+#### Windows 11 Enterprise/Education Edition Feature Breakdown
+- Access to Windows Domains
+- Includes BitLocker Support
+- Can use Remote Desktop as a Client and Host/Server
+- **64-bit (x64) version**
+	- Supports **up to 6 TB RAM**
+	- **Minimum Processor** = **1 GHz** minimum **clock speed**, at least **two or more cores**
+- **No Support for 32-bit (x86) systems**
+
+#### Licensing Options:
+- **Volume Licensing Only**

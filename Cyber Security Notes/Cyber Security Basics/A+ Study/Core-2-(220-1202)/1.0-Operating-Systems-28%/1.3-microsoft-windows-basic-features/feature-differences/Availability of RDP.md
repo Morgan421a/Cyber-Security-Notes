@@ -1,0 +1,8 @@
+- RDP allows for the remote access and control of another device without physically being there
+	- Uses a GUI instead of CLI unlike SSH
+- **RDP Client** = **Software used to connect to** a **Remote Desktop Service**
+	- Clients available for almost any OS
+- **Remote Desktop Service**
+	- Provides access for the RDP Client
+	- Available in **Windows 10 and 11 Pro and Enterprise Editions**
+		- Not available in Windows 10 and 11 Home

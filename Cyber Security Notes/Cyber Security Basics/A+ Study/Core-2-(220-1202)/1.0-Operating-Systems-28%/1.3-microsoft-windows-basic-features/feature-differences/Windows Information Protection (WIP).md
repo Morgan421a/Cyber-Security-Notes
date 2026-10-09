@@ -1,0 +1,3 @@
+- Used to be called **Enterprise Data Protection** (EDP)
+- Helps **prevent data leakage and unauthorised data exfiltration**
+- **Improves security for corporate data** stored on Windows machines (e.g. Pro Edition)

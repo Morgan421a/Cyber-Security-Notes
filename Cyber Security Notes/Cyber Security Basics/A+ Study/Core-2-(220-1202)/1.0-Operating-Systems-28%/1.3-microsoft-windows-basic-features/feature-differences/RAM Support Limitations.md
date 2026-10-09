@@ -1,0 +1,12 @@
+- Ram support varies between Windows Editions
+	- More advanced additions can support additional RAM
+- Windows 10 only (Windows 11 doesn't support x86 architecture)
+	- **x86**:
+		- Home = 4 GB
+		- Pro = 4 GB
+		- Enterprise = 4 GB
+- Windows 10 and 11:
+	- **x64**:
+		- Home = 128 GB
+		- Pro = 2 TB
+		- Enterprise = 6 TB

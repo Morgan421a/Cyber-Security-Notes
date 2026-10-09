@@ -1,0 +1,10 @@
+- **EFS** = **Encrypting File System**
+	- Protects **individual files and folders**
+	- Built-in to the NTFS File System
+- **BitLocker**
+	- **Full Disk Encryption** (FDE)
+		- **Everything on** the **drive** is **encrypted**, **including the OS**, data files, and anything else stored on the volume
+	- **Uses AES** (Advanced Encryption Standard) **encryption to secure data at rest**
+	- Protects storage devices such as SSDs and HDDs
+	- **Stores encryption keys within the TPM**
+- Use for both BitLocker and EFS in business and home use, especially on mobile devices

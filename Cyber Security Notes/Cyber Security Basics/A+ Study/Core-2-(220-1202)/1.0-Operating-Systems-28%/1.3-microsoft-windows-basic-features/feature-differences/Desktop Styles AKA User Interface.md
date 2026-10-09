@@ -1,0 +1,8 @@
+- In a **workplace**:
+	- Desktops typically standardised
+	- Common user interface between devices
+	- Customisation usually very limited
+	- Allows for users to use any computer and immediately understand where important resource are located
+- At **Home**:
+	- Complete Flexibility and customisation
+	- Can change background photos, colours, UI Sizing, etc.

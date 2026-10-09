@@ -1,0 +1,42 @@
+- Designed for implementation in large organisations
+	- Includes **Volume Licensing** <- One license authorises the use of software on a large number of computers and/or users
+- Includes **AppLocker**
+	- Admin Feature
+		- Grants control over what apps can be run
+- Offer **BranchCache** Feature
+	- Allows data to be cached at a remote site instead of using a WAN connection
+- **Granular User Experience (UX) Control**
+	- Allows admins to define what users see on the desktop
+		- Gives control over what Windows 10 features are visible to the end user and which aren't
+	- Useful for Kiosk and Workstation Customisation
+- Offers **Application Virtualisation** (App - V)
+	- Allows for the running of apps in isolated environments (sandbox)
+	- Protects system from malware and enhances management efficiency
+- **User Environment Virtualisation** (UE - V)
+	- Captures and manages Windows and app settings for individual users
+		- Allows multiple users on the same machine while keeping their settings separate
+- **Direct Access**
+	- Automatic remote access to corporate networks without needing a VPN
+		- Ensures easy connectivity for remote users
+- **Credential Guard**
+	- Uses virtualisation based security to protect credentials from unauthorised access
+		- Assists in securing privileged account info
+- **Windows To Go**
+	- Allows users to run a corporate version of Windows from a USB flash drive
+		- Improves security for remote workers using PCs
+#### Windows 10 Enterprise/Education Edition Feature Breakdown
+- **Access to Windows Domains**
+- Includes **BitLocker Support**
+- **Remote Desktop** can be used **as** a **Client** **and** a **Host/Server** <- Can connect to another host/server (Client) and can be connected to by another client (Host/Server)
+- **Includes Group Policy Management**
+- **32-bit (x86) version**: 
+	- Only supports **up to 4 GB RAM** <- **1 GB Minimum RAM Required**
+	- **20 GB minimum storage** required
+	- **Minimum Processor** = **1 GHz** minimum **clock speed**, at least **two or more cores**
+- **64-bit (x64) version**: 
+	- Only supports **up to 6 TB RAM** <- **2 GB Minimum RAM Required**
+	- **20 GB minimum storage** required
+	- **Minimum Processor** = **1 GHz** minimum **clock speed**, at least **two or more cores**
+
+#### Licensing Options:
+- **Volume Licensing Only**

@@ -1,0 +1,9 @@
+- **Windows 11 requires the UEFI BIOS**
+	- Provides **capabilities for Secure Boot** which **Windows 11 requires** in order **to operate**
+		- **Hardware must be Secure Boot Capable**
+	- **Secure Boot provides additional device security**
+	- **Secure Boot Status** can be **checked in** the **`System Information`** Utility **under** the **`System Summary`** section
+		- Under the heading **`Secure Boot State`** <- Should be set to **`On`**
+- UEFI BIOS may not be available on legacy systems
+	- Check with PC manufacturer
+	- PC may need to be replaced or alternative OS's may need to be used (e.g. Linux)

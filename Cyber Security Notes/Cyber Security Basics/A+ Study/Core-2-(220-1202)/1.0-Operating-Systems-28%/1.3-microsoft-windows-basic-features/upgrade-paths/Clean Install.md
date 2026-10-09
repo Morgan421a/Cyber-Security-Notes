@@ -1,0 +1,7 @@
+- **Backup files before starting**
+- Essentially installing a new OS from square one
+- Process typically **started by booting from** the **installation media** (e.g. a USB drive)
+- Options available for stored data:
+	- **Keep Everything** <- Retains files, apps, drivers, and settings
+	- **Keep Data Only** <- Keeps personal files and drivers but removes apps and settings
+	- **Clean Install** <- Wipes everything for a fresh installations

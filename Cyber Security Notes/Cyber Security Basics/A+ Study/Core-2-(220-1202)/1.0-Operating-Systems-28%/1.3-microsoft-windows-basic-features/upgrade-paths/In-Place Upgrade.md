@@ -1,0 +1,2 @@
+- Upgrades the existing OS while keeping all of the apps, files, and settings
+- Set up typically started from within the existing OS

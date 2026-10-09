@@ -1,0 +1,36 @@
+- **Support Ended October 14th, 2025**
+- Designed for home users
+	- Version that comes pre-installed on a computer purchased from a retail store
+- Windows integrated with **Microsoft Account** and Microsoft **OneDrive Backup feature**
+- Includes **Windows Defender** <- Anti-Virus and Anti-Malware Software
+- **Microsoft Cortana** feature allows for **vocal interaction** with the Windows OS
+- Includes features related to gaming, video, and multimedia
+#### Windows 10 Home Edition Feature Breakdown:
+- **No** Access To **Microsoft Domain**
+- **BitLocker support not included** = No FDE
+- **Remote Desktop** can **only** be used **as** a **client** <- Can connect to and control a host/server, but can't be connected to
+- **Group Policy Management** Not Included
+- **No** **Windows Information Protection** (WIP) to prevent data loss
+- **Doesn't support** Mobile Device Management (**MDM**)
+- **32-bit (x86) version**: 
+	- Only supports **up to 4 GB RAM** <- **1 GB Minimum RAM Required**
+	- **20 GB minimum storage** required
+	- **Minimum Processor** = **1 GHz** minimum **clock speed**, at least **two or more cores**
+- **64-bit (x64) version**: 
+	- Only supports **up to 128 GB RAM** <- **2 GB Minimum RAM Required**
+	- **20 GB minimum storage** required
+	- **Minimum Processor** = **1 GHz** minimum **clock speed**, at least **two or more cores**
+
+#### Licensing Options:
+- **OEM License**:
+	- Pre-installed by **Original Equipment Manufacturer** (OEM)
+	- Bound to specific hardware it was installed on
+		- Can't be transferred to a different device
+- **Retail License**:
+	- Purchased separately from device
+	- Can be installed on any compatible hardware
+	- Can be transferred between devices
+		- Can only be used on one device at a time
+	- Ensures access to latest security features and updates
+	- Free Upgrade available without additional licensing costs
+		- Upgrade from Windows 10 Home to Windows 11 Home for free

@@ -1,0 +1,10 @@
+- **Windows N Edition**
+	- **N** = **Not With Media Player**
+		- **No Windows Media Player or any other Multimedia Utilities**
+	- **Windows Editions for Europe**
+		- Available for all main versions of Windows (Home, Pro, Enterprise and Education)
+	- Created as a result of antitrust investigations by the European Commission
+	- **Missing features can be added through** the **Media Feature Pack For N Edition**
+		- Found in `Settings` -> `Apps` -> `Optional Features` -> `Add an Optional Feature` -> `Media Feature Pack`
+	- Typically used to comply with EU regulations
+	- Preferred by orgs that desire more control over installed multimedia apps

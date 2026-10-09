@@ -1,0 +1,11 @@
+- **Group Policy Editor**
+	- Part of Active Directory
+	- Allows for the management of many systems from one place through the creation and application of policies defining how systems can be used on the network
+	- Policies can be part of Active Directory or a local system
+- **Local Group Policy**
+	- Manages the local device
+	- Editor accessed through `gpedit.msc` in the `run` dialog box
+- **Group Policy Management Console**
+	- Integrated with Active Directory
+	- Allows for policies to be applied for multiple or all systems across the network
+	- Editor access through `gpmc.msc` in `run` dialog box
