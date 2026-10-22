@@ -1,0 +1,10 @@
+- Allows for apps to be run at a specified date, time or as a recurring event
+- Windows has multiple pre-defined tasks and schedules built into task scheduler
+	- Allows users to simply enable them for ease of automation
+- Allows for tasks to be grouped into folders for organisation
+- Main screen of the utility shows all tasks that have run within the last hour, 24 hours, 7 days, or 30 days
+- Clicking `Task Scheduler Library` shows all currently configured tasks
+	- Clicking on a particular task lists information about the task and when it will trigger
+- Add new tasks by clicking `Create Task` on the right side panel
+	- Configure settings for the task then click `OK`
+- **Can be accessed via MMC or by using `taskschd.msc` in the `Run` Dialog**

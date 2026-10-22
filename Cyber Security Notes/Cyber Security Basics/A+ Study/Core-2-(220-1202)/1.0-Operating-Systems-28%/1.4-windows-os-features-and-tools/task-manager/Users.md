@@ -1,0 +1,5 @@
+- Lists all signed-in user accounts on the local device
+	- Also lists any active sessions where someone is connected via RDP <- **Active** status = currently connected and working, **Disconnected** status = RDP window closed but session still alive in background (consuming resources and a session slot)
+- Standard non-admin users can view the other accounts but cannot see any processes currently being run by them with the exception of their own account
+- Admins can see both the accounts themselves and the processes they're currently running
+- Admins can **Disconnect** and **Manage** users in the tab by right-clicking on a particular user

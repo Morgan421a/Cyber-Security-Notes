@@ -1,0 +1,11 @@
+- Allows for the gathering of long-term stats for the device
+	- Can collect OS metrics over a very long time frame
+		- Collects metrics on Disk, memory, CPU, etc.
+- Allows for Alerts, Alarms, and automated actions to be executed in the event that a condition is met
+- Data can be collected and stored over a specified time (hours, days, weeks) to allow for the analysis of long term trends
+- Has built-in reports to allow for data compiled overtime for ease of viewing
+- Clicking `Performance Monitor` under the `Monitoring Tools` folder allows for the configuration of what data to view
+	- Click the plus symbol and select the specific data to collect e.g all processor data
+	- Shows a graph and detailed information underneath for the specified data
+	- Makes troubleshooting possible hardware issues easier
+- **Can be launched via MMC or in the `Run` Dialog by using `perfmon.msc`**

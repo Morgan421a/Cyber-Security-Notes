@@ -12,6 +12,5 @@
 		- Existing partitions may not be compatible with an OS and need to be removed/changed prior to use
 - MBR-style hard disk can have up to 4 partitions
 - GPT supports up to 128 partitions
-	- UEFI BIOS or BIOS-compatibility mode required
-		- BIOS-compatibility mode disables UEFI SecureBoot <- meaning some modern OS's won't work in BIOS compatibility mode
+	- UEFI BIOS required
 - **CREATING AND REMOVING PARTITIONS CAN EASILY DELETE DATA, ENSURE CORRECT DRIVE IS SELECTED AND EXISTING PARTITIONS ARE NOT MODIFIED BY ACCIDENT**

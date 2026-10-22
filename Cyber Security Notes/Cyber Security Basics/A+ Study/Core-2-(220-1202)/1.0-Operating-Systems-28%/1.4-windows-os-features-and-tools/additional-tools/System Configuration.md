@@ -1,0 +1,8 @@
+- Allows for the **management of the boot processes, startup, services, etc.**
+- **`msconfig.exe` in `Run` dialog**
+- Different tabs within the utility
+	- **General** - Configure how Windows will startup (normal, diagnostic, selective)
+	- **Boot** - Select which OS to boot, and other boot options, such as safe boot and no GUI boot
+	- **Services** - Enable/Disable which services to run upon startup
+	- **Startup** - Enable/Disable which apps can run upon startup (now built into task manager)
+	- **Tools** - Launch various tools and utilities from this tab

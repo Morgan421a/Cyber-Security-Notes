@@ -1,0 +1,3 @@
+- Provides a quick and easy way to free up space on a drive by finding unused or unneeded files
+- Has pre-set categories to select from for cleanup e.g. temporary internet files
+- **`cleanmgr.exe` in `Run` dialog**

@@ -1,0 +1,12 @@
+- Allows for permissions and rights of Users to be configured as well as allowing for users to be grouped together
+- Predefined Windows User types are:
+	- Administrator <- Windows Super-user
+	- Guest <- Limited Access
+	- "Regular" User
+- Windows has multiple predefined groups, some of which are:
+	- Administrators
+	- Users
+	- Backup Operators
+	- Power Users
+- Add new users by Right Clicking and selecting `New User` and filling out the details for the user
+- **`lusrmgr.msc` in `Run` dialog**

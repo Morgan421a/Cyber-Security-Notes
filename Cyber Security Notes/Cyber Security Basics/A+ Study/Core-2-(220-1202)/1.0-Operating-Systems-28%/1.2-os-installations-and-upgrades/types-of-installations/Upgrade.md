@@ -2,4 +2,3 @@
 	- Called an "**In-Place Upgrade**"
 	- User settings, apps, and data file preserved
 	- e.g. Upgrading from Windows 10 to 11 without losing files
-- 

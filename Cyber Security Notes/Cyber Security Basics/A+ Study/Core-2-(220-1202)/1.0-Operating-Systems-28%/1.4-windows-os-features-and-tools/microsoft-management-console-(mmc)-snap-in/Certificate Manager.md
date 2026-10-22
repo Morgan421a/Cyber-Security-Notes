@@ -1,0 +1,6 @@
+- Certificates used to provide information such as ownership of a computer as well as to enable encryption functions within an OS
+- Certificate Manager lists all user and trusted certificates associated with the device
+	- Allows for certs to be added or removed from the device
+- Right clicking a cert allows it to be opened and view details about the particular cert
+- Certs are grouped into Folders
+- **Can be accessed via MMC or through `Run` Dialog by using `certmgr.msc`**

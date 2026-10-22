@@ -1,0 +1,7 @@
+- Allows for startup apps to be managed
+	- Which programs start upon Windows login
+	- Can easily be toggled on and off (**Enable**/**Disable**)
+- Shows **startup impact** of each application (None, Low, Medium, High, Not Measured)
+- Useful for **troubleshooting startup issues**
+	- Can disable individual apps, groups of apps, or all apps on startup
+	- Disable potential causes of issues, restart system and see if issue is resolved

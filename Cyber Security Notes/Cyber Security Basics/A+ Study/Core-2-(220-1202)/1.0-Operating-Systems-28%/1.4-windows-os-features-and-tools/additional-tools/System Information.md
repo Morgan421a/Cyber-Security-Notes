@@ -1,0 +1,9 @@
+- Provides an overview of the information about the device
+- **`msinfo32.exe` in `Run` dialog**
+- Has different Categories for information:
+	- **Hardware Resources**:
+		- Contains info such as Memory, DMA (Direct Memory Access) settings, IRQ's (Interrupt Requests), conflicts with any hardware settings
+	- **Components**:
+		- Info such as Multimedia, Display, Input, Network
+	- **Software Environment**:
+		- Info such as installed drivers, pending print jobs, running tasks on the system

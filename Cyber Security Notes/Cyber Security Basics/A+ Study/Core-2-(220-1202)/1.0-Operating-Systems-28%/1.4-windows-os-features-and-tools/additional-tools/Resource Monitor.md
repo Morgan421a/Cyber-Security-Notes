@@ -1,0 +1,5 @@
+- Provides real time view of device performance alongside detailed statistics
+- Hardware separated into categories
+	- Overview, CPU, Memory, Disk, and Network
+- **`resmon.exe` in `Run` dialog**
+- Selecting a specific category provides more detailed information on that specific resource

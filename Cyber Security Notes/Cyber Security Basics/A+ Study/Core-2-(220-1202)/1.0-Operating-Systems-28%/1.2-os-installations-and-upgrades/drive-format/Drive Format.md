@@ -19,7 +19,7 @@
 	- Needs to go through entire drive to write the information
 
 ### File Systems
-- **NTFS** <- Default Windows file system; Not natively readable by Linux or macOS
+- **NTFS** <- Default Windows file system; Linux and macOS can read but not write to
 - **exFAT** <- Compatible with Windows, macOS, and Linux; ideal for external drives and shared storage
 - **ReFS** <- Designed for Windows server environments; offers self-healing and fault tolerance
 - **APFS** <- Default file system for macOS, iOS, and iPadOS; optimised for SSD performance and security

@@ -1,0 +1,13 @@
+- Centralised consolidation of events that have occurred on the device
+- Separates events into different categories, typically:
+	- Application, Security, Setup, System
+- Each event has a `Level` which define the severity of an event, **possible levels are**:
+	- **Information** <- Normal, successful operation and status updates (Most common)
+	- **Warning** <- Potential problems but aren't currently causing failure though could do if not addressed e.g. low disk space
+	- **Error** <- Significant Issue, component has failed or lost functionality but immediate system wide failure might not have occurred
+	- **Critical** <- Severe system or app failure that requires immediate attention, e.g unexpected shutdowns
+- Security Logs have a `Keyword` attribute:
+	- **Audit Success** <- A security event succeeded, such as a user logging in or reading a file
+	- **Audit Failure** <- A security event failed, such as a user being denied access to a restricted registry key or inputting the incorrect password when logging in
+- **Log categories can be filtered** to find a specific type of event, events that occurred within a specified time, etc.
+- **Event Viewer can be launched via the MMC or through the `Run` Dialog using `eventvwr.msc`**

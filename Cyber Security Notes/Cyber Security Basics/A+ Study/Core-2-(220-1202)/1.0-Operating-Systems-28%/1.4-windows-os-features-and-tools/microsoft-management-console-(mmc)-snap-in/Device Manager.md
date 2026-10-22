@@ -1,0 +1,10 @@
+- Device driver allows the OS to communicate with the hardware of a device
+	- Device manager can be used to view and interact with the Driver
+- Drivers listed are typically hardware specific and OS specific
+	- Older device drivers might not work in modern Windows versions
+- Hardware organised into different groups
+- Double clicking a device driver brings up information about it as well as recent events associated with the device driver and resources being used to support the hardware
+- Right Clicking a driver brings up options to:
+	- **Update**, **Disable**, or **Uninstall** the driver
+	- Clicking `properties` -> `Driver` tab, also contains the **Rollback Driver** option
+- **Open via MMC or through `Run` Dialog using `devmgmt.msc`**

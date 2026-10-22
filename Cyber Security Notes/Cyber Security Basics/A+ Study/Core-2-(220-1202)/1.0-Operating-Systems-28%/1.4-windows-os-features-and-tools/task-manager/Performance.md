@@ -1,0 +1,4 @@
+- Lists current, real-time, resource usage in a graphical format
+	- Metrics given are based on the last 60 seconds of usage
+- Graphs show historical usage while figures provide real-time current usage
+- Assists in troubleshooting issues with hardware such as memory usage or CPU usage

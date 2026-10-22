@@ -10,7 +10,7 @@
 - **Limitations**:
 	- Only works with the original OS drive
 	- If drive upgraded, recovery partition is lost
-	- Requires separate installation media for recovery
+	- Requires separate installation media for recovery if drive is replaced and partition is lost
 	- Resets OS to original version
 	- If system was upgraded (e.g. Windows 8.1 to Windows 10), recovery partition will revert back to old version (e.g. Windows 8.1)
 		- User must upgrade manually again after recovery

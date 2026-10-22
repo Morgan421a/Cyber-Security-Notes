@@ -1,0 +1,6 @@
+- Lists all background services/processes on the system, Both running and stopped
+- **Options** available **for each service** include:
+	- **Start**, **Stop**, and **Restart**
+	- **Open Services** <- Opens full `Services.msc` console which provides more options
+- Services list typically found at the end of the Task Manager Tabs
+	- Can Also be accessed and viewed via the Control Panel

@@ -1,0 +1,9 @@
+- Allows for the building of a management console to build a customised view of utilities that may be used for troubleshooting
+	- Accessed by using `mmc.exe` in the `Run` dialog box
+- Console starts empty
+	- To add a utility (Snap-in):
+		- `File` -> `Add or Remove Snap-Ins` -> Click desired utility and configure the utility's settings via the pop up -> Click `OK` -> Click `OK` again
+	- Multiple utilities can be added at a time
+- Once an MMC has been configured, ensure it is save before closing the console
+	- Default save location is in the `Windows Administrative Tools` folder
+	- Multiple configs for the MMC can be saved on a device at a time

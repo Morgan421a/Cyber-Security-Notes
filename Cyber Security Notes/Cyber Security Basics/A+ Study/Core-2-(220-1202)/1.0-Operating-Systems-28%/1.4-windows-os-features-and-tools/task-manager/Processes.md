@@ -1,0 +1,8 @@
+- Lists all currently running processes
+	- Includes both interactive and background apps (e.g. system tray apps)
+	- Admins can view processes from other accounts on the system
+- View can be altered by moving columns and adding metrics
+	- Drag and drop resource statistics along the top to change their order
+	- Click specific resource metric to sort columns by highest to lowest usage and vice versa
+	- Right click metrics along the top to add additional metrics
+- Combines apps, processes, and services into a single tab, allowing for easier viewing and sorting of information

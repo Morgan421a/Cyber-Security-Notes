@@ -1,0 +1,12 @@
+- Files are stored on drives in different sections
+	- Defragmentation moves the file fragments into one contiguous format
+		- Improves read and write time
+- **Designed for Hard Disk Drives, not SSDs**
+	- Windows won't defrag SSDs
+	- SSDs can access file fragments without the delay suffered by HDDs
+	- `Optimise` will **TRIM** an SSD instead of defragment it
+- **Graphical interface version** can be used **via** a **drive's properties** under **`Tools`** heading
+- Can be used via the **command line**: <- **Requires elevated user permissions**
+	- `defrag <volume>`
+		- e.g. `defrag C:`
+- Defragmentation can be scheduled to run Daily, Weekly, or Monthly

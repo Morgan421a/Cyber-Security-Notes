@@ -1,0 +1,18 @@
+- Lists all storage drives installed on the device and allows for disk operations to be managed
+	- Shows information for each drive, such as how they're partitioned and formatted
+- **Some** drive **partitions** **may not have drive letters** (e.g. C:) assigned, commonly the **recovery partition** and the **EFI System Partition**
+	- EFI System Partition is used by the OS during startup or when attempting to install new software on the device
+- Lists the current status of each partition, most common statuses are:
+	- **Healthy (Primary Partition)**
+	- **Healthy (EFI System Partition)**
+	- **Healthy (Recovery Partition)**
+	- **Unallocated** <- Space not assigned to any volume and can be converted into a new partition
+	- **Offline** <- Disk exists but cannot currently be used by Windows
+	- **RAW** <- File system is unreadable or improperly formatted which is preventing normal access
+- Right clicking a partition offers a few options:
+	- **Change Drive Letter and Paths**
+	- **Shrink Volume** <- Reduce volume size to make unallocated space
+	- **Extend Volume** <- Increase Partition size by merging adjacent, unallocated space
+	- **Add Mirror** <- Mirror data across separate physical drives similar to raid 1 array but not exactly the same
+- **BE CAREFUL IF MAKING CHANGES INSIDE OF DISK MANAGEMENT AS DATA MAY BE ERASED, AS SUCH, ALWAYS MAKE A BACKUP FIRST**
+- **Can be accessed via MMC or the `Run` Dialog by using `diskmgmt.msc`**

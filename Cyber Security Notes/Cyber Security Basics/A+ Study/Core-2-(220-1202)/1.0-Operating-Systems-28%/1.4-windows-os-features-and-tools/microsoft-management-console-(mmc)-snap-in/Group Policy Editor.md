@@ -1,0 +1,10 @@
+- Allows for users and systems to be managed centrally
+	- Policies can be part of Active Directory or a local system
+- **Local Group policy editor** <- Allows for the management of the local device
+	- **`gpedit.msc` in the `Run` Dialog**
+- **Group Policy Management Console** <- Used to manage multiple devices
+	- Integrated with Active Directory
+	- Commonly used in larger Organisations or those with a larger Active Directory infrastructures
+	- **`gpmc.msc` in `Run` Dialog**
+- Groups Computer and User configs separately
+	- Groups policies within each depending on what they control
