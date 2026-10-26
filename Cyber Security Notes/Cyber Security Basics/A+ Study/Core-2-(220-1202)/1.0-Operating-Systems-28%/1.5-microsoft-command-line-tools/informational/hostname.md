@@ -1,0 +1,3 @@
+- **`hostname` <- Shows the name of the device**
+	- Useful when working with multiple Windows devices remotely
+	- Device name can be changed in the System Settings

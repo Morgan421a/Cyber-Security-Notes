@@ -9,3 +9,6 @@
 	- Shows a graph and detailed information underneath for the specified data
 	- Makes troubleshooting possible hardware issues easier
 - **Can be launched via MMC or in the `Run` Dialog by using `perfmon.msc`**
+
+- **Performance Monitor** is designed for **monitoring over a longer period such as hours, days, or weeks**
+	- Unlike **Resource Monitor** which is designed for **live monitoring in the moment**

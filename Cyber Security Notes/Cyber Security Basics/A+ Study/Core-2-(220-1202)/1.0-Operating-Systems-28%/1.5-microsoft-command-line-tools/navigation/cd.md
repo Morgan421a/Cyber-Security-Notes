@@ -1,0 +1,8 @@
+- **`cd` or `chdir` <- Change working directory**
+	- Use backslash (`\`) to specify volume or folder name
+	- `chdir` replaced by `cd`
+	- If used without specifying a directory, prints current directory path instead
+	- **Examples**:
+		- `cd` <- Prints current working directory such as `C:\Users\User1`
+		- `cd Downloads` <- Changes working directory to `Downloads`
+		- `cd ..` <- Changes working directory one folder above the current one

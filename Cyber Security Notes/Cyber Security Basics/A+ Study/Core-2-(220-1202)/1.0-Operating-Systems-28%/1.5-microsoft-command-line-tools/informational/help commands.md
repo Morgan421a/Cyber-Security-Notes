@@ -1,0 +1,3 @@
+- `help` <- Lists all available commands for the current prompt
+- `help [command]` <- Provides information about the named command such as its purpose and any applicable flags -> limited to CMD's internal command list
+- `[command] /?` <- Similar to `help [command]` but is universal and supported by most commands, including external `.exe` files and utilities

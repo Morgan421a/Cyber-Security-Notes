@@ -1,0 +1,5 @@
+- **`whoami` <- Lists information about the user, groups, and privileges for the currently logged in account**
+	- Can be used to find Security Identifier (SID), privileges, etc.
+	- Without parameters, returns the current domain and user name
+	- Can be useful when many windows are open and something isn't running as expected <- Different systems with different permissions
+- `whoami /all` <- Lists all information

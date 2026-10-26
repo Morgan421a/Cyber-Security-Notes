@@ -1,0 +1,12 @@
+- **`md` or `mkdir` <- Creates a directory at the specified path**
+- **`md [<drive>:]<path>`**
+	- `[<drive>:]` allows for a specific drive to be specified
+	- If no path or drive specified, directory created in current working directory and drive
+	- Can be used to create a **directory tree** <- **Command Extensions must be enabled** (They're enabled by default)
+	- **No Difference Between Syntax**, `md` is just shorthand version of `mkdir`
+	- **Examples**:
+		- `md NewDirectory` <- Creates a new directory in the current working directory
+		- `md Downloads\NewDirectory` <- Creates a new directory within the `Downloads` directory -> Done via **Relative Path**
+		- `md C:\Users\User1\Downloads\NewDirectory` <- Creates a new directory within the `Downloads` directory -> Done via **Absolute Path**
+		- `md "New Directory"` <- Use `" "` if directory name contains spaces
+		- `md Dir1\Dir2\Dir3` <- Creates a  directory tree with each subsequently created directory being created within the last (`Dir2` in `Dir1`, `Dir3` in `Dir2`)

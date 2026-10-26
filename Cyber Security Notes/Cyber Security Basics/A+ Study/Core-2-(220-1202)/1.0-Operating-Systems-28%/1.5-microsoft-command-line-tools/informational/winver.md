@@ -1,0 +1,3 @@
+- **`winver` <- Brings up the `About Windows` Dialog**
+	- Allows for quick check of Windows Version and licensing
+	- Useful when troubleshooting

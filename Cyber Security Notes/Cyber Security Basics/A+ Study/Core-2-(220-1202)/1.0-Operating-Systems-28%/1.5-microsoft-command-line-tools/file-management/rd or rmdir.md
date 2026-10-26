@@ -1,0 +1,14 @@
+- **`rd` or `rmdir` <- Removes the specified directory**
+- **`rd [<drive>:]<path> [/s [/q]]`**
+	- If no drive or path specified, removes named directory from current working directory
+	- Cannot delete directory that contains files, including hidden or system files. Trying to prints `The directory is not empty`
+		- use `dir /a` to list all files (hidden and system included) then use `attrib -h -s` to remove hidden and system file attributes, after which the files can be deleted
+	- `[/s]` <- Deletes a directory tree (including all subdirectories and files)
+		- `attrib -h -s` not needed if using `/s` parameter
+	- `[/q]` <- Quiet mode, doesn't prompt for confirmation when deleting a directory tree
+		- `/q` parameter only works if `/s` is also specified
+	- **Examples**:
+		- `rd C:\Users\User1\Downloads\NewDirectory` <- Deletes `NewDirectory` from the specified drive and path -> Via the **Absolute Path**
+		- `rd Downloads\NewDirectory` - Deletes `NewDirectory` from the specified path -> Via the **Relative Path**
+		- `rd NewDirectory /s` <- Recursively deletes `NewDirectory` and all files and subdirectories within it from the current working directory with a prompt (`NewDirectory, Are you sure (Y/N)?)
+		- `rd NewDirectory /s /q` <- Recursively deletes `NewDirectory` and all files and subdirectories within it from the current working directory without a prompt

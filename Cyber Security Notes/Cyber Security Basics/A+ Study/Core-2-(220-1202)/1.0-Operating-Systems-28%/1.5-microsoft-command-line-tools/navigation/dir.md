@@ -1,0 +1,5 @@
+- **`dir` <- Lists files and directories within a folder**
+	- If no directory named, lists files and directories within current working directory
+	- **Examples**: 
+		- `dir "Saved Games"` <- Directory name wrapped in `" "` due to containing spaces
+		- `dir Downloads` <- No need for `" "`, Lists files and directories within the `Downloads` directory

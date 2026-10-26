@@ -1,0 +1,4 @@
+- **`diskpart` <- Used to manage Disk Configurations**
+	- Requires admin command prompt
+	- **BE CAREFUL, DATA CAN BE LOST**
+	- Opens new prompt called `DISKPART`

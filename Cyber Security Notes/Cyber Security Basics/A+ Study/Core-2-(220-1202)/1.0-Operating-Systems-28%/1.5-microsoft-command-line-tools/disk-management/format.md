@@ -1,0 +1,7 @@
+- **`format <volume> [/FS:file-system]` <- Formats a drive to accept Windows Files**
+	- **Requires Admin Privileges**
+	- **BE CAREFUL, IT'S POSSIBLE TO LOSE DATA**
+		- Wipes everything on a partition, ensure correct one is chosen prior to starting process
+	- `<volume>` <- The drive letter (`C:`, `K:`, etc.)
+	- `[/FS:file-system]` <- Specifies file system type (NTFS, FAT32, exFAT, or FAT)
+		- If no file system type specified, defaults to FAT32

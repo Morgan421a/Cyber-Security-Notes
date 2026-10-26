@@ -1,0 +1,10 @@
+- **`copy [flags] <source> [/a | /b] [+<source> [/a | /b] [+ ...]] [<desitnation> [/a | /b]]` <- Copies one or more files from one location to another**
+	- `<source>` <- **Required**. The location from which the files should be copied, can be a drive letter and colon, directory name, file name, or a combination of them
+	- `<destination>` <-**Required**. The location to which the file should be copied, can be a drive letter and colon, directory name, file name, or a combination of them
+	- `/a | /b` <- Indicates file type, `/a` = ASCII text file, `/b` = Binary file
+- **`copy /v` <- Verifies that new files are written correctly** by comparing the destination file with the source
+- **`copy /y` <- Suppresses prompting to confirm the overwriting of an existing destination file**
+- **Examples**:
+	- `copy targetfile.txt x:` <- Copies the `targetfile.txt` to drive `x:`
+	- `copy /v targetfile.txt x:` <- Copies the `targetfile.txt` to drive `x:` and compares the original with the copy to ensure it was copied properly
+	- `copy /v /y targetfile.txt x:` <- Copies the `targetfile.txt` to drive `x:`, overwriting an existing file of the same name without prompting,  as well as comparing the original with the copy to ensure it was copied properly
