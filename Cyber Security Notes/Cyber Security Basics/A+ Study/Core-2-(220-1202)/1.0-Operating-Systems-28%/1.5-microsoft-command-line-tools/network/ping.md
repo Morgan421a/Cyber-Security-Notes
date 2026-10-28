@@ -1,3 +1,4 @@
-- **`ping <target IP>` <- Uses ICMP echo Request messages to verify IP level connectivity to another TCP/IP computer**
+- **`ping <target IP or hostname>` <- Uses ICMP echo Request messages to verify IP level connectivity to another TCP/IP computer**
 	- Displays the time taken to receive echo **Reply** messages
 	- Primary TCP/IP command used to troubleshoot connectivity, reachability, and name resolution
+- **`ping <target IP or hostname> /t` <- Continuous ping until manually stopped**, useful for network troubleshooting to monitor connection stability, latency spikes, or packet loss over an extended period

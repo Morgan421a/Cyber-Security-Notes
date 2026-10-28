@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/pathping.md",
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/nslookup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pathping"
+              "title": "nslookup"
             }
           }
         ]
@@ -199,29 +199,29 @@
   },
   "active": "20fcc739e0cf7fed",
   "lastOpenFiles": [
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/gpupdate.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/gpresult.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/sfc.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/pathping.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/ipconfig.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/ping.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/ipconfig.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/navigation/cd.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/copy.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/md or mkdir.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/robocopy.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/rd or rmdir.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management/chkdsk.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/sfc.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/net use.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/net user.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management/format.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/gpresult.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/gpupdate.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/pathping.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/netstat.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/nslookup.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/net use.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/tracert.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management/diskpart.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management/format.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management/chkdsk.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/net user.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/whoami.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/winver.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/hostname.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/robocopy.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/copy.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/md or mkdir.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.4-windows-os-features-and-tools/microsoft-management-console-(mmc)-snap-in/Disk Management.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/navigation/cd.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/rd or rmdir.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/navigation/dir.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/help commands.md",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.4-windows-os-features-and-tools/additional-tools/Resource Monitor.md",

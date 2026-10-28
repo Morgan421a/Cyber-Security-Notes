@@ -1,3 +1,3 @@
 - **`gpresult` <- Verify current policy settings for a computer or user**
 - `gpresult /r` <- Displays Resultant Set of Policy (RSoP) summary data
-- `gpresult /user <domain>/<user> /v` <- Display verbose policy information for the specified user on the specified domain
+- `gpresult /user <domain>\<user> /v` <- Display verbose policy information for the specified user on the specified domain

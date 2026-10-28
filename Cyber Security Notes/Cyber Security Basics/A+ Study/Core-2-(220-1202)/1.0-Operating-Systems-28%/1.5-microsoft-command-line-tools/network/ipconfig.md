@@ -3,4 +3,8 @@
 - Most troubleshooting starts with the IP address <- Ping the local router/gateway
 - Allows users to determine the TCP/IP and network adaptor info for a device as well as other IP details
 - Can view additional config information such as which DNS server are configured on the device, if the device received a DHCP address and from what DHCP server, etc.
-- `ipconfig /all` <- Provides much more detailed information
+- **`ipconfig /all`** <- Provides much more detailed information
+- **`ipconfig /release [adapter]`** <- Sends DHCPRELEASE message to the DHCP server to release the current DHCP config and discard the current IP address config for all adaptors (if none specified) or a for a specific adaptor (adaptor name found via `ipconfig` without parameters)
+- **`ipconfig /renew [adapter]`** <- Renews DHCP config for all adaptors (if none specified) or a specific adaptor -> Parameter only available on computers with adaptors configured to obtain an IP address automatically
+- **`ipconfig /flushdns`** <- Flush and reset contents of DNS client resolver cache -> Can be used during DNS troubleshooting to discard negative cache entries from the cache and other entries that have been added dynamically
+- **`ipconfig /displaydns`** <- Display contents of DNS client resolver cache -> DNS client service uses the info to resolve frequently queried names quickly prior to querying configured DNS servers

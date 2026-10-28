@@ -1,4 +1,4 @@
-- **`copy [flags] <source> [/a | /b] [+<source> [/a | /b] [+ ...]] [<desitnation> [/a | /b]]` <- Copies one or more files from one location to another**
+- **`copy [flags] <source> [/a | /b] [+<source> [/a | /b] [+ ...]] [<destination> [/a | /b]]` <- Copies one or more files from one location to another**
 	- `<source>` <- **Required**. The location from which the files should be copied, can be a drive letter and colon, directory name, file name, or a combination of them
 	- `<destination>` <-**Required**. The location to which the file should be copied, can be a drive letter and colon, directory name, file name, or a combination of them
 	- `/a | /b` <- Indicates file type, `/a` = ASCII text file, `/b` = Binary file

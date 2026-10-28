@@ -1,6 +1,6 @@
 - **`cd` or `chdir` <- Change working directory**
 	- Use backslash (`\`) to specify volume or folder name
-	- `chdir` replaced by `cd`
+	- `cd` is an alias for `chdir`
 	- If used without specifying a directory, prints current directory path instead
 	- **Examples**:
 		- `cd` <- Prints current working directory such as `C:\Users\User1`

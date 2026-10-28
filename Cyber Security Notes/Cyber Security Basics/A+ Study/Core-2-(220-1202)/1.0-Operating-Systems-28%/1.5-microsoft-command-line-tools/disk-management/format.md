@@ -3,5 +3,5 @@
 	- **BE CAREFUL, IT'S POSSIBLE TO LOSE DATA**
 		- Wipes everything on a partition, ensure correct one is chosen prior to starting process
 	- `<volume>` <- The drive letter (`C:`, `K:`, etc.)
-	- `[/FS:file-system]` <- Specifies file system type (NTFS, FAT32, exFAT, or FAT)
-		- If no file system type specified, defaults to FAT32
+	- `[/FS:file-system]` <- Specifies file system type (NTFS, FAT32, exFAT, FAT, ReFS, UDF)
+		- If no file system type specified, uses volume type to determine the default format for the disk

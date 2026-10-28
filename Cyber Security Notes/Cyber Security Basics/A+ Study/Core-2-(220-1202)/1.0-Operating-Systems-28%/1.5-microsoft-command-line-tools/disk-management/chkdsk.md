@@ -3,7 +3,7 @@
 	- Not recommended to interrupt `chkdsk` though doing so shouldn't leave a volume more corrupt than before
 	- **Requires Administrator Access** <- Run through Windows Admin Command Prompt
 - **`chkdsk /f` <- Fixes errors on the disk**
-	- Disk must be locked, if `chksdsk` can't lock the drive a message appears asking if it should be checked next time the computer is restarted
+	- Disk must be locked, if `chkdsk` can't lock the drive a message appears asking if it should be checked next time the computer is restarted
 - **`chkdsk /r` <- Locates bad sectors and recovers readable information**
 	- Takes longer than `/f` due to checking each sector of the drive
 	- Also performs the same function as `chkdsk /f`

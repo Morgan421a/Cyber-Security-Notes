@@ -1,6 +1,7 @@
 - **`sfc` <- System File Checker -> Scan Integrity of all protected system files**
 	- Replaces incorrect file versions with correct versions
 		- Retrieves correct file versions from `systemroot\` folder then replaces the incorrect file
+		- Needs elevated prompt (admin privileges)
 - `sfc /scannow` <- Scans integrity of all protected system files and repairs files with problems when possible
 - `sfc /verifyonly` <- Scans integrity of all protected system files, without performing repairs
 - `sfc /scanfile=<full file path>` <- Scans integrity of specified file and attempts to repair any problems it detects

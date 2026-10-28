@@ -5,3 +5,4 @@
 - `nslookup mydomain.com` <- Shows the IP addresses for the domain name `mydomain.com`
 - `set type=[record]` <- Sets the record type to filter query results (e.g. `set type=mx` filters only mail exchange records) -> **Interactive mode** version
 	- **Non interactive mode** -> `nslookup -type=[record] mydomain.com`
+	- `type=ns` <- Discovers which servers are authoritative for the specified domain

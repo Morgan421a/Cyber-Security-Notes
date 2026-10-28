@@ -1,3 +1,5 @@
-- **`gpupdate /target:{computer|user} force`  <- Used to force a Group Policy Update on a specified computer or User account**
+- **`gpupdate /target:{computer|user} /force`  <- Used to force a Group Policy Update on a specified computer or User account**
 - **Examples**:
 	- `gpupdate /target:user /force` <- Forces the group policy update to a specific user's current session
+	- `gpudate /target:user` <- Only applies changed policies
+		- `/force` <- Reapplies all policies
