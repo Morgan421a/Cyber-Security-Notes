@@ -1,0 +1,4 @@
+- **`pathping <IP address or Domain name>` <- Combines Ping and traceroute**
+	- Included with Windows NT and later
+- First phase runs a traceroute <- Builds a map of the connection between host and destination IP address
+- Second phase measures round trip time and packet loss at each hop

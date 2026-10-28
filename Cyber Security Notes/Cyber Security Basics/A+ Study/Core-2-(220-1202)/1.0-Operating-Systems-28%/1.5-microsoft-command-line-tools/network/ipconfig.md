@@ -1,0 +1,6 @@
+- **`ipconfig` <- Shows all currently TCP/IP network config values and refreshed DHCP and DNS settings**
+	- Without parameters, displays IPv4, IPv6, subnet mask, and default gateway for all adaptors
+- Most troubleshooting starts with the IP address <- Ping the local router/gateway
+- Allows users to determine the TCP/IP and network adaptor info for a device as well as other IP details
+- Can view additional config information such as which DNS server are configured on the device, if the device received a DHCP address and from what DHCP server, etc.
+- `ipconfig /all` <- Provides much more detailed information

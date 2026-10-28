@@ -1,0 +1,5 @@
+- **`netstat` <- Network Statistics <- Shows active TCP connections, listening ports, Ethernet stats, The IP routing table, IPv4 stats, IPv6 stats**
+	- Without parameters, shows active TCP connections
+- `netstat -a` <- Shows all active TCP connections and the TCP and UDP ports on which the computer is listening
+- `netstat -b` <- Shows which Windows binaries were used to send or receive a connection -> Requires elevation/Admin Command Prompt
+- `netstat -n` <- Displays active TCP connections but port numbers and addresses are expressed numerically and names are not resolved
