@@ -1,0 +1,10 @@
+- Prevents access to device from outside of the system
+- Split into two categories (**Private Networks** and **Guest or Public Networks**)
+	- Also has a Domain Networks category if connected to a Windows Domain
+- Integrated into the Windows OS
+- Allow an app or feature through WDF
+- Configure notification settings
+- Turn WDF on or off
+- Restore default configuration
+- Troubleshoot the device's network
+- Advanced Settings

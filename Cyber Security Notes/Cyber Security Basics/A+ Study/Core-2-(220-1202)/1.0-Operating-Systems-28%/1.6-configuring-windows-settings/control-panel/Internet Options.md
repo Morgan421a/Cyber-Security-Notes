@@ -1,0 +1,20 @@
+- Contains a list of options available for the built in web browser
+	- Has information such as browsing history, options for the look of the browser including how web pages are displayed in tabs
+- **Security Tab**:
+	- Contains options to define what rights and restrictions exist depending on where the device is connected to the internet
+		- e.g. More security based restrictions if connected in an internet zone as opposed to an intranet zone
+- **Privacy Tab**:
+	- Control access to certain sites and how the cookies from websites are handled
+	- Configure how the pop-up blocker works as well as enable/disable it
+- **Content Tab**:
+	- Control how certificates are handled inside of the browser
+	- Configure the auto complete process when searching for web pages or filling out forms
+- **Connections Tab**:
+	- Set up an internet connection via Dial-up or through a VPN <- Set up parameters for the connection
+	- Define a proxy server (assuming proxy server doesn't work in a transparent mode)
+	- LAN Settings allows for the choosing between automatic or manual proxy server specification and configuration
+- **Programs Tab**:
+	- Manage Browser add-ons
+	- Define programs that will be used when clicking particular links on a web page
+- **Advanced Tab**:
+	- Detailed list of config settings that allow for things such as how accessibility is used in the browser or protocols that can be used

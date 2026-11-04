@@ -1,0 +1,4 @@
+- Change the way Windows looks
+	- Colours, wallpaper, lock screen, etc.
+- Customisation may be limited in corporate environments
+	- Usually fully customisable in home environments

@@ -13,15 +13,310 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/nslookup.md",
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Internet Options.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nslookup"
+              "title": "Internet Options"
+            }
+          },
+          {
+            "id": "f23798f82ca18cab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Devices and Printers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Devices and Printers"
+            }
+          },
+          {
+            "id": "52c476cf3834118e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Programs and Features.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Programs and Features"
+            }
+          },
+          {
+            "id": "f06d7b7f8bfd5da1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Network and Sharing Center.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Network and Sharing Center"
+            }
+          },
+          {
+            "id": "a8d6231390324124",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/System.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "System"
+            }
+          },
+          {
+            "id": "6135cfc9cbd3097d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Windows Defender Firewall.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows Defender Firewall"
+            }
+          },
+          {
+            "id": "0f0f40cbae27e554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Mail.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mail"
+            }
+          },
+          {
+            "id": "c7bca24fec6cfd73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Sound.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sound"
+            }
+          },
+          {
+            "id": "d2b3d08976fed67c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/User Accounts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "User Accounts"
+            }
+          },
+          {
+            "id": "9b6ca5a0138d0e31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Device Manager.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Device Manager"
+            }
+          },
+          {
+            "id": "d479c611bac44d4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Indexing Options.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Indexing Options"
+            }
+          },
+          {
+            "id": "269fabcd2fd4c332",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Administrative Tools.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Administrative Tools"
+            }
+          },
+          {
+            "id": "f576b8a611e49045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Ease of Access.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ease of Access"
+            }
+          },
+          {
+            "id": "7ce0e1c5ab2602bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Time and Language.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Time and Language"
+            }
+          },
+          {
+            "id": "ca5f9a18252f0729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Update and Security.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Update and Security"
+            }
+          },
+          {
+            "id": "847c4e2859f767ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Personalisation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Personalisation"
+            }
+          },
+          {
+            "id": "f5b68d7cd92d4608",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Apps.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apps"
+            }
+          },
+          {
+            "id": "6a48bbe6f83c23fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Privacy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Privacy"
+            }
+          },
+          {
+            "id": "1d22e933f7206a9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Devices.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Devices"
+            }
+          },
+          {
+            "id": "7e01ad3a6070b121",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Network and Internet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Network and Internet"
+            }
+          },
+          {
+            "id": "bb68c3fc76e1b9ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/Gaming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gaming"
+            }
+          },
+          {
+            "id": "3abe2fe12c3572a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/Ease of Access Centre.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ease of Access Centre"
             }
           }
-        ]
+        ],
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -55,12 +350,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Turn of ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -197,44 +492,44 @@
       "glossary-linker:Glossary overview": false
     }
   },
-  "active": "20fcc739e0cf7fed",
+  "active": "3abe2fe12c3572a1",
   "lastOpenFiles": [
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/ping.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/ipconfig.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/navigation/cd.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/copy.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/md or mkdir.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/robocopy.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management/rd or rmdir.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management/chkdsk.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/sfc.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/net use.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/net user.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management/format.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/gpresult.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management/gpupdate.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/pathping.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/netstat.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/nslookup.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network/tracert.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management/diskpart.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/whoami.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/winver.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/hostname.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.4-windows-os-features-and-tools/microsoft-management-console-(mmc)-snap-in/Disk Management.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/navigation/dir.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational/help commands.md",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.4-windows-os-features-and-tools/additional-tools/Resource Monitor.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/Administrative Tools.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/Network and Sharing Center.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings/Privacy.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/power-options/Turn On Fast Startup.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/power-options/Choose What Closing The Lid Does.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/Internet Options.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/Devices and Printers.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/power-options/USB Selective Suspend.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/Device Manager.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/Ease of Access Centre.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/power-options/Power Plans.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/power-options/Hibernate.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/power-options/Standby.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/power-options/Sleep or Suspend.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/User Accounts.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.4-windows-os-features-and-tools/microsoft-management-console-(mmc)-snap-in/Local User and Groups.md",
+    "Cyber Security 101/Windows-Fundamentals/Domain-Fundamentals/Active-Directory-Fundamentals/Active Directory Basics.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/Indexing Options.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/file-explorer-options/Hide Extensions.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings/Update and Security.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings/Accounts.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings/Gaming.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings/Network and Internet.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings/Bluetooth & Devices.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings/Apps.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings/Personalisation.md",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/windows-settings",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/power-options",
+    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.6-configuring-windows-settings/control-panel/file-explorer-options",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/os-management",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/informational",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/file-management",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/disk-management",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/network",
     "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.5-microsoft-command-line-tools/navigation",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.4-windows-os-features-and-tools/additional-tools",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.4-windows-os-features-and-tools/microsoft-management-console-(mmc)-snap-in",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.4-windows-os-features-and-tools/task-manager",
-    "A+ Study/Core-2-(220-1202)/1.0-Operating-Systems-28%/1.3-microsoft-windows-basic-features/hardware-requirements",
     "Misc/Images/Pasted image 20260914113331.png",
     "Misc/Images/Pasted image 20260910104847.png",
     "Misc/Images/Pasted image 20260910101115.png",

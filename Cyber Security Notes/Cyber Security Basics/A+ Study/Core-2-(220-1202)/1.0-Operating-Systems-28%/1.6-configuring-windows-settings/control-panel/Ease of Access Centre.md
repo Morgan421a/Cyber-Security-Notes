@@ -1,0 +1,11 @@
+- Usability enhancements
+- Change display, keyboard, mouse, and other I/O options, such as:
+	- Use Windows without a display
+	- Change the mouse pointers
+	- **Narrator** <- Reads on-screen text aloud
+	- **Magnifier** <- Enlarges part of the screen when the cursor is moved to an area
+	- **On-screen keyboard** <- Enables typing via mouse input or another pointing device
+	- **High contrast** <- Increases contrast of colours to make things easier to read and reduce eye-strain (`Left Shift + ALT + Print Screen`)
+	- **Sticky keys** <- lets modifier keys (e.g. Shift) stay active, so shortcuts can be pressed one key at a time
+	- **Filter keys** <- Ignores brief or repeated keystrokes
+	- **Toggle keys** <- Plays a sounds when `Caps Lock`, `Num Lock`, or `Scroll Lock` is pressed

@@ -1,0 +1,6 @@
+- Manage login account information
+	- Both Microsoft Account and Local User Accounts
+- Configure email info
+	- Specify an email app
+- Modify sign-in options
+	- PIN, password, security key, etc.

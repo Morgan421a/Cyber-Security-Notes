@@ -1,0 +1,7 @@
+- Keep OS up to date
+- Can be set to install automatically
+- Configure **active hours** to ensure updates don't occur during times when the device is in use
+- "Reset this PC" <- Re-installs Windows to repair issues or prep the device for transfer to a new user
+	- Multiple options:
+		- Keep my files
+		- Remove everything

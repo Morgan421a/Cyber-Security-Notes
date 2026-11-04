@@ -1,0 +1,4 @@
+- Open apps and docs stored on system memory
+- Requires constant power <- Low draw
+- Windows XP power option
+	- Replaced by Sleep mode on Windows Vista, 7 and higher

@@ -1,0 +1,6 @@
+- Manage installed apps
+	- Uninstall or modify an existing app
+- Add Windows Features such as:
+	- Fonts for other languages
+	- OpenSSH Server
+	- SNMP Support

@@ -1,0 +1,2 @@
+- Change settings for when the laptop lid is closed
+- Can select a setting for both on battery and plugged in states

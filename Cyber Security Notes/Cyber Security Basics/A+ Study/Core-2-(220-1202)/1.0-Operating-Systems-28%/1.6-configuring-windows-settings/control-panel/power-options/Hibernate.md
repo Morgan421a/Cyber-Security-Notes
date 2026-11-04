@@ -1,0 +1,4 @@
+- Open documents and apps are saved to disk
+- Common on laptops
+	- Even if battery power lost saved docs and apps can still be used to continue from where a user left off
+- Used by Windows Fast Startup feature

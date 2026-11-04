@@ -1,0 +1,12 @@
+- Shows basic network information and allows for connections to be set up
+	- Info such as how the device is connected to a network and, optionally, the internet
+	- Network section shows details about the network connection such as the current network profile (Private and Guest or Public)
+	- **"Set up a new connection or network"** <- Allows for a new connection to be created such as connecting to the internet via dial-up or broadband
+	- **"Troubleshoot Problems"** <- Opens the `Troubleshoot` section of the Windows settings app
+- **"Change Adaptor Settings"** <- Shows all current network adaptors (wired, wireless, etc.) and allows for individual configuration and diagnostics of each, clicking into one shows detailed info about it
+	- Clicking `Properties` of an adaptor allows for more detailed information of individual items used by the adaptor, such as the IPv4 addressing method (DHCP or manually configured) amongst many other items
+- **"Change Advanced Sharing Settings"** <- Allows for the configuration of sharing options for each network profile (Private and Guest or Public)
+- **"Media Streaming Options"** <- Allows for media streaming to be configured
+	- Media streaming allows for music, pictures, and videos to be sent to and received from other computers and devices on the network
+	- Turning **media streaming** on **modifies the firewall and network profile settings** 
+	- **Should only be turned on when connected to trusted networks** such as home or work networks

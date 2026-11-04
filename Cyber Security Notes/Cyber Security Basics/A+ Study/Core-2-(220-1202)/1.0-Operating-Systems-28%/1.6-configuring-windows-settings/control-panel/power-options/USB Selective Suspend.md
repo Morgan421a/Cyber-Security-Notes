@@ -1,0 +1,2 @@
+- Allows Windows to suspend individual USB ports to save power
+- Disable selective suspend setting if a device keeps disconnecting to prevent Windows from suspending ports

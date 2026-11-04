@@ -1,0 +1,4 @@
+- Choose to share app activity <- Allows for customised advertising on the Desktop
+- Share what language is being used <- Allows websites to determine what content to display
+- Configure Speech Recognition <- Sends audio to an online service (Microsoft's online service)
+- Configure what apps have permissions to use the camera, microphone, and location services

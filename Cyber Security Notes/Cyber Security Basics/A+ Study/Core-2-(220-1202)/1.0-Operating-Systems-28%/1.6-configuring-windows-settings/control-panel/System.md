@@ -1,0 +1,8 @@
+- Provides an overview of device information
+	- Includes current Windows version and edition
+	- Includes hardware info such as the processor and Installed RAM
+- "Related Links" <- Includes links to Domain or Workgroup information, System Protection Settings, and Advanced System Settings
+	- Advanced System Settings launches the **System Properties utility** in the **Advanced Tab**
+		- Requires admin privileges to make most of the changes in this tab
+		- Allows for changes to be made to performance (e.g. Visual effects, processor scheduling, memory usage, and virtual memory)
+			- Allows for **Data Execution Prevention** (**DEP**) to be configured <- Helps protect against damage from viruses and other security threats

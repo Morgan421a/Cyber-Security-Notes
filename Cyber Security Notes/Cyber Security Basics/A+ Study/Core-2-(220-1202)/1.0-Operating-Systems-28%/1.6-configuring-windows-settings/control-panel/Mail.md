@@ -1,0 +1,6 @@
+- Icon won't appear in control panel unless a mail client (e.g. Outlook) is installed
+- Allows for **Email accounts** and directories to be set up
+	- Shows which email accounts have been configured on the system, each can be disabled or have their properties altered
+	- **"Data Files"** <- Configure where files are stored for the email
+- Alter settings for the files used by email client
+- Set up multiple profiles of email accounts and data files

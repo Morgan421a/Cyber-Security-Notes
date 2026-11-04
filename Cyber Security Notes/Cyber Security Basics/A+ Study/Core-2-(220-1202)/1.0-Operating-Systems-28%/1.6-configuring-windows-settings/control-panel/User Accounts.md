@@ -1,0 +1,5 @@
+- Lists Local User accounts that are stored on the computer and not via the active directory domain
+- Modify account name and type (Standard User, Administrator, etc.)
+- Change password associated with an account
+- Change Icon representing account
+- Manage file encryption certificates

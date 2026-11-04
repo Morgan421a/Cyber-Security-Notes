@@ -1,0 +1,5 @@
+- Open apps are stored in system memory
+	- Requires constant power <- Low draw but still drains overtime
+- Allows for quick startups
+- Switches to hibernate if power is low
+- Some PC's (typically Laptops and tablets) go to sleep when the lid is closed or the power button is pressed (not held)

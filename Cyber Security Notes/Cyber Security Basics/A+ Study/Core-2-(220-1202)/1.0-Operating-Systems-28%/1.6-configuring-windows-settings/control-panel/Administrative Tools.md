@@ -1,0 +1,9 @@
+- Sometimes called "**Windows Tools**" <- Typically in later Windows versions
+- Contains many useful system tools that are often used by system admins and technicians
+- Some listed utilities include:
+	- Run
+	- Task Scheduler
+	- Command Prompt
+	- Event Viewer
+	- Performance Monitor
+	- Registry Editor

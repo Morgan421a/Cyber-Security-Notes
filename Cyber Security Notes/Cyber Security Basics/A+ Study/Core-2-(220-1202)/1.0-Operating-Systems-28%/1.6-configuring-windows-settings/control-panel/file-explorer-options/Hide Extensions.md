@@ -1,0 +1,3 @@
+- Hide extensions for known file types e.g. The file `note.txt` becomes just `note`
+- Set to "On" by default
+- Switching off can help identify disguised files such as `invoice.pdf.exe`

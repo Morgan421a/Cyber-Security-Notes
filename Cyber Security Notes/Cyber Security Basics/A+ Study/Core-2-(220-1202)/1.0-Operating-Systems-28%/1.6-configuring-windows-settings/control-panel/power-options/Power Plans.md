@@ -1,0 +1,9 @@
+- Customise how each component within Windows is using power
+- Change when to turn off the display or put the computer to sleep
+- Some power plans include:
+	- **Power Saver** <- Saves battery life (low battery, on-the-go use)
+	- **Balanced** <- Balances performance and battery (General use, most users)
+	- **High Performance** <- Maximises performance but uses more battery life (Gaming, heavy workloads)
+	- **Ultimate Performance** <- Highest performance at the greatest battery drain, disables power saving features and keeps CPU at max speed (High-end workstations) 
+		- Ultimate Performance hidden by default, use command `powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61` to access
+- **"Change advanced power settings"** within a power plan's settings <- More granular control such as over Desktop background settings, PCI Express settings, Hard disk settings, etc.

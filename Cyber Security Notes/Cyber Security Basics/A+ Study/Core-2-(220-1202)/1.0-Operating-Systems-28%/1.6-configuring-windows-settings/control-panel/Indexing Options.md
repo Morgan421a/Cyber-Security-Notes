@@ -1,0 +1,6 @@
+- Indexing speeds up the search process
+	- Windows constantly updates an index
+- Allows for the modification of which directories are indexed
+	- Able to include or exclude specific folders from indexing
+- "Advanced" option allows for specific file types to be specified for indexing and which should be excluded under the "File Types" tab
+	- Also includes advanced indexing configuration options under the "Index Settings" tab

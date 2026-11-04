@@ -1,0 +1,5 @@
+- Configure whether indexing is used when searching in file folders for system files
+- Configure what info is searched in file explorer
+	- Whether to include system directories
+	- Include compressed files (.ZIP, .CAB, etc.)
+	- Whether to search for just the file names or check the content of each file as well

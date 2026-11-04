@@ -1,0 +1,3 @@
+- Enable or disable in power options
+- Useful for troubleshooting
+- Fast Startup = A Hybrid of shutdown and hibernate <- "Shut Down" isn't a complete switch off, whereas "Restart" is

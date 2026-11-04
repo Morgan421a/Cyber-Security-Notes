@@ -1,0 +1,8 @@
+- **Xbox Game Bar**
+	- Configure Windows Shortcuts
+	- Enable/Disable game bar
+- **Captures**
+	- Configure how gaming clips and screenshots are captured including where they're saved
+	- Configure background recording and audio recording
+- **Game Mode**
+	- Toggle on/off to allow Windows to automatically optimise the device for gaming

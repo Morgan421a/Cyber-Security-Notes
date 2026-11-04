@@ -1,0 +1,5 @@
+- Manage devices
+	- Bluetooth, printers, peripherals, etc.
+- Manage mouse settings such as button and wheel options
+- Configure typing and writing functions
+	- Keyboard, Pen, Windows Ink

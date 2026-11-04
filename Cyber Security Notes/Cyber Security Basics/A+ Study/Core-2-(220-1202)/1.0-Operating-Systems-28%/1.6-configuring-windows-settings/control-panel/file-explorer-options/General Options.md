@@ -1,0 +1,11 @@
+- **Configure how folders can be browsed**
+	- Open each folder in the same window
+	- Open each folder in its own window
+- **What happens when clicking an item**
+	- Single click to open an item (point/hover to select)
+	- Double click to open an item (Single click to select)
+- **Configure privacy settings**
+	- Show recently used files in Quick Access
+	- Show frequently used folders in Quick Access
+	- Clear file explorer history
+- **Restore default settings**

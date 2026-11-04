@@ -1,0 +1,6 @@
+- Offers control over both the input and output options on the device
+	- Multiple sound devices may be available
+- Playback = Audio Output (e.g. Speakers)
+- Recording = Audio Input (e.g. Microphone)
+- Right click a device to set as default and configure its settings
+	- Set levels for output and input

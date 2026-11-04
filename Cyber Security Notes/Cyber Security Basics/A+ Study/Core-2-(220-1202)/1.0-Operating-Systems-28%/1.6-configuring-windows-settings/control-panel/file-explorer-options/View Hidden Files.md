@@ -1,0 +1,1 @@
+- Shows files that have been set to hidden within file explorer

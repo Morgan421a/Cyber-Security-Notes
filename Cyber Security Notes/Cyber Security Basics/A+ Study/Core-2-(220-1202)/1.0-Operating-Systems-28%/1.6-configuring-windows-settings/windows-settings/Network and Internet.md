@@ -1,0 +1,8 @@
+-  View Internet Status
+- Change IP settings such as modifying address information
+- View Data usage over a specified time frame and set a limit
+- Manage network configuration
+	- Configure Ethernet connectivity
+	- Manage VPNs
+	- Manage Proxy settings
+	- Configure Dial-up settings

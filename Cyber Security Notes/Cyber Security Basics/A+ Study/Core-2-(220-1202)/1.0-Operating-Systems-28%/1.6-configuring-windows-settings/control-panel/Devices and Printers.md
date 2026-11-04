@@ -1,0 +1,5 @@
+- Lists all devices on the network
+	- Includes desktops, laptops, printers, multimedia devices, storage
+- Less complex than device manager
+	- More user friendly view of devices
+	- Right click to access a device's properties or configure settings for the device

@@ -1,0 +1,13 @@
+- Contains settings for:
+	- Date & Time
+	- Language & Region
+	- Typing
+	- Speech
+- **Date & Time:**
+	- Configure Date and time <- Can be done manually or set to be done automatically
+	- Option to automatically adjust for daylight saving time
+	- Set Time zone and region
+	- Sync now <- Syncs device time with the named time server
+- **Language & Region:**
+	- Set the language to be used by the Windows OS
+	- Install additional language packs for display language as well as keyboard layout

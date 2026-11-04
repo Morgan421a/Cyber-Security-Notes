@@ -1,0 +1,4 @@
+- Lists all installed applications on a device including their size and version
+	- Apps can be uninstalled via this utility by right clicking the desired application
+- Left panel "Turn Windows Features on or off" <- Allows for specific Windows features to be toggled on or off
+	- Windows will install or uninstall the feature based on the toggle

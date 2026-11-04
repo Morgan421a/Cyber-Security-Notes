@@ -1,0 +1,10 @@
+- Lists Device Drivers
+- Manage devices
+	- Add, remove, disable
+	- Scan for hardware changes
+	- Modify system settings specific to device drivers
+	- Device properties allows for information about the device and its driver to be viewed
+		- **Driver tab** allows for the driver details to be viewed including the path its stored in and allows for the driver to be updated, rolled back, disabled, or uninstalled
+		- **Events tab** shows every event associated with the driver such as when it was installed, configured, updated, etc.
+		- **Resources tab** shows memory ranges, Interrupt Requests (IRQs) and other hardware info about the configuration of the device driver
+- Check first when troubleshooting hardware
